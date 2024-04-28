@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Architectures: arm64 all source
 Codename: bookworm
 Components: main
@@ -26,3 +29,17 @@ SHA512:
  75d3b418016dab04538366913aa848bf15bd8cd5c0db4d3dcf399ef0ae75788d479d68c815df52a9ca28dbd2be4c1d2f8a3c84f5dcc5c4899e8ac088eadaed1d             8650 main/binary-arm64/Packages
  463b236be3d3702ac8caadae2079a539ae1d104c99e2ee53a34140da3e53263d2595da876d5513c1a6f1128fe9efce33fbfc430fd8953ff97bcce74d7c893ad6             3369 main/binary-arm64/Packages.gz
  d17003298f90a68a2ad15370dd7c7ec0449fa71d6ac3ac294ba6cab70b21b4bbe6b1767118fedf98f7fb1a22ef4fa0fec7d0142a9f0da657cca128208fde59ec              152 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEonjCtUEAemRUDg67IQJIFwwGWRcFAmYuuywACgkQIQJIFwwG
+WRdzHgv9H4KE3i/79I/87i6FCvOb5/ivYgrhi9qfjb6vHFThcDN2MW7iUNVlQvHo
+QSPbpe9bHSyFWS2faM5XECItERN3O7S+wW/O7EDh+HfU6FnK8QHgg1ky+xTcgrMU
+NshHhsjHd3n9wyn2juNBsduIVqV1ezC4NUGMDZLjD6i6MGD8k6LRfFYwnWmtISaA
+lck0lIxzHFQ+3po7dJPmUdl2xM2vXpR3rnnz5Yo2R3bvH4A11hIrRvy9sngtdrzr
+7CLIBJnw56Cd5/FYIsSstO3mUQvY6EY5aDC3NaiLp5c2zqNk7Ct3N1lXMVCoFHre
+5QX/QQoGvUGaQMo9FdsTAroYJfjayUQb6LoH9mOXpBCAPrKiQy9u2avtNXcFnyiQ
+RigydG3g+Pgz78EFcK038SZnPYuuX/wOgjnQQ4vuRLh1gEtuUmS86JkEobI2tfjb
+rAsgd5hnaE54laTxpOBgzAQIZzzsQivVp+9od2XTiRE8IXtkajdW2x3c2b5W1RH2
+02PFV8lR
+=a5Cy
+-----END PGP SIGNATURE-----
