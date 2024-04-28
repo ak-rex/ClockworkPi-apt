@@ -14,6 +14,22 @@ MD5sum: 8a793ebe00a34013fbd8f68049c01ecf
 Description: devterm-audio-patch
  devterm audio patch
 
+Package: devterm-cavestory-cpi
+Version: 0.1
+Installed-Size: 10876
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: libsdl2-2.0-0, libsdl2-gfx-1.0-0, libsdl2-image-2.0-0, libsdl2-mixer-2.0-0, libsdl2-net-2.0-0, libsdl2-ttf-2.0-0
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-cavestory-cpi/devterm-cavestory-cpi_0.1_arm64.deb
+Size: 1154864
+SHA256: 1393ab2aeddeabd8f10fdd7e0307ec0dac33f20123a0874e066ffe93fb28527e
+SHA1: 6d2bf3390b3f81676225776fd6ff30f522649676
+MD5sum: 892725d77cab81c55fcb4b5187d604ff
+Description: devterm-cavestory-cpi for a06 a04
+ devterm-cavestory-cpi for a06 a04
+
 Package: devterm-fan-temp-daemon-cm4
 Version: 0.2
 Installed-Size: 52
