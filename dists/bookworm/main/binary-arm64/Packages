@@ -1,0 +1,170 @@
+Package: devterm-audio-patch
+Version: 0.04
+Installed-Size: 52
+Maintainer: cuu <gnubsd@me.com>
+Architecture: all
+Depends: python3
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-audio-patch/devterm-audio-patch_0.04_all.deb
+Size: 14070
+SHA256: 84cc32a9b9287250edd1d120b6005badb8c47d3525ac2fc242ceeccaa33c2df5
+SHA1: d751d1a95d8b26acb021ce34bf24062ef5be5745
+MD5sum: 8a793ebe00a34013fbd8f68049c01ecf
+Description: devterm-audio-patch
+ devterm audio patch
+
+Package: devterm-fan-temp-daemon-cm4
+Version: 0.2
+Installed-Size: 52
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: python3
+Replaces: devterm-fan-temp-daemon-rpi
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-fan-temp-daemon-cm4/devterm-fan-temp-daemon-cm4_0.2_arm64.deb
+Size: 14250
+SHA256: 943dd4991f2b583943f5f9de74e749a11c64ce554e5c93247bfb413f93f2cd82
+SHA1: 6a323f50d42524e3fdd5934057441521a3470ace
+MD5sum: 0fb08cb20091a73ad054b880782ab4c3
+Description: devterm fan control script for raspberry pi cm4
+
+Package: devterm-kernel-cm4-rpi
+Version: 0.13
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Conflicts: raspberrypi-kernel, devterm-kernel-rpi
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-kernel-cm4-rpi/devterm-kernel-cm4-rpi_0.13_arm64.deb
+Size: 28860908
+SHA256: 6cb30e6d49f01bffa65f1bfe48d0ddc6e85dfca9cb1470c73b27dda909f70348
+SHA1: 2ba361a336080b18215659a21d6eed4ca0ff346b
+MD5sum: 9bdabf1dd0a5f47bf10a7a4e66464e21
+Description: devterm cm4 kernel
+
+Package: devterm-thermal-printer-cm4
+Version: 0.11
+Installed-Size: 124
+Maintainer: cuu <gnubsd@me.com>
+Homepage: https://github.com/clockworkpi/DevTerm
+Architecture: arm64
+Depends: socat, fonts-noto-cjk
+Replaces: devterm-thermal-printer
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-thermal-printer-cm4/devterm-thermal-printer-cm4_0.11_arm64.deb
+Size: 30726
+SHA256: 90425225d4d5ea44eefd9d0f7f2720c65988d9384c67ee0c3cc2b944d26d69fc
+SHA1: e20423c3e9d31e4c791598ea278cc2e2342865a1
+MD5sum: ca87b2298ca16c0286b253aa2843b580
+Description: Thermal printer daemon for DevTerm CM4
+ Do not use it with other devterm-thermal-printer package due to the gpio of cm4 is different
+
+Package: devterm-thermal-printer-cups
+Version: 0.12.1
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: cups, cups-client
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-thermal-printer-cups/devterm-thermal-printer-cups_0.12.1_arm64.deb
+Size: 9726
+SHA256: 6de01d3173fcd8aa0118b37df21da8027e14b4b9a52ee015954b898ddffadc24
+SHA1: 332e9bb7fd1a3e322c92183c02499a51f57c5845
+MD5sum: d01a9c67523a8224b48fef546aa958ca
+Description: devterm thermal printer cups filter and config
+ devterm thermal printer cups filter
+ add a devterm_printer in CUPS
+
+Package: devterm-wiringpi-cm4-cpi
+Version: 0.1
+Installed-Size: 388
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Conflicts: wiringpi
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-wiringpi-cm4-cpi/devterm-wiringpi-cm4-cpi_0.1_arm64.deb
+Size: 58312
+SHA256: d043ccc67192ca5be278797c7949bf054c3eedc8dd8b60d6b1e80406cb364bb4
+SHA1: 22fd6ce298f9760d72ea3d84bbb4365e506c6010
+MD5sum: 9a0dcbd727e9a263314f67e6fb4253b6
+Description: devterm-wiringpi-cm4-cpi
+ devterm-wiringpi-cm4-cpi
+
+Package: fonts-noto-cjk
+Version: 1:20220127+repack1-1
+Architecture: all
+Maintainer: Debian Fonts Team <debian-fonts@lists.debian.org>
+Installed-Size: 91003
+Suggests: fonts-noto-cjk-extra
+Multi-Arch: foreign
+Homepage: https://github.com/googlefonts/noto-cjk
+Priority: 0
+Section: utils
+Filename: pool/main/f/fonts-noto-cjk/fonts-noto-cjk_20220127+repack1-1_all.deb
+Size: 56547048
+SHA256: 4a2515eb6db3978b897fef9709ed0d2b1f4c6c4df4d83d6c4ef65f71f1b1f502
+SHA1: ba94e26dee6ea16abffe012d4751c0b3e6c3fc22
+MD5sum: 90706c62d4714e0cb9486785531c4959
+Description: "No Tofu" font families with large Unicode coverage (CJK regular and bold)
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ This package contains Noto font families for Traditional Chinese,
+ Simplified Chinese, Japanese and Korean:
+ .
+  * Noto Sans CJK JP
+  * Noto Sans CJK KR
+  * Noto Sans CJK SC
+  * Noto Sans CJK TC
+  * Noto Sans Mono CJK JP
+  * Noto Sans Mono CJK KR
+  * Noto Sans Mono CJK SC
+  * Noto Sans Mono CJK TC
+  * Noto Serif CJK JP
+  * Noto Serif CJK KR
+  * Noto Serif CJK SC
+  * Noto Serif CJK TC
+ .
+ These fonts are derived from the font family Source Han Sans.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains regular and bold fonts.
+
+Package: socat
+Version: 1.7.4.4-2
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1654
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0), libwrap0 (>= 7.6-4~)
+Homepage: http://www.dest-unreach.org/socat/
+Priority: 0
+Section: utils
+Filename: pool/main/s/socat/socat_1.7.4.4-2_arm64.deb
+Size: 365872
+SHA256: 068a29cfeefee80d5b96b13049d15f7e76e1ff86db39e55a33cbcdf7fff543b3
+SHA1: 0c068d6ca894c8b3cb05ca924787f1cb1d32a780
+MD5sum: 0748d2775242d0fa4e62c88ea1db2f41
+Description: multipurpose relay for bidirectional data transfer
+ Socat (for SOcket CAT) establishes two bidirectional byte streams
+ and transfers data between them. Data channels may be files, pipes,
+ devices (terminal or modem, etc.), or sockets (Unix, IPv4, IPv6, raw,
+ UDP, TCP, SSL). It provides forking, logging and tracing, different
+ modes for interprocess communication and many more options.
+ .
+ It can be used, for example, as a TCP relay (one-shot or daemon),
+ as an external socksifier, as a shell interface to Unix sockets,
+ as an IPv6 relay, as a netcat and rinetd replacement, to redirect
+ TCP-oriented programs to a serial line, or to establish a relatively
+ secure environment (su and chroot) for running client or server shell
+ scripts inside network connections. Socat supports sctp as of 1.7.0.
+
