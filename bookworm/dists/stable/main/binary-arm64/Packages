@@ -156,46 +156,46 @@ Description: "No Tofu" font families with large Unicode coverage (CJK regular an
  .
  This package contains regular and bold fonts.
 
-Package: linux-headers-6.6.28-v8+
+Package: linux-headers-6.6.29-v8+
 Source: linux-upstream
-Version: 6.6.28-gb0873516b8ee-1
+Version: 6.6.29-g4f0ef26de2d6-3
 Architecture: arm64
 Maintainer: rex <rex@CM4-IO-Board>
-Installed-Size: 52799
+Installed-Size: 52800
 Homepage: https://www.kernel.org/
 Priority: 0
 Section: utils
-Filename: pool/main/l/linux-upstream/linux-headers-6.6.28-v8+_6.6.28-gb0873516b8ee-1_arm64.deb
-Size: 8679368
-SHA256: 94b14214ed435ebe91c610bf15833938554f9c5d874d80c853de644be23eefe6
-SHA1: 9a56cf2af4e4d535cf2745f5e3c01197927280f1
-MD5sum: 6e706fa8a12ca6e2c69b21551920bb4e
-Description: Linux kernel headers for 6.6.28-v8+ on arm64
- This package provides kernel header files for 6.6.28-v8+ on arm64
+Filename: pool/main/l/linux-upstream/linux-headers-6.6.29-v8+_6.6.29-g4f0ef26de2d6-3_arm64.deb
+Size: 8679748
+SHA256: 4c412589e904dff80ebed49ddca631914d13b42b5de0e63fa91927f62906e45c
+SHA1: 13db99e53fe3d0e1676e1aa69e1365c522f83af6
+MD5sum: 7812add00eccd28997bf4b279bdea329
+Description: Linux kernel headers for 6.6.29-v8+ on arm64
+ This package provides kernel header files for 6.6.29-v8+ on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-6.6.28-v8+
+Package: linux-image-6.6.29-v8+
 Source: linux-upstream
-Version: 6.6.28-gb0873516b8ee-1
+Version: 6.6.29-g4f0ef26de2d6-3
 Architecture: arm64
 Maintainer: rex <rex@CM4-IO-Board>
-Installed-Size: 37880
+Installed-Size: 37895
 Homepage: https://www.kernel.org/
 Priority: 0
 Section: utils
-Filename: pool/main/l/linux-upstream/linux-image-6.6.28-v8+_6.6.28-gb0873516b8ee-1_arm64.deb
-Size: 29581884
-SHA256: 1eab6405f9edcf379f22445ad15e9115a1c3fa10d13f3cec89cb71968d0c81a4
-SHA1: a20ebbad94837614e520b0931d7a68885dd5685c
-MD5sum: 34ff30196d48c599a9117f3a4c544164
-Description: Linux kernel, version 6.6.28-v8+
+Filename: pool/main/l/linux-upstream/linux-image-6.6.29-v8+_6.6.29-g4f0ef26de2d6-3_arm64.deb
+Size: 29592260
+SHA256: e59844e0fd0fad8ae5c25aed9275e5a211572a70bb95ba96fab03cfaa9e8cc83
+SHA1: 931a9a7c77c24ad8ceeb844df9a1f96489036d03
+MD5sum: 538c736d0332392ee246e1becf24420a
+Description: Linux kernel, version 6.6.29-v8+
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.6.28-v8+.
+ files, version: 6.6.29-v8+.
 
 Package: linux-libc-dev
 Source: linux-upstream
-Version: 6.6.28-gb0873516b8ee-1
+Version: 6.6.29-g4f0ef26de2d6-3
 Architecture: arm64
 Maintainer: rex <rex@CM4-IO-Board>
 Installed-Size: 6725
@@ -204,11 +204,11 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: 0
 Section: utils
-Filename: pool/main/l/linux-upstream/linux-libc-dev_6.6.28-gb0873516b8ee-1_arm64.deb
-Size: 1297548
-SHA256: 0d904ef97ea868902e4a0f2c20046f0fc26aef88f85d1309aba901f83529c951
-SHA1: 5136e4d3b69660147c7a55f162dd1819f27e0b74
-MD5sum: 08577da5148cb2630640c9e466a4af1e
+Filename: pool/main/l/linux-upstream/linux-libc-dev_6.6.29-g4f0ef26de2d6-3_arm64.deb
+Size: 1297572
+SHA256: 75d906019a2ee9091f30f00675fdc689fad841022b38b7035dbcb50c2e1ff990
+SHA1: 2237c496df8719f6c7132817088e2d99daa82d6e
+MD5sum: 5757752284ad7114ae4fe0ce00bac9b9
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
