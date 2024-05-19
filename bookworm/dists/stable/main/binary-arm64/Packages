@@ -13,6 +13,21 @@ MD5sum: 83fbc88fb1fd5b604dbbd7450c3fd818
 Description: clockworkpi-audio-patch
  clockworkpi-audio-patch
 
+Package: clockworkpi-audio-shutdown
+Version: 0.2
+Maintainer: clockworkpi-audio-shutdown <rex@linux.com>
+Architecture: all
+Depends: python3
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-audio-shutdown/clockworkpi-audio-shutdown_0.2_all.deb
+Size: 12488
+SHA256: 220e41b039f323fcbb5858263b3eba5ceeaf8cdbc8180bb50e3e005cc0e50082
+SHA1: 8118ee2cbdbd34b215df329c1ca8a9735afe449f
+MD5sum: 56a0cf1d146b0a14cb88b153e991bb53
+Description: clockworkpi-audio-shutdown
+ clockworkpi-audio-shutdown stops speaker pop on shutdown
+
 Package: clockworkpi-cm4-kernel
 Version: 6.6.30
 Architecture: arm64
