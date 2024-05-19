@@ -13,6 +13,20 @@ MD5sum: 83fbc88fb1fd5b604dbbd7450c3fd818
 Description: clockworkpi-audio-patch
  clockworkpi-audio-patch
 
+Package: clockworkpi-cm4-kernel
+Version: 6.6.30
+Architecture: arm64
+Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.30_arm64.deb
+Size: 36408776
+SHA256: 95b765f6c18e8850f886f54f37534c71c570661d452345a74ba55c29a0bd65d4
+SHA1: 16b59e2cb3143c640d1f1b457c48e9fefade4455
+MD5sum: 117f4ce04ce7a0c269638a1f162f4a06
+Description: kernel package
+Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
+
 Package: devterm-cavestory-cpi
 Version: 0.1
 Installed-Size: 10876
