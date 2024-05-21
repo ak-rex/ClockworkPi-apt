@@ -151,6 +151,79 @@ Description: "No Tofu" font families with large Unicode coverage (CJK regular an
  .
  This package contains regular and bold fonts.
 
+Package: piwiz
+Version: 0.69
+Architecture: arm64
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 527
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, alsa-utils, userconf-pi
+Conflicts: piwiz-hs
+Homepage: https://github.com/raspberrypi-ui/piwiz
+Priority: 0
+Section: utils
+Filename: pool/main/p/piwiz/piwiz_0.69_arm64.deb
+Size: 259428
+SHA256: 182e15fb2c750998a189fb66e7131893bee15a9a208a253c6e7ef8a183608008
+SHA1: 496d00e8c1edf35d9f9c8862d360cb062a6c601b
+MD5sum: 1ae3ebbacadd34470cf9fa745aa8cf56
+Description: Raspberry Pi first-run wizard
+ Wizard which performs initial configuration of Raspberry Pi system settings
+
+Package: piwiz-dbgsym
+Source: piwiz
+Version: 0.69
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 78
+Depends: piwiz (= 0.69)
+Priority: 0
+Section: utils
+Filename: pool/main/p/piwiz/piwiz-dbgsym_0.69_arm64.deb
+Size: 55120
+SHA256: 08497aa53e3f142c935726dd57ec22649e27546d0e472d331f738f54c59b4d54
+SHA1: 95bcec0214960002f779a7df4b911b22c5da30cd
+MD5sum: 827e94e0b440349a51702324ffa4a5fd
+Description: debug symbols for piwiz
+Build-Ids: 1cf2fd1172452a954515cae07d914a645c58ca49
+
+Package: piwiz-hs
+Source: piwiz
+Version: 0.69
+Architecture: arm64
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 527
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, familyshield, alsa-utils, userconf-pi
+Conflicts: piwiz
+Homepage: https://github.com/raspberrypi-ui/piwiz
+Priority: 0
+Section: utils
+Filename: pool/main/p/piwiz/piwiz-hs_0.69_arm64.deb
+Size: 259668
+SHA256: f7329e0c0b4ecf542fa66d9f3ad46fff1b4d0265c459c14d01a629c8d706b85d
+SHA1: 9b0665e17f50425cd9c5b9ffa23f7beeb62b61a9
+MD5sum: b89160ccff8b21822cd4c024cce6cd8b
+Description: Raspberry Pi first-run wizard for home-school programme
+ Wizard which performs initial configuration of Raspberry Pi system settings
+
+Package: piwiz-hs-dbgsym
+Source: piwiz
+Version: 0.69
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 78
+Depends: piwiz-hs (= 0.69)
+Priority: 0
+Section: utils
+Filename: pool/main/p/piwiz/piwiz-hs-dbgsym_0.69_arm64.deb
+Size: 54916
+SHA256: 196db7fc9719f379aa189ee88a7e99376ce3ab0b967b9f1eddb304747b8df9c8
+SHA1: db669957c4f486391e0c666ffc81891e0f26d98b
+MD5sum: 1d8fa28bcd11ed7110194ab5c3cd7bb9
+Description: debug symbols for piwiz-hs
+Build-Ids: 8c892e81acdd3fe2f9acb45103a3c2c2b35ac5d6
+
 Package: socat
 Version: 1.7.4.4-2
 Architecture: arm64
