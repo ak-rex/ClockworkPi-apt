@@ -155,17 +155,17 @@ Package: piwiz
 Version: 0.69
 Architecture: arm64
 Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 527
+Installed-Size: 434
 Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, alsa-utils, userconf-pi
 Conflicts: piwiz-hs
 Homepage: https://github.com/raspberrypi-ui/piwiz
 Priority: 0
 Section: utils
 Filename: pool/main/p/piwiz/piwiz_0.69_arm64.deb
-Size: 259428
-SHA256: 182e15fb2c750998a189fb66e7131893bee15a9a208a253c6e7ef8a183608008
-SHA1: 496d00e8c1edf35d9f9c8862d360cb062a6c601b
-MD5sum: 1ae3ebbacadd34470cf9fa745aa8cf56
+Size: 162284
+SHA256: f80a66feba313e7a7b229681c4b5f445460e7ba8418b8948e4fa8cd100d6f32f
+SHA1: 07a8aa2673ed1b33fe06a79f396f5558d3d192ed
+MD5sum: e532a8baf53b2005f50b77ecf3ec7d51
 Description: Raspberry Pi first-run wizard
  Wizard which performs initial configuration of Raspberry Pi system settings
 
@@ -192,17 +192,17 @@ Source: piwiz
 Version: 0.69
 Architecture: arm64
 Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 527
+Installed-Size: 434
 Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, familyshield, alsa-utils, userconf-pi
 Conflicts: piwiz
 Homepage: https://github.com/raspberrypi-ui/piwiz
 Priority: 0
 Section: utils
 Filename: pool/main/p/piwiz/piwiz-hs_0.69_arm64.deb
-Size: 259668
-SHA256: f7329e0c0b4ecf542fa66d9f3ad46fff1b4d0265c459c14d01a629c8d706b85d
-SHA1: 9b0665e17f50425cd9c5b9ffa23f7beeb62b61a9
-MD5sum: b89160ccff8b21822cd4c024cce6cd8b
+Size: 162304
+SHA256: 91b8c9217f62467214bece05b87ba8611d02d86cfa7259eb73a40b5855b50f5b
+SHA1: 4cbe8387a85273d668366f4aa163290daa217aa7
+MD5sum: 8299b874256f3557cdc9f47e754a9358
 Description: Raspberry Pi first-run wizard for home-school programme
  Wizard which performs initial configuration of Raspberry Pi system settings
 
