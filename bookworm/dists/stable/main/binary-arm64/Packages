@@ -73,6 +73,23 @@ SHA1: 3787a5bb000f05517eb1cb4a3262978dba7ad9bf
 MD5sum: d95b7bf1d547c0e813caae567227febe
 Description: devterm fan control script for raspberry pi cm4
 
+Package: devterm-spotify-tui-cpi
+Version: 0.1
+Installed-Size: 18304
+Maintainer: cuu <gnubsd@me.com>
+Homepage: https://github.com/Rigellute/spotify-tui
+Architecture: arm64
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-spotify-tui-cpi/devterm-spotify-tui-cpi_0.1_arm64.deb
+Size: 3511844
+SHA256: 0c1b3b5eca6bb9ceb1155ae654faf181570134378535ac6a2b1956bbd69775ae
+SHA1: 3118c093320448074ac021ad032103b6e6b082d3
+MD5sum: 39971be117a251addba3651615940d0e
+Description: devterm-spotify-tui-cpi for a06 a04
+ devterm-spotify-tui-cpi for a06 a04
+ https://github.com/Rigellute/spotify-tui
+
 Package: devterm-thermal-printer-cm4
 Version: 0.2
 Maintainer: devterm-thermal-printer-cm4 <rex@linux.com>
@@ -104,6 +121,22 @@ MD5sum: d01a9c67523a8224b48fef546aa958ca
 Description: devterm thermal printer cups filter and config
  devterm thermal printer cups filter
  add a devterm_printer in CUPS
+
+Package: devterm-tic80-cpi
+Version: 0.1
+Installed-Size: 4688
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: libglu1-mesa, freeglut3, libglvnd0, libasound2
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-tic80-cpi/devterm-tic80-cpi_0.1_arm64.deb
+Size: 1186992
+SHA256: 1e599f63b6bcf86ac50bf102dc4244c072655f11d156f93e3da57c23b238ef88
+SHA1: 48578d925196ac12c1fe1a5641a067fd28e47c90
+MD5sum: 4a80b239462ce20d5f21f63202444fbf
+Description: devterm-tic80-cpi for arm64
+ devterm-tic80-cpi for arm64
 
 Package: fonts-noto-cjk
 Version: 1:20220127+repack1-1
