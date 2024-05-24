@@ -1,0 +1,14 @@
+Package: clockworkpi-cm4-kernel
+Version: 6.9.0.rc7
+Architecture: arm64
+Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.9.0.rc7_arm64.deb
+Size: 37277040
+SHA256: 205a5b34ba0ad0cd53a785d7c8d1a9f571b856fd92505b817347db5a364bcd96
+SHA1: ad039c4ef50c87b82a329d8725645ec28dc751cc
+MD5sum: 2ad820b7b4d62687082e4d8221f89530
+Description: kernel package
+Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
+
