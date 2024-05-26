@@ -1,6 +1,6 @@
 Origin: ak-rex
 Label: ak-rex ClockworkPi Github
-Suite: bookworm
+Suite: bleeding
 Codename: bleeding
 Architectures: arm64
 Components: main

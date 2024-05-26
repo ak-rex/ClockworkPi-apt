@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: arm64 all
+Codename: stable
+Components: main
+Date: Sun, 26 May 2024 03:08:36 +0000
+Description: ak-rex's ClockworkPi software/kernel repository
+Label: ak-rex ClockworkPi Github
+Origin: ak-rex
+Suite: stable
+MD5Sum:
+ 11a33e21e8d9274b4b09d58b6bd66592              220 Release
+ 71dce9f5402dc1f0671d7adbcd82885e            11681 main/binary-arm64/Packages
+ c31c476fb54a20eb70e60f189ba4b62c             4337 main/binary-arm64/Packages.gz
+ 5fa6dc5f549dc70ca2e339290f89a9cf              161 main/binary-arm64/Release
+SHA1:
+ d3964769901d0b4887d3f3dc4e3a6db9f803245d              220 Release
+ 2f8137895dde0cab9be9310c754e4a44bbf9ef12            11681 main/binary-arm64/Packages
+ 58343a3800082534ef655b83b200ac2666c38278             4337 main/binary-arm64/Packages.gz
+ c77690aa9f37ef16f91bb6c6fd1e76119d6a46c1              161 main/binary-arm64/Release
+SHA256:
+ af4d2def820ac5d711b444956328f198b252595a6916da48a0344a737228366c              220 Release
+ bf7a4d32fd651d2d5fc7a3172b6a2744345d09534b6c6e22453f0da07298a69e            11681 main/binary-arm64/Packages
+ 421ff3d12df1d72fdb8f688330abdbaa859cba8a47fb1a18a8e5d16bfdc19152             4337 main/binary-arm64/Packages.gz
+ 4ced81fa210b452d33f39c48fbf11d28d6e686af3667add0dcbd3a880f4c816b              161 main/binary-arm64/Release
+SHA512:
+ 644e338d587f573d696b0ae856ef84972a836e3face67d845614e9cf5eba9153865efad7052b1e267fdca575dbb879988e1c0587667e23479469f7e836bfa1f6              220 Release
+ 0149a25cf77e4fbb42d846a040285762a4761ae130c79330fa5daeb052c4c84dd9f71a04aa4d1b24adcee236b18711af17dcb3107ec4eb2016be67e5c783f092            11681 main/binary-arm64/Packages
+ 8bea85263e6fa2600e3117cf27faf1e8f9118591f0eb12d05e7a35dee5789b4937e51b2fa2b91eb242be734746673391b4fd69e66a2a13de08916b6654ce37ae             4337 main/binary-arm64/Packages.gz
+ 2bd716cf0c3103761fbfb8864d8c9c9dc99b509337b4967d8dc39bad2db820683e040c65b14c179f5aa2cc9f8d3b6d335e72bbcda722202d120a3c4adc80dcbf              161 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEV5m9fzdtEBHFELA2tAyPVRxKuJcFAmZSp7oACgkQtAyPVRxK
+uJfZAQv/ULitpxEtOMN3tf3kpCDnWO+yK3Q9FzaFTDnncBFP4XpxklXyElgrAKxY
+HmcNOBqNSTCVQX+UvMu7c9fE7queJT38GoZXZCH7yLwYE0zUStWl8qs6NI+a/D/v
+/ZKMBrh4Dj5awsmEJ2QXtq5iCjDKSPnGhY2yi/zEeWH7qQfYwZA1JZgZL/8BhbUV
+DoEx9hSBVq7lXSPYl25MYCZM2xwViVF4N43zQbfUxV6xvWvE359hsLgkJpxHqubf
+98VEg1ZgK6zeNbjErNp6mrBjItqt4hZQyEPqGc0DVcxB+ZpwnI/EH+D9Tl/dvHZZ
+sA3uuFIlJQJUvbfPaKJxmaHYlxxOGIdeyxEaL2jwCmSrx7tpgkGbgiv6/7nudMm9
++2kDh9LDlz2z0IBuHHCwoMqJ2HBn+66f44yh9Q9VZY7INlI4Xh6dy8W9pmYCRFrB
+oT70XIsPFkLNYRynZfR1M78BmYIcjb1eD5IVNvo/bT+th19J85UoK7TRapWwY40c
+pr08IOLU
+=0cyr
+-----END PGP SIGNATURE-----
