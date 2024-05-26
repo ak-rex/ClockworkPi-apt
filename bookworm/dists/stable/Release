@@ -1,0 +1,28 @@
+Architectures: arm64 all
+Codename: bookworm
+Components: main
+Date: Sun, 26 May 2024 23:48:40 +0000
+Description: ak-rex's ClockworkPi software/kernel repository
+Label: ak-rex ClockworkPi Github
+Origin: ak-rex
+Suite: stable
+MD5Sum:
+ a529a1225016645540d6e9bf0b82e47d              222 Release
+ 53c5a2613307b780256dd981c460d44a            11681 main/binary-arm64/Packages
+ 2144a47119b3770e73816b10fe49e0fc             4338 main/binary-arm64/Packages.gz
+ 5fa6dc5f549dc70ca2e339290f89a9cf              161 main/binary-arm64/Release
+SHA1:
+ 85c0b62def198f06edfd655b72fdbef8ff10526d              222 Release
+ 8db5f67ec32c19a56e6ede8ca4fd2a065c99219b            11681 main/binary-arm64/Packages
+ 4efda327b0cfad04ce6bb323700ff2f0a3e69bd7             4338 main/binary-arm64/Packages.gz
+ c77690aa9f37ef16f91bb6c6fd1e76119d6a46c1              161 main/binary-arm64/Release
+SHA256:
+ d5f3bf725086edd24b2c4014c069949481a6fb9e3cf6e064808eb8e71e9ee721              222 Release
+ a1213c66f8fcdd8ccd47fc0429696e904062496ddc64aefd7868264e78805637            11681 main/binary-arm64/Packages
+ 5d2871a5db8520604644ed5d8d7c91398d5862b6087d5124878ff0a0eb6fe8b5             4338 main/binary-arm64/Packages.gz
+ 4ced81fa210b452d33f39c48fbf11d28d6e686af3667add0dcbd3a880f4c816b              161 main/binary-arm64/Release
+SHA512:
+ 85de5d0fa765df564fb57e9267ff882320eea8fd57ed62aa72f7cfe0d8e86be78f12a25fa55a150f3e629794b26bea0b0e94df4e5f7aca1b8a242a5c2a0356ec              222 Release
+ 974a31a89eacf36f204f14e8f0cf8acd6a39d3c5d1946f7b3d20e6bedbfc4e6477294d821226e1a025900a4a21e2ba5b9450c3b47609a93ee79b75a54ff5eb9e            11681 main/binary-arm64/Packages
+ ee5ac5567c6f6bd0dc4310c352cdad9251bb8dd2c4b17627c593da23c7eacb1f955a3911f5b469ae0db6b19bd857cfa2dd1c5bc544e200ca67326ad9d09bdf7c             4338 main/binary-arm64/Packages.gz
+ 2bd716cf0c3103761fbfb8864d8c9c9dc99b509337b4967d8dc39bad2db820683e040c65b14c179f5aa2cc9f8d3b6d335e72bbcda722202d120a3c4adc80dcbf              161 main/binary-arm64/Release
