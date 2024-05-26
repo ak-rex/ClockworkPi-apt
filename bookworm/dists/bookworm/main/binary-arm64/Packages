@@ -285,17 +285,17 @@ Description: multipurpose relay for bidirectional data transfer
  secure environment (su and chroot) for running client or server shell
  scripts inside network connections. Socat supports sctp as of 1.7.0.
 
-Package: uconsole-4g-daemon-cm4
+Package: uconsole-4g
 Version: 0.21
-Maintainer: uconsole-4g-daemon-cm4 <rex@linux.com>
+Maintainer: uconsole-4g <rex@linux.com>
 Architecture: arm64
 Priority: 0
 Section: utils
-Filename: pool/main/u/uconsole-4g-daemon-cm4/uconsole-4g-daemon-cm4_0.21_arm64.deb
-Size: 1408
-SHA256: be4bbcfd110f27deec80b99dce2291cf35fbd20b5c8da7b7595fdfb614ec1131
-SHA1: 1cdb82f2707ab710a31bb876b4391c1123b123ee
-MD5sum: b3db1785e4948dfcb3463661de9bbbf9
+Filename: pool/main/u/uconsole-4g/uconsole-4g_0.21_arm64.deb
+Size: 1396
+SHA256: fd20189f98b44bd2cc2f30e6a71d35d537d67bd224b48e3ae05b6fd9145f3a39
+SHA1: 025673c4d44bfb201c3c90328954fd552aff47fa
+MD5sum: eea5b9fd6819474004f41e11aa154e68
 Description: uConsole 4G control script for raspberry pi cm4
 
 Package: wiringpi
