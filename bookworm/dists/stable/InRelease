@@ -4,42 +4,42 @@ Hash: SHA512
 Architectures: arm64 all
 Codename: stable
 Components: main
-Date: Sun, 26 May 2024 02:50:44 +0000
+Date: Sun, 26 May 2024 02:56:21 +0000
 Description: ak-rex's ClockworkPi software/kernel repository
 Label: ak-rex ClockworkPi Github
 Origin: ak-rex
-Suite: stable
+Suite: bookworm
 MD5Sum:
- 355bfe581ad3389b0f8d89b202f681f3              220 Release
+ 9e300cf5e4da2d7905e2e0a2692eb604              222 Release
  71dce9f5402dc1f0671d7adbcd82885e            11681 main/binary-arm64/Packages
  c31c476fb54a20eb70e60f189ba4b62c             4337 main/binary-arm64/Packages.gz
- 5fa6dc5f549dc70ca2e339290f89a9cf              161 main/binary-arm64/Release
+ 2599ebd187b15bc84062dc42ec1125de              163 main/binary-arm64/Release
 SHA1:
- bbead133ea77447793e407beb8cec104db19d278              220 Release
+ 9c8b9880b621c9429ee2d481369201c4a428b3c1              222 Release
  2f8137895dde0cab9be9310c754e4a44bbf9ef12            11681 main/binary-arm64/Packages
  58343a3800082534ef655b83b200ac2666c38278             4337 main/binary-arm64/Packages.gz
- c77690aa9f37ef16f91bb6c6fd1e76119d6a46c1              161 main/binary-arm64/Release
+ 1302519ce00ec4722b3098fccf59e7e42be0282e              163 main/binary-arm64/Release
 SHA256:
- d2de469a280a44008bf0adcb132e18b67eac79f30360d1dcd3acdbe5bb067836              220 Release
+ 8334ebb8c79fe27f36763566a269db498f4aba46b7c0d37ea6c6066a42e5446c              222 Release
  bf7a4d32fd651d2d5fc7a3172b6a2744345d09534b6c6e22453f0da07298a69e            11681 main/binary-arm64/Packages
  421ff3d12df1d72fdb8f688330abdbaa859cba8a47fb1a18a8e5d16bfdc19152             4337 main/binary-arm64/Packages.gz
- 4ced81fa210b452d33f39c48fbf11d28d6e686af3667add0dcbd3a880f4c816b              161 main/binary-arm64/Release
+ 45cb60ca0573b0c017667a1cbd75f4b00e73a1a17b6f151d8ae835b01f94d281              163 main/binary-arm64/Release
 SHA512:
- ce750152af964a70bc2f95388c995f594eccafe55d5caeed0bdc57690998ab73728095c7f9f072a2566edd04884d890f1c1f57baa76962eaffe86bab695fb2c2              220 Release
+ 02ed6dd42e4c6d4d4733576319bce6dbd961d0477b8c242af09bbd3a66b787b1a94b57942cf4557c81bbd54243896d43e06258c1d270f5aaf4d170ccfabcde5b              222 Release
  0149a25cf77e4fbb42d846a040285762a4761ae130c79330fa5daeb052c4c84dd9f71a04aa4d1b24adcee236b18711af17dcb3107ec4eb2016be67e5c783f092            11681 main/binary-arm64/Packages
  8bea85263e6fa2600e3117cf27faf1e8f9118591f0eb12d05e7a35dee5789b4937e51b2fa2b91eb242be734746673391b4fd69e66a2a13de08916b6654ce37ae             4337 main/binary-arm64/Packages.gz
- 2bd716cf0c3103761fbfb8864d8c9c9dc99b509337b4967d8dc39bad2db820683e040c65b14c179f5aa2cc9f8d3b6d335e72bbcda722202d120a3c4adc80dcbf              161 main/binary-arm64/Release
+ 2b05d6e91b2679ab24015b4ef80d416f9d0d4d2d0b93c603a4f19574b142cec68c0b8eb32d262bcb90c0c65111ef4007364f085f34bf71082536e41c50f6b9c2              163 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEV5m9fzdtEBHFELA2tAyPVRxKuJcFAmZSo5sACgkQtAyPVRxK
-uJeoegwAjIDdn6gNsRPzpXD82NFxk6RXuanE4F37lVYwnTECHcSt1vGPYeFhTkcS
-ZEgHfwE34H6yALVuzDLiW1DTKvphPaUz9ALiQxMaBh7QlsCUqhjhkc2JTqtbGaNp
-X2a3DR/oxnl39zksHq3ly7w49wCQOsQsHCCOOHQXd4rGpwKU00vLjPcccTrIDDS2
-SINMKvjtWCtEkpq41r4C/wrrnun0Hc1iJWmZomNTdK3jUbwoxJig99jGTlEk25Cw
-NQ2Xd09HeqlIUfB5cKNVNyjHRj0b1/kb1hXyC5qw5DjrOnsYi2llUKCcaftcOkfL
-PHNwxjN52Qm+FT+b81geIgDvS9zNWYaoqEC6yLtD3+zkfk7YnI4HnJCSu+tt610h
-8hDg68ndNb6qD7vxB5W7PVv7oZ0opZGmqLYEHJWGPnHkV7BJ0aJVa9pdeFgXKwWM
-1Y7L/HbH6NTGNUuUgLxZpXnwCPj6HdXfJW7WMyz8iWzWSA/xvVi/O1FJ9C2SbXKs
-9KFausLf
-=unNA
+iQGzBAEBCgAdFiEEV5m9fzdtEBHFELA2tAyPVRxKuJcFAmZSpNUACgkQtAyPVRxK
+uJctFAv+JCbdBiZQdeKGJEgzkMu9eowhdT+hNrvv7MHJKt9sv9O3NsWsHowV8odZ
+1G89cE4c3CQWpOA3XyH7j32myBeYn0I9VbEMg4CgEzmHts6qkorMcFGrUWJnTdmp
+XRXgrfgPSvVxzNd5Pn5vqBpP9pY6Pm54qQdYBOp/hKbmEDvQHWglLEOqTMNnfUx5
+Ekqvf5yxU0uB3w0nrMdz2a51WyQJwh9NTgapvVZVB1p5Ok0OunfLos3kSvGP70nF
+33KDi0o1pJIBs9f9pZYmfgry/fyujIVOAY6F1Xtl8pjC4a9lF3SI7eB+fb1ZYXlE
+CVBDfeScDXFHqW1f69QLDqs1zNmeKbdis/QogEfmRlD62V78qVqiWQjzcwo1GkUi
+/cG8DQj0A5vm+73SSVD8Ar9Q+zL11GpDQMaEf89NeyQX5mKG6UDGZB9RAlXFrugn
+5ssTkj5mDy3+10C0evpyWdVvkBa9kRAg3Yg9kafqr9adR6qUt9vLMuRTiRSBLgqZ
+35fGK+Wo
+=z9Jt
 -----END PGP SIGNATURE-----

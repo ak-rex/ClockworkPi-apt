@@ -1,6 +1,6 @@
 Origin: ak-rex
 Label: ak-rex ClockworkPi Github
-Suite: stable
+Suite: bookworm
 Codename: stable
 Architectures: arm64
 Components: main
