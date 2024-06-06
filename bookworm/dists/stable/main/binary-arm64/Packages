@@ -93,18 +93,18 @@ Description: devterm-spotify-tui-cpi for a06 a04
  https://github.com/Rigellute/spotify-tui
 
 Package: devterm-thermal-printer-cm4
-Version: 0.2
+Version: 0.21
 Maintainer: devterm-thermal-printer-cm4 <rex@linux.com>
 Architecture: arm64
 Depends: socat, fonts-noto-cjk
 Replaces: devterm-thermal-printer
 Priority: 0
 Section: utils
-Filename: pool/main/d/devterm-thermal-printer-cm4/devterm-thermal-printer-cm4_0.2_arm64.deb
-Size: 29380
-SHA256: 379aefe55ebc7d78d32604c1da23abf5f57ab9995909e96bf32ebbf26403920d
-SHA1: cce3cdff9d8b8d794ad6e592bee24e8579e7337f
-MD5sum: 30c866a0207a8aa2bf65069957eef7d9
+Filename: pool/main/d/devterm-thermal-printer-cm4/devterm-thermal-printer-cm4_0.21_arm64.deb
+Size: 29392
+SHA256: d657fe1ccb51e46a6a56c4dd858ba7cd11f1145c3edc028577f889fe789a3005
+SHA1: e53471c4e3937356b639b3f860bd9f75b33c4985
+MD5sum: 3f44388f2e22e252eb1e66df11d0d544
 Description: Thermal printer daemon for DevTerm CM4
  Do not use it with other devterm-thermal-printer package due to the gpio of cm4 is different
 
