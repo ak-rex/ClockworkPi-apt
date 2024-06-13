@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: ak-rex
+Label: ak-rex ClockworkPi Github
+Architecture: armhf
+Description: ak-rex's ClockworkPi software/kernel repository
