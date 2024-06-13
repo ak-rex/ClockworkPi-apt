@@ -2,6 +2,6 @@ Origin: ak-rex
 Label: ak-rex ClockworkPi Github
 Suite: stable
 Codename: stable
-Architectures: armhf amr64
+Architectures: armhf arm64
 Components: main
 Description: ak-rex's ClockworkPi software/kernel repository
