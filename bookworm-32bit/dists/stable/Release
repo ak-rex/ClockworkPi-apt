@@ -1,40 +1,40 @@
 Architectures: armhf arm64
 Codename: bookworm32bit
 Components: main
-Date: Thu, 13 Jun 2024 19:01:46 +0000
+Date: Thu, 13 Jun 2024 23:32:26 +0000
 Description: ak-rex's ClockworkPi software/kernel repository
 Label: ak-rex ClockworkPi Github
 Origin: ak-rex
 Suite: stable
 MD5Sum:
- 12eeb75309e6cea4d56565a4e8aa70ad              229 Release
+ d4a46196d0883db8ac1d5f9cae2b960d              229 Release
  f83f6be2dcb6c6a42d4a46beb7ca256e             2661 main/binary-arm64/Packages
  ba1d7d522eddc663f2aef110c24bfb71             1086 main/binary-arm64/Packages.gz
  5fa6dc5f549dc70ca2e339290f89a9cf              161 main/binary-arm64/Release
- 42ade804ca3e8a833499cd594ba798be             1988 main/binary-armhf/Packages
- f01a2f807adc696e965384b1e274c64b              741 main/binary-armhf/Packages.gz
+ 26e7e13465f7f253a6f7886b42538e9e             2845 main/binary-armhf/Packages
+ 0e80f83fae80835eebc9fbdcb2743911             1152 main/binary-armhf/Packages.gz
  3c70705dee0883132b8083b9412bc908              161 main/binary-armhf/Release
 SHA1:
- 04b59bf37b8a087ee49a7ca1aa720aa6e27918cd              229 Release
+ 790e6af934d62b766490695e56009463a770f8ef              229 Release
  99826cbb83ada3a89fd0acc9042fe92498ee536a             2661 main/binary-arm64/Packages
  f40f5b3d12ccfb38af4999a916c60ac8971eb4c9             1086 main/binary-arm64/Packages.gz
  c77690aa9f37ef16f91bb6c6fd1e76119d6a46c1              161 main/binary-arm64/Release
- da2713022766aaa9be8700f5e0fd18a4afd5dbed             1988 main/binary-armhf/Packages
- cdb67377b10ace687393c3ec0bca679104755638              741 main/binary-armhf/Packages.gz
+ 3fded8e7a3e93eb1f98e7f50ed2ceda4ef8f005a             2845 main/binary-armhf/Packages
+ c28b15a78b797476022255cf5ffb7875d5d8a68d             1152 main/binary-armhf/Packages.gz
  72ebdd3ea0e167771aa383d98e506ec20f4e9198              161 main/binary-armhf/Release
 SHA256:
- 0fa53dca2c22537b5b16d07248e6dc1043d08237b6453d3fe1e12ba2b3eca1fe              229 Release
+ d76c4fcc106ef4f939e92bdb40cf82a8eddf33aaa7a44b31bf963eaefd3757f8              229 Release
  79fac8ad6371a16b91dbc3edec97b8e82859183180761864c0901d316f17a198             2661 main/binary-arm64/Packages
  3c6bf595a9a454ed722f30f12632e8beb919483d6d424f25f9c9c481ed33bbbb             1086 main/binary-arm64/Packages.gz
  4ced81fa210b452d33f39c48fbf11d28d6e686af3667add0dcbd3a880f4c816b              161 main/binary-arm64/Release
- 19a0d68a1ca79120b9408e8ecac9a911e736928dbaec3e3e084be8d4709fafab             1988 main/binary-armhf/Packages
- 52c2fd6959b44a32189dfcea0ce7424ceaa871e38351603220ba0ea3a0bf1753              741 main/binary-armhf/Packages.gz
+ 2d4ad0dd4577a9b057f7c9cc098b22954a4de74d1c23e7abe35078c737bd0156             2845 main/binary-armhf/Packages
+ 32196ace41c069357b716ab9f32e978f5560b73b79fff3099a35abe15aa5a60d             1152 main/binary-armhf/Packages.gz
  9d5b996ddd547862522c445bfabb903154fd88a8df32138e99aef3c4c859af39              161 main/binary-armhf/Release
 SHA512:
- 8669cc4fdebd3de49f142cfbb3c3f33dfd3d3f08055f7beefbf0b5159ef5a787baa8f034d16415a8a6e82f681cb757e7caa86808877fc3f71ce18b39c976f077              229 Release
+ 5f7d127f2536a4cdd861374d83fb622cc7a17b7c5bd8aad34076acc8dde94f0995a07c29fed70bb4cadd9219473f19ed89ef74be4eacda86fe08fadaa09b4f17              229 Release
  6190bce563c67c6694582864cb7959d77fa4d6d5eaa6e96fd35b9cd41fddaddf11d4cf04f06e8eba14af295fe6bc6f82a32b3540aa5b5fa97240905f032ef694             2661 main/binary-arm64/Packages
  d95756cd62a3d01edb0924bba0ba2fd877cbf9e2f3b43fe08b492cb8e6b449034c3805cd7a2af3c9b082d352e5cbff5b85686dfd40787548afc9ae435fde8be4             1086 main/binary-arm64/Packages.gz
  2bd716cf0c3103761fbfb8864d8c9c9dc99b509337b4967d8dc39bad2db820683e040c65b14c179f5aa2cc9f8d3b6d335e72bbcda722202d120a3c4adc80dcbf              161 main/binary-arm64/Release
- f3d257353faea61ad934df0129c726d327ea3f1052c9b33edccb8e76a50aded89c7a4131836bafa27170e5869c45736ad553d89cc5a2aa359105ad663f8978fc             1988 main/binary-armhf/Packages
- fc5544cd08da7ca3a9a29a580829e1fa6b12b5adabc7e96868a2781eb9f1212b6adb39f573dae046e6071152c4e6ba96868467825c401f812e704524106eaac2              741 main/binary-armhf/Packages.gz
+ 3adc660f3a95008d5db9ab7311103b8838f90edacacffe5d94291257923299e05ec3f52fefd824cbbf7a7c103383e2af52d296b5538477c1f87872f1b53de892             2845 main/binary-armhf/Packages
+ 37b4d2db8673c270220b1c4a4a3f89ac402621ba7240f325f92a95ccbf35b18ee19258dcbcce8be4d727f66dc8b6821e7a1b609120c74f947a2cc713d9d69d6d             1152 main/binary-armhf/Packages.gz
  cbb9c2e96ac006d568a17c859a6b30acf838b56218cf91625af2660e55c93917443663a0b0ad42852ca9a978392333d85fce174aff06daa488106227787a21aa              161 main/binary-armhf/Release

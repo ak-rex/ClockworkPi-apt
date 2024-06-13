@@ -44,3 +44,27 @@ SHA1: 420f118f9e9bf87629887622a6708f82885667fa
 MD5sum: 48eff5270318b95773683f5db087ee22
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
+Package: omxplayer
+Version: 0.3.7~git20160923~dfea8c9
+Architecture: armhf
+Essential: no
+Depends: libpcre3, libfreetype6, fonts-freefont-ttf, dbus, libssl1.0.0, libsmbclient, libssh-4, libasound2
+Suggests: fbset, x11-xserver-utils
+Installed-Size: 12788
+Maintainer: Sergio Conde <skgsergio@gmail.com>
+Provides: omxplayer
+Priority: 0
+Section: utils
+Filename: pool/main/o/omxplayer/omxplayer_0.3.7~git20160923~dfea8c9_armhf.deb
+Size: 4330306
+SHA256: a52486f1dee3652a14990b36c0db4f685554525922557d630ba9657e69854e15
+SHA1: cea04e27726c812c57f691eab82e69ac6ec8e8cb
+MD5sum: 07e58f580d0293cae3a5c27b3cb5f651
+Description: Command line media player for Raspberry Pi
+ .
+ It plays all media files supported by the Raspberry Pi
+ hardware. Supports subtitles.
+ .
+ OMXPlayer source: https://github.com/popcornmix/omxplayer/
+ OMXPlayer builds: http://omxplayer.sconde.net/
+
