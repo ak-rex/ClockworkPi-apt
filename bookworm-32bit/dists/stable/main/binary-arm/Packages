@@ -1,0 +1,16 @@
+Package: clockworkpi-cm4-kernel-32bit
+Version: 6.6.32-v7l+
+Architecture: arm
+Maintainer: clockworkpi-cm4-kernel-32bit <rex@linux.com>
+Provides: raspi-firmware, sense-hat, linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
+Conflicts: raspi-firmware, sense-hat, linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
+Replaces: raspi-firmware, sense-hat, linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-cm4-kernel-32bit/clockworkpi-cm4-kernel-32bit_6.6.32-v7l+_arm.deb
+Size: 44063572
+SHA256: a4f10ebe58872802b4c6c1feeb53d12c289cbbf6287e8efdf1598fcc96c0a7a1
+SHA1: fda5b1fa60e5af6853ccd2f75e3f06a0198ad247
+MD5sum: 0308d781c026dcc7f7cba489362d3868
+Description:  This kernel includes the patches for ClockworkPi CM4 devices.
+

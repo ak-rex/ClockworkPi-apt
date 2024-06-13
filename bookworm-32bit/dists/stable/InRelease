@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: arm all
+Codename: bookworm32bit
+Components: main
+Date: Thu, 13 Jun 2024 16:35:40 +0000
+Description: ak-rex's ClockworkPi software/kernel repository
+Label: ak-rex ClockworkPi Github
+Origin: ak-rex
+Suite: stable
+MD5Sum:
+ ec5b6fcd9b6de7087400b82ff7ca6c99              225 Release
+ bd1aa4abded608786f8d59996e07473e              980 main/binary-arm/Packages
+ cedfa2227307faa9b41a7bf68066732e              439 main/binary-arm/Packages.gz
+ d4ef8912cd68a17ff6d16b68e0d2623a              159 main/binary-arm/Release
+SHA1:
+ 9ca850fd6dcf3029b6d7f6fa1537e232d22e0cb3              225 Release
+ 872c19dfc2556a47069014fbd7320008ebe7e164              980 main/binary-arm/Packages
+ dd73db52301898ce0046ecd5f728fa6558cd52e2              439 main/binary-arm/Packages.gz
+ 1648675777003e6efc6e6790e962c7413d60c7bc              159 main/binary-arm/Release
+SHA256:
+ 5e566cd6eb51513211cc0550e8125111f085286170de656ffdbaee4726e009d4              225 Release
+ 8d94f301cb3351fe0011851fd769682d978c71773ba95c7cd1008349be7d8f6c              980 main/binary-arm/Packages
+ bcc2a6207073f0d79046d14016438f69d7e61fd24ddf8cb6470950668cfdf798              439 main/binary-arm/Packages.gz
+ cb7cd1f55c37db6c60d0b1136ed87caf2c673a3e5f3b99818e3b9300b6b12694              159 main/binary-arm/Release
+SHA512:
+ d4dfd3884b4e774cb64c823b03bc501ed57c249159a732648a7c954a2ff01e39d2ef977bbe0ae4c059f2374ac1220911e60ca5eb32ab9e06e72adbc3c59b401f              225 Release
+ e16cc058f79bb2f302091f0c53cdcf0f1739ff7c65b05169ab62d5110c55971aa088dfcc82aa982bc705449576c77b5dea42c1f1c2247c31031e54d09a6bf163              980 main/binary-arm/Packages
+ 0707bc43dbcd07f974c1dbc0d11532638f41e24c5054027d3ce2ca26fd3ef895162ed59bf79a2aa3c0da56fd340797c3641a460c081f5c282f38f84b96a6f7f8              439 main/binary-arm/Packages.gz
+ 05f37da17b6fb6a64d21543fd9d63ca9d84c42445fceecab47395738debf46a057f8311f4f4cd77f85ffd6cbcf1032ddc437929893d8d09588990d6dee0b7f1d              159 main/binary-arm/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEV5m9fzdtEBHFELA2tAyPVRxKuJcFAmZrH+EACgkQtAyPVRxK
+uJepAQwAiA1H4IVhm/Lz9EWqmBIpl/w+WsoqiGxmakh507F8aj/iQJ/AZGOjQ1Nr
+3ZJwep8oC0Wu8FBsOcAODhya91oAjIcTjho12Gws0MV//kiOLTAM3UXEw7Y6lqhg
+ULCV15p+NlNQPoS72p+eXP4PqRdSUheNxSLn1S1P5nTMyjMGa9hkH5rkjCEPfziU
+HtEkhV3M53TdgxyEgUIqzzjU9JJjxDsL6bcZeqkZZiaBjIt/dJOE6WEQUSXbbF+W
+CEs67UDgsJY/JdDz93T6sGezt8aeanIleKdnlhnFjktvZJpOaRk94dIg44aJJSdX
+Y6A/5l5JnwcuHAc8gFv4DbxH4R2xhhG7Vz3bHEABPc+RGJ4p1pcPe4Y7CjkVJOgK
+Ttg23eTUMuxBUryNN2AoQbaYsDbr58dXGAC3YSknwJh4sgsAEdrdkUiRfBO72e3K
+aERdhkC0s+SzVKRZqMGkAmNxILQ5WW9jI76aCaK7EYmBMTiJ36VG54Nu5TmibSaM
+466i7+jo
+=ZN8s
+-----END PGP SIGNATURE-----
