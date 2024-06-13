@@ -1,28 +1,40 @@
-Architectures: armhf all
+Architectures: armhf arm64
 Codename: bookworm32bit
 Components: main
-Date: Thu, 13 Jun 2024 16:50:45 +0000
+Date: Thu, 13 Jun 2024 18:44:55 +0000
 Description: ak-rex's ClockworkPi software/kernel repository
 Label: ak-rex ClockworkPi Github
 Origin: ak-rex
 Suite: stable
 MD5Sum:
- ce19626d52dce13dea2244533994aec8              227 Release
+ fc9cd978c6d8ada58e888dd29d61def9              229 Release
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-amr64/Packages
+ 7029066c27ac6f5ef18d660d5741979a               20 main/binary-amr64/Packages.gz
+ 718e621a1e78bd9e7096ca4fae5e4ca0              161 main/binary-amr64/Release
  d1f2d820b346b0704a624bbc47ac2910              984 main/binary-armhf/Packages
  db96ee3b86a8beaf5daf22b737aa18dc              439 main/binary-armhf/Packages.gz
  3c70705dee0883132b8083b9412bc908              161 main/binary-armhf/Release
 SHA1:
- 3936f22b80c82da6b51c35784e5d9330e520a1bc              227 Release
+ ca192fb8bcfe88d28ecac1e4a1dfb6e1fd8e2660              229 Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-amr64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4               20 main/binary-amr64/Packages.gz
+ 553917a4bdab8c4e9b2fe96155eda00173820c3c              161 main/binary-amr64/Release
  8a23581ebc03ae0fa1dd6eee0644a1cdd122d19d              984 main/binary-armhf/Packages
  e5110aa18c7f67ff3c7ad426539fbffdfa357b0a              439 main/binary-armhf/Packages.gz
  72ebdd3ea0e167771aa383d98e506ec20f4e9198              161 main/binary-armhf/Release
 SHA256:
- d9fa09054b89fa5dc893d1ab5c626c537c7d0b415c240e001fca53c53f81c953              227 Release
+ 69fe5de496403870cd8ca43ed3b2e035eb4070576a0b30905cc38ef45356fef6              229 Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-amr64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2               20 main/binary-amr64/Packages.gz
+ cb46ee78124f833c7d4a3e644ed3c6cd78118b4d19ff7f32174afc10feff88f5              161 main/binary-amr64/Release
  b2ad288c3724ef0388e15168fa65f2674712693553220777fd00c71c67372551              984 main/binary-armhf/Packages
  512f741693b1dce9a3ba7fbbe0df0dc15868f8b5c54be77f1c632fe25b101f85              439 main/binary-armhf/Packages.gz
  9d5b996ddd547862522c445bfabb903154fd88a8df32138e99aef3c4c859af39              161 main/binary-armhf/Release
 SHA512:
- ec2fb0a112e98d41beb61c35b17ea844ab4f0efe767eadac9d83cf32cb156103b1f335b9c4e875a44c3381656aeced3a19ee39865683a9bc45891b80acc482a8              227 Release
+ dd3047bf2b5c7864eb9b1c62bb45f5aa1be4f521848e8b8de21c509fd8e3d29265e8c4a39f75ca4e3970be8b8e89989be35b541506b76f38bbcfcffc6873ec84              229 Release
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-amr64/Packages
+ 7e8e93f4a89ce7fae011403e14a1d53544c6e6f6b6010d61129dc27937806d2b03802610d7999eab33a4c36b0f9e001d9d76001b8354087634c1aa9c740c536f               20 main/binary-amr64/Packages.gz
+ 2ec12c3569708799f8bc7b9c93760eda248b597b97888f7bd9fa2fc00421488033b069d9344a873ea33684eed2df81fcd9b7683c3db74a6b3379bb3a50b111aa              161 main/binary-amr64/Release
  b15687acf86217d66422fa599af51b83f1b0ed54ff2114cf98e6838c4be8cb237b8556d3b09b9ae6f1bc2460bf35105455852358e0e3747aa6bbd8fb17279a23              984 main/binary-armhf/Packages
  cbc4b1d562be99d386c623668793ca39ce4501d323c3a974db74285a0d2056355a5560f839ee7c268fd368470d9a63ebd431994f8befb3f0a3ad19809735ac79              439 main/binary-armhf/Packages.gz
  cbb9c2e96ac006d568a17c859a6b30acf838b56218cf91625af2660e55c93917443663a0b0ad42852ca9a978392333d85fce174aff06daa488106227787a21aa              161 main/binary-armhf/Release
