@@ -10,7 +10,3 @@ sudo add-apt-repository -y "deb [arch=arm64] https://raw.githubusercontent.com/a
 to get the bleeding edge kernel also add this repo
 
 sudo add-apt-repository -y "deb [arch=arm64] https://raw.githubusercontent.com/ak-rex/ClockworkPi-apt/main/bleeding bleeding main"
-
-for a 32bit kernel add this repo
-
-sudo add-apt-repository -y "deb [arch=arm64] https://raw.githubusercontent.com/ak-rex/ClockworkPi-apt/main/bookworm-32bit stable main"
