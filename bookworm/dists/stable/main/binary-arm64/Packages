@@ -29,7 +29,7 @@ Description: clockworkpi-audio-shutdown
  clockworkpi-audio-shutdown stops speaker pop on shutdown
 
 Package: clockworkpi-cm4-kernel
-Version: 6.6.32-v8+
+Version: 6.6.34-v8+
 Architecture: arm64
 Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
 Provides: raspi-firmware, sense-hat, linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
@@ -37,11 +37,11 @@ Conflicts: raspi-firmware, sense-hat, linux-image, linux-image-rpi-v8, linux-ima
 Replaces: raspi-firmware, sense-hat, linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.32-v8+_arm64.deb
-Size: 44901528
-SHA256: 281be4500fe7454d0586a86f6e6609de081fbdf5e4be27478105f9239f0b5907
-SHA1: 751536480f79664ef7c1134726ad8f3b7e401e8b
-MD5sum: b4fc570cb3910c86e5784479f1a1a891
+Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.34-v8+_arm64.deb
+Size: 44847908
+SHA256: 9cea3fefb7c26852f30be39ebfef3bc18a82d787f79266dcae5dc3413563023e
+SHA1: 1e76e4cfe982445cc386f61577f7e37ebfeb988b
+MD5sum: fe0a235b8cc74e8d567214ee478ed608
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
 Package: devterm-cavestory-cpi
@@ -185,79 +185,6 @@ Description: "No Tofu" font families with large Unicode coverage (CJK regular an
  characters.
  .
  This package contains regular and bold fonts.
-
-Package: piwiz
-Version: 0.69
-Architecture: arm64
-Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 434
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, alsa-utils, userconf-pi
-Conflicts: piwiz-hs
-Homepage: https://github.com/raspberrypi-ui/piwiz
-Priority: 0
-Section: utils
-Filename: pool/main/p/piwiz/piwiz_0.69_arm64.deb
-Size: 162284
-SHA256: f80a66feba313e7a7b229681c4b5f445460e7ba8418b8948e4fa8cd100d6f32f
-SHA1: 07a8aa2673ed1b33fe06a79f396f5558d3d192ed
-MD5sum: e532a8baf53b2005f50b77ecf3ec7d51
-Description: Raspberry Pi first-run wizard
- Wizard which performs initial configuration of Raspberry Pi system settings
-
-Package: piwiz-dbgsym
-Source: piwiz
-Version: 0.69
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 78
-Depends: piwiz (= 0.69)
-Priority: 0
-Section: utils
-Filename: pool/main/p/piwiz/piwiz-dbgsym_0.69_arm64.deb
-Size: 55120
-SHA256: 08497aa53e3f142c935726dd57ec22649e27546d0e472d331f738f54c59b4d54
-SHA1: 95bcec0214960002f779a7df4b911b22c5da30cd
-MD5sum: 827e94e0b440349a51702324ffa4a5fd
-Description: debug symbols for piwiz
-Build-Ids: 1cf2fd1172452a954515cae07d914a645c58ca49
-
-Package: piwiz-hs
-Source: piwiz
-Version: 0.69
-Architecture: arm64
-Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 434
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, familyshield, alsa-utils, userconf-pi
-Conflicts: piwiz
-Homepage: https://github.com/raspberrypi-ui/piwiz
-Priority: 0
-Section: utils
-Filename: pool/main/p/piwiz/piwiz-hs_0.69_arm64.deb
-Size: 162304
-SHA256: 91b8c9217f62467214bece05b87ba8611d02d86cfa7259eb73a40b5855b50f5b
-SHA1: 4cbe8387a85273d668366f4aa163290daa217aa7
-MD5sum: 8299b874256f3557cdc9f47e754a9358
-Description: Raspberry Pi first-run wizard for home-school programme
- Wizard which performs initial configuration of Raspberry Pi system settings
-
-Package: piwiz-hs-dbgsym
-Source: piwiz
-Version: 0.69
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 78
-Depends: piwiz-hs (= 0.69)
-Priority: 0
-Section: utils
-Filename: pool/main/p/piwiz/piwiz-hs-dbgsym_0.69_arm64.deb
-Size: 54916
-SHA256: 196db7fc9719f379aa189ee88a7e99376ce3ab0b967b9f1eddb304747b8df9c8
-SHA1: db669957c4f486391e0c666ffc81891e0f26d98b
-MD5sum: 1d8fa28bcd11ed7110194ab5c3cd7bb9
-Description: debug symbols for piwiz-hs
-Build-Ids: 8c892e81acdd3fe2f9acb45103a3c2c2b35ac5d6
 
 Package: socat
 Version: 1.7.4.4-2
