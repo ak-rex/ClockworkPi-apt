@@ -28,40 +28,6 @@ MD5sum: 56a0cf1d146b0a14cb88b153e991bb53
 Description: clockworkpi-audio-shutdown
  clockworkpi-audio-shutdown stops speaker pop on shutdown
 
-Package: clockworkpi-cm4-kernel
-Version: 6.6.34-v8+
-Architecture: arm64
-Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
-Depends: clockworkpi-firmware
-Provides: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
-Conflicts: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
-Replaces: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
-Priority: 0
-Section: utils
-Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.34-v8+_arm64.deb
-Size: 44847428
-SHA256: f6225599ff4240aea87405b21168629122f90994cfb03d77db4f78836bcbf318
-SHA1: c64f254190387be6ee7cab105e48bf7545dfe2dd
-MD5sum: e63b9511da729acacb600bc64d1c6c56
-Description:  This kernel includes the patches for ClockworkPi CM4 devices.
-
-Package: clockworkpi-firmware
-Version: 0.2
-Maintainer: clockworkpi-firmware <rex@linux.com>
-Architecture: arm64
-Depends: clockworkpi-cm4-kernel
-Provides: raspi-firmware
-Conflicts: raspi-firmware
-Replaces: raspi-firmware
-Priority: 0
-Section: utils
-Filename: pool/main/c/clockworkpi-firmware/clockworkpi-firmware_0.2_arm64.deb
-Size: 4539540
-SHA256: 7f46e415fedd96242bddda072020b31b781d3ac02295edbd586bfd3a8d288e50
-SHA1: be918d65c4c0bfaed08cf5d9b2883a4d24c43f70
-MD5sum: 28dc4fd98ad6c483a7162c72abbb1ced
-Description: RaspberryPi firmware files.
-
 Package: devterm-cavestory-cpi
 Version: 0.1
 Installed-Size: 10876
