@@ -29,7 +29,7 @@ Description: clockworkpi-audio-shutdown
  clockworkpi-audio-shutdown stops speaker pop on shutdown
 
 Package: clockworkpi-cm4-kernel
-Version: 6.6.34-v8+
+Version: 6.6.35-v8+
 Architecture: arm64
 Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
 Provides: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
@@ -37,11 +37,11 @@ Conflicts: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-r
 Replaces: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.34-v8+_arm64.deb
-Size: 44848252
-SHA256: 14e7164b2e7b89b5b3988333a0cfba83ee8942ac6e050306e9689522dc6635a9
-SHA1: bf153f0a8b2663c3e1979ca01868a8e4c7e849ad
-MD5sum: 3383fdae80e6eedaf548f084b9aed9d2
+Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.35-v8+_arm64.deb
+Size: 44854136
+SHA256: 7f41cd5547fb0f97a450084ab0bf3c841e2e041ce257a4f538b88915dfbaf84f
+SHA1: aa2ac294a0f8ca73cbd414d8e93a6278df3ba0a3
+MD5sum: ac48bf16482bc265d633c5ece4bd5e49
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
 Package: clockworkpi-firmware
