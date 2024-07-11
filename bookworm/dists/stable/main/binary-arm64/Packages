@@ -204,22 +204,22 @@ Description: "No Tofu" font families with large Unicode coverage (CJK regular an
  This package contains regular and bold fonts.
 
 Package: freetube
-Version: 0.21.0
+Version: 0.21.1
 License: AGPL-3.0-or-later
 Vendor: PrestonN <FreeTubeApp@protonmail.com>
 Architecture: arm64
 Maintainer: PrestonN <FreeTubeApp@protonmail.com>
-Installed-Size: 273715
+Installed-Size: 273711
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
 Homepage: https://github.com/FreeTubeApp/FreeTube#readme
 Priority: 0
 Section: utils
-Filename: pool/main/f/freetube/freetube_0.21.0_arm64.deb
-Size: 70891948
-SHA256: eafbf46bf0b1768030d8fd83ac99a0c3b907e84bb3b60a9aae5a40f722895ebc
-SHA1: 02189e7b869bc20f0f9312b0844b6d34c2a9520f
-MD5sum: 1cd87c250c25ee73c51b0ea804fee4e0
+Filename: pool/main/f/freetube/freetube_0.21.1_arm64.deb
+Size: 71068678
+SHA256: e125219e9fa0d8da27de604bd666006640938792a102569ed0834d5b1bb5fc03
+SHA1: c2641270a685ff11359916b6b9d2e977c0d16d09
+MD5sum: dcb822e4646e9ef53d8d016657bcd7d1
 Description: 
   A private YouTube client
 
@@ -282,4 +282,30 @@ Description: The wiringPi libraries, headers and gpio command
   programs as well as from the command-line
 Homepage: https://github.com/WiringPi/WiringPi
 Bugs: https://github.com/WiringPi/WiringPi/issues
+
+Package: yuki-iptv
+Version: 0.0.12
+Architecture: all
+Maintainer: Liya Astrova <liyaastrova@proton.me>
+Installed-Size: 1619
+Depends: ffmpeg (>= 4.2.7), libmpv2 | libmpv1 (>= 0.32.0-1), python3 (>= 3.8.0-1), python3-requests, python3-chardet, python3-setproctitle, python3-pyqt6 (>= 6.2.2) | python3-pyqt5 (>= 5.14.1), python3-wand, python3-gi, python3-unidecode, yt-dlp | youtube-dl
+Recommends: libmagickcore-6.q16-6-extra, qt6-translations-l10n
+Priority: 0
+Section: utils
+Filename: pool/main/y/yuki-iptv/yuki-iptv_0.0.12_all.deb
+Size: 591624
+SHA256: aebe8c3e77febaa7da9a229de06146146e0862360cd0d8953b8c3928b7b78898
+SHA1: fb8208fdf1de6ba2c2df079bcb5bc5bbccc88a3f
+MD5sum: e9eb834ecd312d52f47587b3c17fd76b
+Description: IPTV player with EPG support
+ yuki-iptv is an IPTV player with many features, such as:
+  * M3u / M3u8 / XSPF playlists support
+  * XTream API support
+  * TV program (EPG) support in XMLTV and JTV formats
+  * Save channels as favorites
+  * Stream recording
+  * Channel groups
+  * Playlist editor
+  * TV archive / catchup
+  * ...
 
