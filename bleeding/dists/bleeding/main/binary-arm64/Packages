@@ -1,5 +1,5 @@
 Package: clockworkpi-cm4-kernel
-Version: 6.9.5-v8+
+Version: 6.9.9-v8+
 Architecture: arm64
 Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
 Provides: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
@@ -7,10 +7,10 @@ Conflicts: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-r
 Replaces: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.9.5-v8+_arm64.deb
-Size: 45864416
-SHA256: 5e423c4692df6c4c28cff52525cdf13a9bfbe162513cbaa3e9341cc60782d692
-SHA1: cad98eeb8414accd9c9df3d1ed94a681a6f89a2d
-MD5sum: 5908622b03e88a7575f1343671a9ae05
+Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.9.9-v8+_arm64.deb
+Size: 45930872
+SHA256: c9d4dd95a0fec84a4e234779e1556fc65c44e9d08446e4f07a40b13ceceea5bd
+SHA1: 270faaa3a2b531878b8cd2e1704c608b72c90f16
+MD5sum: 5d33483a4cf134032cd12a57aae02f74
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
