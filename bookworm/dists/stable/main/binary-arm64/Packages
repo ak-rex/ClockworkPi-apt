@@ -223,6 +223,112 @@ MD5sum: dcb822e4646e9ef53d8d016657bcd7d1
 Description: 
   A private YouTube client
 
+Package: librtlsdr-dev
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 157
+Depends: librtlsdr0 (= 0.7.0~rtlsdrblog1), libusb-1.0-0-dev
+Homepage: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/librtlsdr-dev_0.7.0~rtlsdrblog1_arm64.deb
+Size: 37096
+SHA256: 754bd30986023a162d23a226fd991963d7bb0b2e256635cc1f5ee20ba612c409
+SHA1: f2ee9820ecab8af022af360ff67298b569d993ab
+MD5sum: 74dae6575e1d44b38ea12a9de47ef93d
+Description: Software defined radio receiver for Realtek RTL2832U (development)
+ rtl-sdr is a software defined radio (SDR) receiver software for certain
+ low-cost DVB-T/DAB(+) USB dongles based on the Realtek RTL2832U chip.
+ .
+ This package contains development files.
+
+Package: librtlsdr0
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 110
+Depends: libc6 (>= 2.17), libusb-1.0-0 (>= 2:1.0.21)
+Multi-Arch: same
+Homepage: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/librtlsdr0_0.7.0~rtlsdrblog1_arm64.deb
+Size: 29400
+SHA256: 2078d19dfd7162fafa25792b5841cb23e0d770b2ccb7228fb0301c68795bccfd
+SHA1: 1adc2762f0de5585c62c20210fac03fb05017a1e
+MD5sum: 817e4940040f33a834ad7b8a17d1b40d
+Description: Software defined radio receiver for Realtek RTL2832U (library)
+ rtl-sdr is a software defined radio (SDR) receiver software for certain
+ low-cost DVB-T/DAB(+) USB dongles based on the Realtek RTL2832U chip.
+ .
+ This package contains the shared library.
+
+Package: librtlsdr0-dbgsym
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 110
+Depends: librtlsdr0 (= 0.7.0~rtlsdrblog1)
+Multi-Arch: same
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/librtlsdr0-dbgsym_0.7.0~rtlsdrblog1_arm64.deb
+Size: 92028
+SHA256: ad386978ff346337e95f7ab7b5c931e952e76bca488d51f64a4bbfbb9e16ab87
+SHA1: a6243ead6899d3ad279d2a7cc97123ca459aaa42
+MD5sum: 701c5552f443b5fd80744e2b729a5c59
+Description: debug symbols for librtlsdr0
+Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
+
+Package: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 574
+Depends: librtlsdr0 (= 0.7.0~rtlsdrblog1), libc6 (>= 2.34)
+Homepage: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/rtl-sdr_0.7.0~rtlsdrblog1_arm64.deb
+Size: 55276
+SHA256: f770b62f4b2c7cdf495a9a5634ebcb09c6d5c0527ee61ddfce2c2b858c827725
+SHA1: 53c9aa4b504bd7f03e912061e456ef5d341f28c0
+MD5sum: f5916be54c1bb53f0b92d6b54d28f9a3
+Description: Software defined radio receiver for Realtek RTL2832U (tools)
+ rtl-sdr is a software defined radio (SDR) receiver software for certain
+ low-cost DVB-T/DAB(+) USB dongles based on the Realtek RTL2832U chip.
+ .
+ This package contains a set of command line utilities:
+  * rtl_adsb: a simple ADS-B decoder for RTL2832 based DVB-T receivers
+  * rtl_eeprom: an EEPROM programming tool for RTL2832 based DVB-T receivers
+  * rtl_fm: a narrow band FM demodulator for RTL2832 based DVB-T receivers
+  * rtl_sdr: an I/Q recorder for RTL2832 based DVB-T receivers
+  * rtl_tcp: an I/Q spectrum server for RTL2832 based DVB-T receivers
+  * rtl_test: a benchmark tool for RTL2832 based DVB-T receivers
+
+Package: rtl-sdr-dbgsym
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 233
+Depends: rtl-sdr (= 0.7.0~rtlsdrblog1)
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/rtl-sdr-dbgsym_0.7.0~rtlsdrblog1_arm64.deb
+Size: 149368
+SHA256: cf73b57b91889d197d44778a2840fd07faceb52cd2afb685f2804e4a7b4711a0
+SHA1: 489657a10f193e64a6c98dc3ccf2201845c4e74f
+MD5sum: 363f28ebf44000804ed5ee81b5360b69
+Description: debug symbols for rtl-sdr
+Build-Ids: 1d86c314ef4dc99e73ef23a0624834e11e3cd8a4 3026e7724fe35e7daf3ac06ab4fef42050738b9d 5b224bec5fca9c6784ab25b4d883fa66808bcd6c 6a4051fd1b0c0369c2481f04723119179fd151e1 9155f7b082ecdf305255f377a833191de275bde9 9a0b626218ed381507cb723324cf9d608058924e b024644b77273a4cde37d567bbedbd35a9fa3d33 bf297a1f7f467855a3187d808798158ebf9fe221
+
 Package: socat
 Version: 1.7.4.4-2
 Architecture: arm64
