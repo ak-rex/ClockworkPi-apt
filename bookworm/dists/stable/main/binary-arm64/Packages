@@ -339,10 +339,10 @@ Depends: librtlsdr0, librtlsdr-dev, cl-fftw3, libglfw3, libvolk2-dev, libzstd-de
 Priority: 0
 Section: utils
 Filename: pool/main/s/sdrpp/sdrpp_1.1.0_arm64.deb
-Size: 1686908
-SHA256: 3202cc8bae09112665952f549b1c472ee30ff087a8ef7213816af1e6d9dc4399
-SHA1: 5fb7a491eb7551670c5592adc30a89f86109a59c
-MD5sum: b04d9ac8c68ed8272f7eff5c339c4215
+Size: 1687060
+SHA256: 2e49f40cb3d6227663ce42859ed7ca6ca7fb3cebdbf1659da6142d8fba48e6d8
+SHA1: 053e213c8cccfd512bc029f77731172a6b73ea5b
+MD5sum: c882960d75205fe5dc72e0d6f0251117
 Description: short description
 	Bloat-free SDR receiver software
 
