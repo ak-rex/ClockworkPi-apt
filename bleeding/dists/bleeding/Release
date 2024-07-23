@@ -1,28 +1,28 @@
 Architectures: arm64 all
 Codename: bleeding
 Components: main
-Date: Tue, 16 Jul 2024 13:06:10 +0000
+Date: Tue, 23 Jul 2024 20:01:13 +0000
 Description: ak-rex's ClockworkPi software/kernel repository
 Label: ak-rex ClockworkPi Github
 Origin: ak-rex
 Suite: bleeding
 MD5Sum:
- 30d7af71a1923ec1053339551f40876d              224 Release
- 0627ea7cc55f63947cbfb23ef8e670a3              809 main/binary-arm64/Packages
- 0b0a2351533f8935c5b2fb2d93104e9a              412 main/binary-arm64/Packages.gz
+ 2869e62ee966832be565a4ecbfcee247              224 Release
+ a0d3a1ad5bfd540c8134e81d9aac8d86              811 main/binary-arm64/Packages
+ f7f55570eaa2c6cd36f849048ad6d57f              413 main/binary-arm64/Packages.gz
  54ded7c1468662c674b63881bbb391f4              163 main/binary-arm64/Release
 SHA1:
- bccda0ff2087c61aa30963fcf3ea611f6f9853fa              224 Release
- 971a7295bc1505465c5ee89b9353cce631c07555              809 main/binary-arm64/Packages
- f169d217cdd0275b8d67d22a5e3f8df42b7bacd9              412 main/binary-arm64/Packages.gz
+ 83ee489d92ac5dd9a42167b695706d05c25797a3              224 Release
+ 47df1388b2bd3b23c5290ab15cf5f34c1155a140              811 main/binary-arm64/Packages
+ 69670bbc102100a86c45eb9b9db39ec834c5dfd6              413 main/binary-arm64/Packages.gz
  0cd9d96245b552fb5a8b6b1a995e92184d1a88df              163 main/binary-arm64/Release
 SHA256:
- 3b326eadc8eabf6c5092e7fa85db94f4425ae8f87da3a2b8d58c267a24c57ebf              224 Release
- 718ab07343b08c765c57f6db14b1052c755e728a66f58ed13a69605d267ab092              809 main/binary-arm64/Packages
- d773140b1db75d686f5830879b52f10f459132250238d337467dda7990ac7163              412 main/binary-arm64/Packages.gz
+ b6e89af63be21b3879ef486addabbfbaf536e5bb501b072adcbb54f362ea5215              224 Release
+ e1203baf0bbc898fc1e0da9c32743638ff61bb620d81e84c8fc87867a57d7bea              811 main/binary-arm64/Packages
+ ee311baafb4388bc176a7363b54a76d9149ddc74b79ee9c4a9c4926f4e3c385c              413 main/binary-arm64/Packages.gz
  3f9aedcca019a3caa2161ee03651cbca0420d6f7b96908b275aa02b61fa650ba              163 main/binary-arm64/Release
 SHA512:
- aa07a25478cb21cbbb00c49ce35d91f415313018e0d48c3cb6f780740edbcd648df84a627c7a8a8529ab0ae9d6f09ae1eb3d280a4e7b4e8f63438ef7fcb56a7f              224 Release
- 60d255895998bfe90138a71a6a81f3f71d1fa21f261a0fac067f6853c87757fed8e2b69e1537dc4a335072c05d5bbf0f233724f4cfcc6bde3a4572e8647a0b05              809 main/binary-arm64/Packages
- cb6fa09f63744851aba16f3fa8f93df2e1d28e8e5024f90bd919ce4331a9e7c383a5f62c1c36d9201a33c8115725de63a3aad0b5f24cf55ce00b1941aeda549b              412 main/binary-arm64/Packages.gz
+ a8ad60f4c3022e0f253f772039b8243ddd9e1970d3f695f81799e59f4f6985b8e890764d7b1e9f062dfb64501c6d253083fd387577d9fed14d38d4c935be25f5              224 Release
+ 716a180f2ebec4fde5e938c64cca84c6e88ec9b3378f2c652726e9e4c710185f4d661d45bdda16138d7c2b0a2b4d2af0f1e105909e02c7278476335ad898faf2              811 main/binary-arm64/Packages
+ 5130df786499dbdabc4cfbd261a5a51f8659158433559093bd13045987cb1f4d3632f5d870661eaf2e484408ab8c3b2c479d3fc52f262a6e1ccecdc885212984              413 main/binary-arm64/Packages.gz
  67542c283dbba70ab5faefd65d43d39f84b785183ab33a2840c02373c0a289bdc5e03b0d6f8348534766b643b319f400913296f5655db19434bf3d55df910fd2              163 main/binary-arm64/Release
