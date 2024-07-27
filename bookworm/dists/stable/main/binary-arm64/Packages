@@ -9,9 +9,9 @@ Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-audio-patch/clockworkpi-audio-patch_0.5_all.deb
 Size: 12852
-SHA256: ee63cb552502e6ca768db86a1b8ee1020935626762f871ab130eb33186c12b22
-SHA1: 18bb952df55a0eb32f409c10b0de6a93d764906e
-MD5sum: e1871b86ec6821843769153fa6952ce2
+SHA256: f236cf378cf10d33c9f2795ed5e2c0660ef3b1f2d17e69d1d5096389c7428184
+SHA1: da867005172af28a483839a622371bad1107c0cf
+MD5sum: d617e91b35e8c19a711b9f41f261319f
 Description: clockworkpi-audio-patch
  clockworkpi-audio-patch provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
