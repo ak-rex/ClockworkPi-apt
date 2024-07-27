@@ -64,17 +64,17 @@ MD5sum: 28dc4fd98ad6c483a7162c72abbb1ced
 Description: RaspberryPi firmware files.
 
 Package: clockworkpi-theme
-Version: 0.12
+Version: 0.13
 Maintainer: clockworkpi-theme <rex@linux.com>
 Architecture: all
 Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.12_all.deb
-Size: 2682180
-SHA256: ac3d6397e0b3d677883fc613441edb13627c90920229a871dbbf3e51bb423386
-SHA1: 4948996c071fff3151604503542e1a6e838866ff
-MD5sum: f3bd91113070c9c39337855ee7199072
+Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.13_all.deb
+Size: 4857924
+SHA256: fc079a3111930e0c3270ebb6c3767edb2bc6bcdbff2c76074ff1a472d78fb5f2
+SHA1: b949468e42585c4230d5705bb40f4de9a7c43f4a
+MD5sum: dfb18a12f88aa9d60e1d4c0b74ed438e
 Description: clockworkpi-theme
  clockworkpi-theme provides wallpapers and boot splash clcokworkpi theme
 
