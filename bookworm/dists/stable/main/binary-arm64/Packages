@@ -411,10 +411,10 @@ Architecture: all
 Priority: 0
 Section: utils
 Filename: pool/main/u/usbimager/usbimager_1.0.8_all.deb
-Size: 143712
-SHA256: cb4713bc18d74162af99242f36f22697a197de73eb32c6e135bab352ecd2cc52
-SHA1: be089ad67c6d5cf21705d09ac3bc55126dc5f555
-MD5sum: 1dc758cc0fc39724eceeb8e8bb86e0b7
+Size: 142496
+SHA256: ba8fc34d8099d8200d44f1b3550456e9a66e4d75e87c880bae90a9c689fb9cc0
+SHA1: 8dc5767ff49451c7a9c90f3884e26a0b289f7ed8
+MD5sum: 4ef2f2aeff6cccecaa2a3451dad19ec1
 Description: usbimager
  USBImager is a really really simple GUI application that writes compressed disk images to USB drives and creates backups.
 
