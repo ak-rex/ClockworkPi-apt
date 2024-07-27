@@ -61,6 +61,21 @@ SHA1: be918d65c4c0bfaed08cf5d9b2883a4d24c43f70
 MD5sum: 28dc4fd98ad6c483a7162c72abbb1ced
 Description: RaspberryPi firmware files.
 
+Package: clockworkpi-theme
+Version: 0.1
+Maintainer: clockworkpi-theme <rex@linux.com>
+Architecture: all
+Replaces: rpd-plym-splash
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.1_all.deb
+Size: 52388
+SHA256: 402a2011e7a2ba0a67ff49f3b50ade6c664d43dc4e99deade1ef443b9d04ab0e
+SHA1: 2c254ad65f858a7dfaca560b4852a8cfbdd4c4ea
+MD5sum: 77d2b7a5f0eb2402fb748c2d9351842d
+Description: clockworkpi-theme
+ clockworkpi-theme provides wallpapers and boot splash clcokworkpi theming
+
 Package: devterm-cavestory-cpi
 Version: 0.1
 Installed-Size: 10876
