@@ -1,17 +1,19 @@
 Package: clockworkpi-audio-patch
-Version: 0.2
+Version: 0.5
 Maintainer: clockworkpi-audio-patch <rex@linux.com>
 Architecture: all
 Depends: python3
+Conflicts: clockworkpi-audio-shutdown
+Replaces: clockworkpi-audio-shutdown
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-audio-patch/clockworkpi-audio-patch_0.2_all.deb
-Size: 12624
-SHA256: 822f0eb7aaac7675de910839ecc91a1fe5176d1f588c4e010be770270f47e1a9
-SHA1: e1a78f6386523567818792b4f550f625113a1af6
-MD5sum: 83fbc88fb1fd5b604dbbd7450c3fd818
+Filename: pool/main/c/clockworkpi-audio-patch/clockworkpi-audio-patch_0.5_all.deb
+Size: 12852
+SHA256: ee63cb552502e6ca768db86a1b8ee1020935626762f871ab130eb33186c12b22
+SHA1: 18bb952df55a0eb32f409c10b0de6a93d764906e
+MD5sum: e1871b86ec6821843769153fa6952ce2
 Description: clockworkpi-audio-patch
- clockworkpi-audio-patch
+ clockworkpi-audio-patch provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
 Package: clockworkpi-audio-shutdown
 Version: 0.2
