@@ -402,6 +402,20 @@ SHA1: 025673c4d44bfb201c3c90328954fd552aff47fa
 MD5sum: eea5b9fd6819474004f41e11aa154e68
 Description: uConsole 4G control script for raspberry pi cm4
 
+Package: usbimager
+Version: 1.0.8
+Maintainer: usbimager <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/u/usbimager/usbimager_1.0.8_all.deb
+Size: 140744
+SHA256: 65dfc44213fb857e58ea19895d85053b35750428d25fdc8813a4ab7c96b66cbb
+SHA1: 1c4af81d54db5265df6d9b7f9f09ba4aae7708e3
+MD5sum: 8dd1e96490473547533b97bae4d3d84f
+Description: usbimager
+ USBImager is a really really simple GUI application that writes compressed disk images to USB drives and creates backups.
+
 Package: wiringpi
 Version: 3.5
 Architecture: arm64
