@@ -1,16 +1,16 @@
 Package: clockworkpi-audio
-Version: 1.0
+Version: 1.1
 Maintainer: clockworkpi-audio <rex@linux.com>
 Architecture: all
 Depends: python3
 Replaces: clockworkpi-audio-shutdown, clockworkpi-audio-patch
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-audio/clockworkpi-audio_1.0_all.deb
+Filename: pool/main/c/clockworkpi-audio/clockworkpi-audio_1.1_all.deb
 Size: 12924
-SHA256: 1e3bc573130445f7fac4c6943e561465a923e4c7b6a587a4d1aeb10724eda84d
-SHA1: cdc6374844b46cbf24a609ccfc5b7e9dff697695
-MD5sum: b220e7b4a05e49bb7ce4d29f258e33ed
+SHA256: b436de6060864baa5edb577821b1ed1f82dd2ef9e38b6eccc90ebeaeec47dd06
+SHA1: a7f95fc4745f8cf084c5adf4c031a36147066672
+MD5sum: 617cfd5b403e7d6bcffb34978fa266a9
 Description: clockworkpi-audio
  clockworkpi-audio provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
@@ -79,18 +79,18 @@ Description: devterm-cavestory-cpi for a06 a04
  devterm-cavestory-cpi for a06 a04
 
 Package: devterm-fan-temp-daemon-cm4
-Version: 0.21
+Version: 0.22
 Maintainer: devterm-fan-temp-daemon-cm4 <rex@linux.com>
 Architecture: arm64
 Depends: python3
 Replaces: devterm-fan-temp-daemon-rpi
 Priority: 0
 Section: utils
-Filename: pool/main/d/devterm-fan-temp-daemon-cm4/devterm-fan-temp-daemon-cm4_0.21_arm64.deb
-Size: 12764
-SHA256: 4140e4ab05673459386f8201d9512100ee49fef1b0e446b72ca40e6c14eaef96
-SHA1: 3787a5bb000f05517eb1cb4a3262978dba7ad9bf
-MD5sum: d95b7bf1d547c0e813caae567227febe
+Filename: pool/main/d/devterm-fan-temp-daemon-cm4/devterm-fan-temp-daemon-cm4_0.22_arm64.deb
+Size: 12776
+SHA256: 987086a23773c150c86b924d5b88af296999bc3525ace95754a25bb2902f1b1a
+SHA1: d5b7b44b7f349d86cdd69840e0b24f5c284a5a0c
+MD5sum: 0bca4d0bfe0bf9428a3d9e77aabbbda1
 Description: devterm fan control script for raspberry pi cm4
 
 Package: devterm-spotify-tui-cpi
