@@ -15,7 +15,7 @@ Description: clockworkpi-audio
  clockworkpi-audio provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
 Package: clockworkpi-cm4-kernel
-Version: 6.6.47-v8+
+Version: 6.6.51-v8+
 Architecture: arm64
 Maintainer: clockworkpi-cm4-kernel <rex@linux.com>
 Provides: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
@@ -23,11 +23,11 @@ Conflicts: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-r
 Replaces: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.47-v8+_arm64.deb
-Size: 45055188
-SHA256: c2de616a3b55914d83177155713d467e25b57c4890e5b0c7d51365a818bdf4dc
-SHA1: 3fa73df0ededec02474fe7926a5b299a9a40a243
-MD5sum: 61befd648c92cca889014772c797414d
+Filename: pool/main/c/clockworkpi-cm4-kernel/clockworkpi-cm4-kernel_6.6.51-v8+_arm64.deb
+Size: 45090152
+SHA256: 6d59b3f3f4cd640b8f11782a477bdac0fe290f17e234a76b868711fbc90339c2
+SHA1: ab0ce72f61fe27deac7bbf75bcdccb7b4738398d
+MD5sum: f25765f31dda422430ebd141f9283d7d
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
 Package: clockworkpi-firmware
@@ -285,6 +285,20 @@ SHA1: a6243ead6899d3ad279d2a7cc97123ca459aaa42
 MD5sum: 701c5552f443b5fd80744e2b729a5c59
 Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
+
+Package: pinctrl
+Version: 1.0
+Maintainer: pinctrl <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/p/pinctrl/pinctrl_1.0_all.deb
+Size: 25460
+SHA256: b043d511403cea0fb8dd66b7ace2d3f1574c4c5bd310928cbdcb9e70a72f8007
+SHA1: 5029e924e2df46b7fc775b9bace698613673f171
+MD5sum: e780186a743c7c3e1e3df72042c39ea5
+Description: pinctrl
+ The pin controller subsystem has a mechanism for enumerating groups of pins and retrieving the actual enumerated pins that are part of a certain group.
 
 Package: rtl-sdr
 Version: 0.7.0~rtlsdrblog1
