@@ -205,22 +205,22 @@ Description: "No Tofu" font families with large Unicode coverage (CJK regular an
  This package contains regular and bold fonts.
 
 Package: freetube
-Version: 0.21.3
+Version: 0.22.0
 License: AGPL-3.0-or-later
 Vendor: PrestonN <FreeTubeApp@protonmail.com>
 Architecture: arm64
 Maintainer: PrestonN <FreeTubeApp@protonmail.com>
-Installed-Size: 273714
+Installed-Size: 279366
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
 Homepage: https://github.com/FreeTubeApp/FreeTube#readme
 Priority: 0
 Section: utils
-Filename: pool/main/f/freetube/freetube_0.21.3_arm64.deb
-Size: 70995730
-SHA256: 255eae1ad5603e718a50e6b08be1e33dfef63b6d2efc9dfe1141d56a87c3effc
-SHA1: 99cdd5e8d3578f41b380e000efdf8979703b68e3
-MD5sum: 606ee5f53e176acbb922459e9d507f2b
+Filename: pool/main/f/freetube/freetube_0.22.0_arm64.deb
+Size: 72542808
+SHA256: 7f266e5c0e419cac7cd36857eaaf247e7eb053bdaa0f7846bbf9d395e1e02bd9
+SHA1: 5879f6c0bf9b35580beb65ce05e7351b254eb43b
+MD5sum: e5cf3c5ce3bdbfc52db08fc073accb98
 Description: 
   A private YouTube client
 
