@@ -57,10 +57,10 @@ Replaces: linux-image, linux-image-rpi-v8, raspberrypi-kernel, devterm-kernel-rp
 Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-cm5-kernel/clockworkpi-cm5-kernel_6.6.64-v8-16k+_arm64.deb
-Size: 45702148
-SHA256: 5cda7b9fabe28aeeb00c3db7c2957f523dffb10f3e39f67280c49aa534eab081
-SHA1: 4512600d9d2e3426a6e154be22fe5798bf3ce585
-MD5sum: 23f226274a2f79bdc2328efc95e27faf
+Size: 45703752
+SHA256: a71b9e2fd1e36378090be137577357ffb2d84c2afe37598c031ed820b67cfd8b
+SHA1: 3b736824d47cd5988f8c0c8eaf61abf4e96910b1
+MD5sum: 0b909f2ca76c020106d3d064a9477f85
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
 Package: clockworkpi-firmware
