@@ -41,10 +41,10 @@ Replaces: raspi-firmware
 Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-firmware/clockworkpi-firmware_0.2_arm64.deb
-Size: 4539564
-SHA256: 980c69d636ec781f68da364cab5f2860c98b8668a194d7a6e6216889ad0a9e3e
-SHA1: 8fc71f19887582753c9b6d355f1b48048aac059a
-MD5sum: 170aeeb5a24ee2f55b8d556d9fd9fb14
+Size: 4553020
+SHA256: cbdd553dc883f5819ac3fa97023e518df7e5e56abd4e60978c379bfa0957ed3e
+SHA1: 43dd061c13a9f3a69cb816eed1bd161a6bdca5d4
+MD5sum: 25f8adf1a83f61e848584d4cc210b641
 Description: RaspberryPi firmware files.
 
 Package: clockworkpi-kernel
