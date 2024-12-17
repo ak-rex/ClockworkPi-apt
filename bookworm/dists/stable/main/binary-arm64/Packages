@@ -30,21 +30,38 @@ SHA1: b20b99501c784b63847f420cd0a7845278c5fa04
 MD5sum: d81fed7e27ddfe6171c53b4dffab20ab
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
-Package: clockworkpi-kernel
+Package: clockworkpi-cm5-kernel
 Version: 6.6.66-v8-16k+
 Architecture: arm64
-Maintainer: clockworkpi-kernel <rex@linux.com>
+Maintainer: clockworkpi-cm5-kernel <rex@linux.com>
 Provides: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi, clockworkpi-cm4-kernel
 Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi, clockworkpi-cm4-kernel
 Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, devterm-kernel-rpi, devterm-kernel-cm4-rpi, clockworkpi-cm4-kernel
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.6.66-v8-16k+_arm64.deb
-Size: 90698004
-SHA256: 18ba59241dea6b1ffc7075b4d286c678765e19a552b4c87c47ee025fd6bd9422
-SHA1: cba0237ea5ef547e142d6aea03f5a781563d67d5
-MD5sum: 853d2b6ee79597d30a584f7e105a0f45
+Filename: pool/main/c/clockworkpi-cm5-kernel/clockworkpi-cm5-kernel_6.6.66-v8-16k+_arm64.deb
+Size: 45716808
+SHA256: 71160a822a0b3518ac229768e709a899e090871c89ef0d996fc85dbb1e3246ab
+SHA1: 77064d116cb47059ff374a89c9eac899c08ea0ab
+MD5sum: b493399f6daa500ea1ce2660156141a1
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
+
+Package: clockworkpi-firmware
+Version: 0.2
+Maintainer: clockworkpi-firmware <rex@linux.com>
+Architecture: arm64
+Depends: clockworkpi-kernel
+Provides: raspi-firmware
+Conflicts: raspi-firmware
+Replaces: raspi-firmware
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-firmware/clockworkpi-firmware_0.2_arm64.deb
+Size: 4552456
+SHA256: 829f316e5275b47f6484e5593e58db737765fad546382a733817c29718880f17
+SHA1: 935e1635d5ef985b2d76c447086f712c26432f0c
+MD5sum: 4e698f35cc15024a2df458ab63213445
+Description: RaspberryPi firmware files.
 
 Package: clockworkpi-theme
 Version: 0.14
