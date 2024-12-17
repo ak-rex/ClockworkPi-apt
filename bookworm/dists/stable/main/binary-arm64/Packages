@@ -30,23 +30,6 @@ SHA1: b20b99501c784b63847f420cd0a7845278c5fa04
 MD5sum: d81fed7e27ddfe6171c53b4dffab20ab
 Description:  This kernel includes the patches for ClockworkPi CM4 devices.
 
-Package: clockworkpi-firmware
-Version: 0.2
-Maintainer: clockworkpi-firmware <rex@linux.com>
-Architecture: arm64
-Depends: clockworkpi-kernel
-Provides: raspi-firmware
-Conflicts: raspi-firmware
-Replaces: raspi-firmware
-Priority: 0
-Section: utils
-Filename: pool/main/c/clockworkpi-firmware/clockworkpi-firmware_0.2_arm64.deb
-Size: 4553020
-SHA256: cbdd553dc883f5819ac3fa97023e518df7e5e56abd4e60978c379bfa0957ed3e
-SHA1: 43dd061c13a9f3a69cb816eed1bd161a6bdca5d4
-MD5sum: 25f8adf1a83f61e848584d4cc210b641
-Description: RaspberryPi firmware files.
-
 Package: clockworkpi-kernel
 Version: 6.6.66-v8-16k+
 Architecture: arm64
