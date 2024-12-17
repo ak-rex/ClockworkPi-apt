@@ -34,17 +34,17 @@ Package: clockworkpi-cm5-firmware
 Version: 0.2
 Maintainer: clockworkpi-cm5-firmware <rex@linux.com>
 Architecture: arm64
-Depends: clockworkpi-kernel
+Depends: clockworkpi-cm5-kernel
 Provides: raspi-firmware
 Conflicts: raspi-firmware
 Replaces: raspi-firmware
 Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-cm5-firmware/clockworkpi-cm5-firmware_0.2_arm64.deb
-Size: 4552240
-SHA256: 693f355f828d38fd5ce23684497621c019e111b352bb1ca8b41cc8c68ea435b1
-SHA1: 3f6496b6ad4d573c6f427cb34afa1251e6061ea1
-MD5sum: 50f0a06e7d1aa555412617775f59a4e7
+Size: 4553200
+SHA256: 25c9fc20d82ac0ffe221f89eea81e369470989f22c4bf8de51a2bdb7f763662e
+SHA1: cf93fbe91e9974fc05ca8383803e7fd507f692e1
+MD5sum: 46d87e21d14c5436e833d0288e334d81
 Description: RaspberryPi firmware files.
 
 Package: clockworkpi-cm5-kernel
