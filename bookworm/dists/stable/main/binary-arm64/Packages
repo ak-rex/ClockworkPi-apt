@@ -15,20 +15,19 @@ Description: clockworkpi-audio
  clockworkpi-audio provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
 Package: clockworkpi-cm-firmware
-Version: 0.2
+Version: 0.21
 Maintainer: clockworkpi-cm-firmware <rex@linux.com>
 Architecture: arm64
-Depends: clockworkpi-kernel
 Provides: raspi-firmware
 Conflicts: raspi-firmware
 Replaces: raspi-firmware
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-cm-firmware/clockworkpi-cm-firmware_0.2_arm64.deb
-Size: 4559380
-SHA256: 5d93642b39032094da4d069f8c8bf79124a0386ea85d11b0b24d6ec40395d9ba
-SHA1: 7ee0742ede5e4cf16aaf404151106592e4519a53
-MD5sum: 1b7e650848e754feb8a11e190c769c0f
+Filename: pool/main/c/clockworkpi-cm-firmware/clockworkpi-cm-firmware_0.21_arm64.deb
+Size: 4556100
+SHA256: 8bfbcd11363e59d3c84a45324d288c62c02afdb7dafd2012383912c5be0746bf
+SHA1: f79f8f5fa4afcb90e84b413dcae8d7faf8dd61c7
+MD5sum: 5c257585c053aea19387be81cb396194
 Description: RaspberryPi firmware files.
 
 Package: clockworkpi-kernel
