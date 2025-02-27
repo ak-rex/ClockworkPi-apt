@@ -1,19 +1,3 @@
-Package: clockworkpi-cm-firmware
-Version: 0.2
-Maintainer: clockworkpi-cm-firmware <rex@linux.com>
-Architecture: arm64
-Provides: raspi-firmware
-Conflicts: raspi-firmware
-Replaces: raspi-firmware
-Priority: 0
-Section: utils
-Filename: pool/main/c/clockworkpi-cm-firmware/clockworkpi-cm-firmware_0.2_arm64.deb
-Size: 4555156
-SHA256: 365055f782c2433b48e3424f25f0302d0854d84db678e2f4b9661fcc87c293e1
-SHA1: 050755f35b763f549b54d678c897445bef6002ef
-MD5sum: 908d314e6044979ea5ffeabe01504fdd
-Description: RaspberryPi firmware files.
-
 Package: clockworkpi-kernel
 Version: 6.12.16-v8-16k+
 Architecture: arm64
