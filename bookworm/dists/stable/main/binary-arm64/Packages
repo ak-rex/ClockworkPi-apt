@@ -21,10 +21,10 @@ Architecture: all
 Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-backlight/clockworkpi-backlight_1.0_all.deb
-Size: 960
-SHA256: 34cb9ff64cfcb8cb3681bee84884c7d04fae7bc93142a464d2d1d9e8ba5cb31e
-SHA1: cd64ec726514ea3280e4141ea4ff17bc6f287a50
-MD5sum: 83ee41f699adeb91ed51e1cc5c41c843
+Size: 964
+SHA256: 20d2202707a02fb563484df63d315cb817f11f6c738edacbbf62be2898dae504
+SHA1: 88f289f13aab03a4197c504799c7230db5cd37e1
+MD5sum: 961c9c985b27363d8641b7e4e251700f
 Description: clockworkpi-backlight
  clockworkpi-backlight turns the panel backlight on if the driver failed to do so.
 
