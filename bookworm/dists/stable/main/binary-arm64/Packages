@@ -54,10 +54,10 @@ Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-ker
 Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.22-v8-16k+_arm64.deb
-Size: 93660808
-SHA256: ae17a6d258b1add649c8410cdeda219589afe9c3aaa21c3adf0391cde3de933d
-SHA1: 42601301fc64b5bf57efd7f7b9ee988fb8f65cf3
-MD5sum: 952f5a9da23734723a950c3932238c33
+Size: 93765028
+SHA256: edf171be7e272148e1124f374fb7374023839d25a50765b49c8a8a8dca20f262
+SHA1: 2ef077210495e066bc6037b82b16c1f89f480bf1
+MD5sum: d5486295f6f66f384c4afefb289b0e0d
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: clockworkpi-theme
