@@ -217,6 +217,32 @@ Description: "No Tofu" font families with large Unicode coverage (CJK regular an
  .
  This package contains regular and bold fonts.
 
+Package: freeglut3
+Source: freeglut
+Version: 2.8.1-3
+Architecture: arm64
+Maintainer: Anton Gladky <gladk@debian.org>
+Installed-Size: 332
+Depends: libc6 (>= 2.17), libgl1-mesa-glx | libgl1, libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxxf86vm1
+Multi-Arch: same
+Homepage: http://freeglut.sourceforge.net/
+Priority: 0
+Section: utils
+Filename: pool/main/f/freeglut/freeglut3_2.8.1-3_arm64.deb
+Size: 113970
+SHA256: 518f8f25ea0f968f926e384e51a3334c76285d30e03f884aa133eadf5c24e3b2
+SHA1: e40e5c063338207eeaa1ebe6807297373c6b9b14
+MD5sum: 44167606cb6696fedcb29c63ca08ad0f
+Description: OpenGL Utility Toolkit
+ GLUT is a window system independent toolkit for writing OpenGL programs,
+ implementing a simple windowing API, which makes learning about and
+ exploring OpenGL programming very easy.
+ .
+ GLUT is designed for constructing small to medium sized OpenGL programs,
+ however it is not a full-featured toolkit, so large applications requiring
+ sophisticated user interfaces are better off using native window system
+ toolkits like GTK+ or Motif.
+
 Package: freetube
 Version: 0.22.0
 License: AGPL-3.0-or-later
