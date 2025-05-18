@@ -263,6 +263,20 @@ MD5sum: e5cf3c5ce3bdbfc52db08fc073accb98
 Description: 
   A private YouTube client
 
+Package: hackergadgets-meshtasticd
+Version: 0.10
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/h/hackergadgets-meshtasticd/hackergadgets-meshtasticd_0.10_all.deb
+Size: 14128
+SHA256: 0b9e36bfceefaf6337d31e2bfbf7b14e526e374a6fa46a0c3389d1ddda21072c
+SHA1: 0ab79526480e8304ae73357cd31eb8ced78fadd5
+MD5sum: 3030ad4242ad7790aa0b83eda2e1f645
+Description: hackergadgets-meshtasticd
+ This package installs and configures Meshtastic for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+
 Package: librtlsdr-dev
 Source: rtl-sdr
 Version: 0.7.0~rtlsdrblog1
