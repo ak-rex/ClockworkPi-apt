@@ -271,10 +271,10 @@ Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi
 Priority: 0
 Section: utils
 Filename: pool/main/h/hackergadgets-meshtasticd/hackergadgets-meshtasticd_0.12_all.deb
-Size: 14112
-SHA256: f203861240a14e0d9dbfa260b2844468efdbf111c353b84967a002bbbb337ce7
-SHA1: be74c25772e45aa898a9d4d8805b1e160deae11c
-MD5sum: f9bc669953640f311e40d73b53927335
+Size: 14108
+SHA256: f2c871765883d2374a03ecff59e2459250af6ab71a8c444f8708fa7533048b82
+SHA1: 2927a7e6ccc3ceede987a52da51ccb8c00ee8188
+MD5sum: 09c874f83ca8677b402e8f66010800f2
 Description: hackergadgets-meshtasticd
  This package installs and configures Meshtastic for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
