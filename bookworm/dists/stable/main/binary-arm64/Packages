@@ -264,17 +264,17 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-meshtasticd
-Version: 0.11
+Version: 0.12
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
 Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, meshtasticd
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-meshtasticd/hackergadgets-meshtasticd_0.11_all.deb
+Filename: pool/main/h/hackergadgets-meshtasticd/hackergadgets-meshtasticd_0.12_all.deb
 Size: 14112
-SHA256: bafe304526e488328a482e3738d0f115a8059b8b79c5331e14de94ff19280f55
-SHA1: aee2c99b55b6f238e2e3fa3d3093d52395a1bca0
-MD5sum: 93a2541c29d213a28282e44f6117e70d
+SHA256: f203861240a14e0d9dbfa260b2844468efdbf111c353b84967a002bbbb337ce7
+SHA1: be74c25772e45aa898a9d4d8805b1e160deae11c
+MD5sum: f9bc669953640f311e40d73b53927335
 Description: hackergadgets-meshtasticd
  This package installs and configures Meshtastic for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
