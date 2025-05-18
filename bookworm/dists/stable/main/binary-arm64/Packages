@@ -325,6 +325,24 @@ MD5sum: 701c5552f443b5fd80744e2b729a5c59
 Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
 
+Package: meshtasticd
+Version: 2.6.4.16~obsb89355f~beta
+Architecture: arm64
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Installed-Size: 48539
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgpiod2 (>= 1.1), libi2c0 (>= 4.0), liborcania2.3 (>= 2.1.0), libssl3 (>= 3.0.0), libstdc++6 (>= 11), libulfius2.7 (>= 2.7.0), libusb-1.0-0 (>= 2:1.0.22), libuv1 (>= 1.4.2), libyaml-cpp0.7 (>= 0.7.0)
+Homepage: https://github.com/meshtastic/firmware
+Priority: 0
+Section: utils
+Filename: pool/main/m/meshtasticd/meshtasticd_2.6.4.16~obsb89355f~beta_arm64.deb
+Size: 28938112
+SHA256: d2d96a1f3f8c687e879eb85c231b9f411f8f9f3442cc7ac80eee424242d139a8
+SHA1: a934c9b1e4a365bbd93e4ae4e8d1cdaeb017fb99
+MD5sum: b113d2896fc83c6cb353470d9e8fb59b
+Description: Meshtastic daemon for communicating with Meshtastic devices
+ Meshtastic is an off-grid text communication platform that uses inexpensive
+ LoRa radios.
+
 Package: pinctrl
 Version: 1.0
 Maintainer: pinctrl <rex@linux.com>
