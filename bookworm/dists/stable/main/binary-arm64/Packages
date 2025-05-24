@@ -45,19 +45,19 @@ MD5sum: 5c257585c053aea19387be81cb396194
 Description: RaspberryPi firmware files.
 
 Package: clockworkpi-kernel
-Version: 6.12.28-v8-16k+
+Version: 6.12.30-v8-16k+
 Architecture: arm64
 Maintainer: clockworkpi-kernel <rex@linux.com>
-Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.28+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.28+rpt-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel, wireguard-modules (= 1.0.0)
+Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.30+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.30+rpt-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel, wireguard-modules (= 1.0.0)
 Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
 Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.28-v8-16k+_arm64.deb
-Size: 94632352
-SHA256: a5749efd0598052f6c00c65ddbff49a048ea725685cdcc07d4361fafbd4cada0
-SHA1: 23c42288e840c2758a24597376bf620ebe03c96f
-MD5sum: 251bde5af63838229b6e5d8f0979efa1
+Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.30-v8-16k+_arm64.deb
+Size: 94616596
+SHA256: 13e5aeab292fad482cd23bf274876bed37ec326f80963e0a5312f21da2c0f5db
+SHA1: 59c6c2a8a5ee2c5731f70976b49239ca1c8a71a9
+MD5sum: b4be6d5fb6bcbe023f170be549cec8ac
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: clockworkpi-theme
