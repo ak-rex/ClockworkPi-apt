@@ -272,9 +272,9 @@ Priority: 0
 Section: utils
 Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.15_all.deb
 Size: 89464
-SHA256: 4f6f4a04b43ed37384e82ac39d861818189b1df107aeab5a7d0c0c5ab686768c
-SHA1: 00a7cd2cd7491c253092ab2ee8d09742cac58127
-MD5sum: 3ef60423656fe52b20d71783f30aeae8
+SHA256: 25c8bb7fbfcdafa5065bfbe56e733050c09572058249e5fc7de925a0fcdb8af6
+SHA1: 29d79472b33390c844cf6ad2837989c3089f167c
+MD5sum: f82a772ba7546399b9816bf411dcd922
 Description: hackergadgets-uconsole-aio-board
  This package installs and configures SDR++, Meshtastic, and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
