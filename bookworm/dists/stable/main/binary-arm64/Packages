@@ -264,19 +264,19 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-uconsole-aio-board
-Version: 1.11
+Version: 1.13
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
-Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, rtl-sdr, meshtasticd, sdrpp, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, rtl-sdr, meshtasticd, sdrpp, lighttpd, jq
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.11_all.deb
-Size: 85656
-SHA256: 5ffd7d9588d43dd677becbb50ac83d330cdbfa081a7a4fa5c07e4c4cb138a84b
-SHA1: cda5b2436f6d2bacb51b35138029978eb30ad662
-MD5sum: 8c0209ceb5e0e899c2d3fdca25e1f706
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.13_all.deb
+Size: 163780
+SHA256: d1379ef60c0ebd5d8dff0259a2dd9b21c2fb273d8288b541f9f63c0e289421be
+SHA1: 5b1e68f52e7b7d5431455881278e0539fe8e7936
+MD5sum: e0e8959c2881607dc97b6ef61148e926
 Description: hackergadgets-uconsole-aio-board
- This package installs and configures SDR++, Meshtastic for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+ This package installs and configures SDR++, Meshtastic, and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
 Package: librtlsdr-dev
 Source: rtl-sdr
