@@ -444,10 +444,10 @@ Replaces: sdrpp
 Priority: 0
 Section: utils
 Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1_arm64.deb
-Size: 6037596
-SHA256: fd7649a0aea72e526697c9c73dec5943bdd6a0cb3084063da97e5a394dd3b8f6
-SHA1: 9bd322e7b0ae57c34ab00a3ad754bd6da199e1e3
-MD5sum: 829bb51b0b5687aacf4844fffd5f4320
+Size: 6041084
+SHA256: def056a1c5b56e6ddf50b75e0adf6778a9315537142c07d3bc2060384d295896
+SHA1: d2ddb1a8fb68d11cf166d290432a59ad15276fa4
+MD5sum: cc9d7df5ac3fcbfaa36b14a3c96cb06b
 Description: short description
 	Bloat-free SDR receiver software
 
