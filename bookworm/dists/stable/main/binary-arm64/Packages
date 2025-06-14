@@ -441,14 +441,14 @@ Version: 1.2.1
 Standards-Version: 1.2.1
 Architecture: arm64
 Depends: librtlsdr0, librtlsdr-dev, cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev, libairspy-dev, librtaudio-dev, libhackrf-dev, libiio-dev, libad9361-dev, libsoapysdr-dev, rtl-sdr
-Replaces: sdrpp
+Conflicts: sdrpp
 Priority: 0
 Section: utils
 Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1_arm64.deb
-Size: 6041084
-SHA256: def056a1c5b56e6ddf50b75e0adf6778a9315537142c07d3bc2060384d295896
-SHA1: d2ddb1a8fb68d11cf166d290432a59ad15276fa4
-MD5sum: cc9d7df5ac3fcbfaa36b14a3c96cb06b
+Size: 6037468
+SHA256: 9edeae35f11fe49c715adec0c56d700862fe144105b5039a3799fac3e71bef77
+SHA1: 42bc7b76c1e2a29ebc663bf26e4b7ecdbe88adc0
+MD5sum: 838576220418ca31067532e0b79e18e8
 Description: short description
 	Bloat-free SDR receiver software
 
