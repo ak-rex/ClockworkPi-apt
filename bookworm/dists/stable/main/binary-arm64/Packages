@@ -433,6 +433,24 @@ MD5sum: c882960d75205fe5dc72e0d6f0251117
 Description: short description
 	Bloat-free SDR receiver software
 
+Package: sdrpp-brown
+Source: sdrpp-brown
+Maintainer: ak-rex <ak-rex>
+Version: 1.2.1
+Standards-Version: 1.2.1
+Architecture: arm64
+Depends: librtlsdr0, librtlsdr-dev, cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev, libairspy-dev, librtaudio-dev, libhackrf-dev, libiio-dev, libad9361-dev, libsoapysdr-dev, rtl-sdr
+Replaces: sdrpp
+Priority: 0
+Section: utils
+Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1_arm64.deb
+Size: 6037596
+SHA256: fd7649a0aea72e526697c9c73dec5943bdd6a0cb3084063da97e5a394dd3b8f6
+SHA1: 9bd322e7b0ae57c34ab00a3ad754bd6da199e1e3
+MD5sum: 829bb51b0b5687aacf4844fffd5f4320
+Description: short description
+	Bloat-free SDR receiver software
+
 Package: socat
 Version: 1.7.4.4-2
 Architecture: arm64
