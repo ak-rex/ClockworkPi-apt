@@ -264,19 +264,20 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-uconsole-aio-board
-Version: 1.27
+Version: 1.28
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
-Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, rtl-sdr, meshtasticd, sdrpp, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, rtl-sdr, meshtasticd, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Recommends: sdrpp
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.27_all.deb
-Size: 80840
-SHA256: d9866c88f0876dc219cf7dc2118f3056e6a24bbbf946ea0b3b7c476e3c6583d8
-SHA1: 8c7b4640dc8f6bb0e5fe5e507aa296df4cb3f30f
-MD5sum: 91e733e45183493bde90215ee7a97893
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.28_all.deb
+Size: 31904424
+SHA256: 7e8ff277139bc2c3d8eccd009ee58955f6185476d5bdec39035b569e5679367f
+SHA1: 83e2f0acfa4347a9350cbe6670a595575663a795
+MD5sum: 36295af23ba1bd15afbd53795cb38320
 Description: hackergadgets-uconsole-aio-board
- This package installs and configures SDR++, Meshtastic, and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+ This package installs and configures SDR++, Meshtastic, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
 Package: librtlsdr-dev
 Source: rtl-sdr
