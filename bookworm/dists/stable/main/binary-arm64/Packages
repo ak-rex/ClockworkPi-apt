@@ -248,18 +248,18 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-uconsole-aio-board
-Version: 1.30
+Version: 1.31
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
 Depends: rtl-sdr
 Recommends: sdrpp-brown, tar1090, pygpsclient, meshtastic-mui
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.30_all.deb
-Size: 2384
-SHA256: e74b7e62e5fa3b4994b634bdcf58141c4aaab607b5606bfe31d5df6ee778c5b8
-SHA1: 4bb2bd0a7428068d1e060bae222f65e053c6a888
-MD5sum: 686c759e163f303748139e3ea7f1caee
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.31_all.deb
+Size: 876
+SHA256: 5da781e7417c936055581c975b2f81ce2d82511c9eaecdeb5887c604dee144c9
+SHA1: ca8dfe8a94ac9e7008f795a8613864df706c30eb
+MD5sum: 36664facf2c42890fd5d7de33f25e848
 Description: hackergadgets-uconsole-aio-board
  This package helps install and configures SDR++ Brown, Meshtastic, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
@@ -459,10 +459,10 @@ Conflicts: sdrpp
 Priority: 0
 Section: utils
 Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1_arm64.deb
-Size: 6037468
-SHA256: 9edeae35f11fe49c715adec0c56d700862fe144105b5039a3799fac3e71bef77
-SHA1: 42bc7b76c1e2a29ebc663bf26e4b7ecdbe88adc0
-MD5sum: 838576220418ca31067532e0b79e18e8
+Size: 6041712
+SHA256: a3e1be1081eae98e87a2b23caba87924ad3ba4f574790bc587af4336bba5ec87
+SHA1: ba4aa4ac2b253f01941807f937400aa6ca4effef
+MD5sum: b5d7d827de3473f8a7e141c4a7117b15
 Description: short description
 	Bloat-free SDR receiver software
 
