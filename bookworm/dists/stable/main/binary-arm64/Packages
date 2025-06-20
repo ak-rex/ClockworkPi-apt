@@ -248,20 +248,20 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-uconsole-aio-board
-Version: 1.28
+Version: 1.30
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
-Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, rtl-sdr, meshtasticd, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
-Recommends: sdrpp
+Depends: rtl-sdr
+Recommends: sdrpp-brown, tar1090, pygpsclient, meshtastic-mui
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.28_all.deb
-Size: 31904380
-SHA256: fdcb1e3fa6b41fe3a40b8981aeda60151566e67d4544c4308f5fe5abc4cc9459
-SHA1: 95b49f3779d160aec961b913b2f67fc9e268c0bc
-MD5sum: 6cbea63f9d5dd6b59259453c8ab63a0a
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.30_all.deb
+Size: 2384
+SHA256: e74b7e62e5fa3b4994b634bdcf58141c4aaab607b5606bfe31d5df6ee778c5b8
+SHA1: 4bb2bd0a7428068d1e060bae222f65e053c6a888
+MD5sum: 686c759e163f303748139e3ea7f1caee
 Description: hackergadgets-uconsole-aio-board
- This package installs and configures SDR++, Meshtastic, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+ This package helps install and configures SDR++ Brown, Meshtastic, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
 Package: librtlsdr-dev
 Source: rtl-sdr
@@ -324,6 +324,21 @@ SHA1: a6243ead6899d3ad279d2a7cc97123ca459aaa42
 MD5sum: 701c5552f443b5fd80744e2b729a5c59
 Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
+
+Package: meshtastic-mui
+Version: 1.0
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, meshtasticd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Priority: 0
+Section: utils
+Filename: pool/main/m/meshtastic-mui/meshtastic-mui_1.0_all.deb
+Size: 31841844
+SHA256: 5c02e8febb5d76dda0deda443aa807645812b5459ff4a1425de3b7248fc68c8d
+SHA1: d7e6085fd016a2a50f6f300d5e32dd922dac407d
+MD5sum: 82ab1a8de0342f56cdbe85e7c15889d5
+Description: meshtastic-mui
+ This package installs and configures meshtasticd and meshtastic-mui for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
 Package: meshtasticd
 Version: 2.6.4.16~obsb89355f~beta
