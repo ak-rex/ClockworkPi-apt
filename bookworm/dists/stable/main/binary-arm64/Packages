@@ -357,6 +357,21 @@ MD5sum: e780186a743c7c3e1e3df72042c39ea5
 Description: pinctrl
  The pin controller subsystem has a mechanism for enumerating groups of pins and retrieving the actual enumerated pins that are part of a certain group.
 
+Package: pygpsclient
+Version: 1.28
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Priority: 0
+Section: utils
+Filename: pool/main/p/pygpsclient/pygpsclient_1.28_all.deb
+Size: 57896
+SHA256: cca3f9ee633ad54ec6317dfbcc2c56a5ca64f0e9afce89f06933e9fb7ce8500f
+SHA1: c438098396cf6d9503af98b7a4418b4c51256520
+MD5sum: 7cfa015ed78597be130a3263b5c88abf
+Description: pygpsclient
+ This package installs and configures PYGPSClient for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+
 Package: rtl-sdr
 Version: 0.7.0~rtlsdrblog1
 Architecture: arm64
@@ -463,6 +478,21 @@ Description: multipurpose relay for bidirectional data transfer
  TCP-oriented programs to a serial line, or to establish a relatively
  secure environment (su and chroot) for running client or server shell
  scripts inside network connections. Socat supports sctp as of 1.7.0.
+
+Package: tar1090
+Version: 1.0
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, rtl-sdr, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Priority: 0
+Section: utils
+Filename: pool/main/t/tar1090/tar1090_1.0_all.deb
+Size: 9560
+SHA256: b49b4371daa00050947a0e3d33630544845360dcff43be8f6e4418dfd2b61c4f
+SHA1: 2869b9880d182d2c506b3c8dc32d6554c6e34c9e
+MD5sum: a632d0f2cf75666b5bd2a0ca981532df
+Description: tar1090
+ This package installs and configures tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
 Package: uconsole-4g
 Version: 0.21
