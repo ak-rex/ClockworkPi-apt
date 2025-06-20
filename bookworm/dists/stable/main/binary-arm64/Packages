@@ -380,10 +380,10 @@ Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi
 Priority: 0
 Section: utils
 Filename: pool/main/p/pygpsclient/pygpsclient_1.5_all.deb
-Size: 57944
-SHA256: 234dc515f2cd63d7a95d7c54b272a08efb8034a7eb8622fadb0a19b236f4a544
-SHA1: d28d40efd0026f8e42e803139666249d1670e9cb
-MD5sum: 9354e7408acf789361e100baffeda28b
+Size: 57952
+SHA256: 36f9f6cc8ba0d29072736d8feea0e7b6e44c0d4f707cb97d112cbe24b9abd48f
+SHA1: 7533799a2c793622ba41ffc6969cc91c86733c34
+MD5sum: 2cd2696521a525fa237c170d0eecd6bc
 Description: pygpsclient
  This package installs and configures PYGPSClient for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
