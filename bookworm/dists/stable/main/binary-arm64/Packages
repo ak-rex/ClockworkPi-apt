@@ -482,6 +482,20 @@ MD5sum: b5d7d827de3473f8a7e141c4a7117b15
 Description: short description
 	Bloat-free SDR receiver software
 
+Package: sdrtrunk
+Version: 0.6.1
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/s/sdrtrunk/sdrtrunk_0.6.1_all.deb
+Size: 73917652
+SHA256: 4af293e75b931d27de881d22bf7b0ca4f28b7d7f53e88d0466be8118c318ccf3
+SHA1: f6ab3f3dfbda234d36afa74aadca1b555473194d
+MD5sum: b05ca93da73c2402793442b59b4f6a05
+Description: sdrtrunk
+ A cross-platform java application for decoding, monitoring, recording and streaming trunked mobile and related radio protocols using Software Defined Radios (SDR).
+
 Package: socat
 Version: 1.7.4.4-2
 Architecture: arm64
