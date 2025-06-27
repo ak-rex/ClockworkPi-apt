@@ -388,6 +388,22 @@ MD5sum: e780186a743c7c3e1e3df72042c39ea5
 Description: pinctrl
  The pin controller subsystem has a mechanism for enumerating groups of pins and retrieving the actual enumerated pins that are part of a certain group.
 
+Package: piwiz-freqos
+Version: 0.91
+Architecture: arm64
+Maintainer: rex <rex@linux.com>
+Installed-Size: 522
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, alsa-utils, userconf-pi
+Priority: 0
+Section: utils
+Filename: pool/main/p/piwiz-freqos/piwiz-freqos_0.91_arm64.deb
+Size: 184120
+SHA256: 12927817af2c90428051c352f8be9cf7799a8de47c085f26d69766b68615931d
+SHA1: 66410a3cbc7b82d63d7737e790e17f971c8a33a5
+MD5sum: e0ccdfbc2f8a16edcbbd9f5278a89b8c
+Description: FreqOS first-run wizard
+ Wizard which performs initial configuration of FreqOS system settings
+
 Package: pygpsclient
 Version: 1.5
 Maintainer: ak-rex <rex@linux.com>
