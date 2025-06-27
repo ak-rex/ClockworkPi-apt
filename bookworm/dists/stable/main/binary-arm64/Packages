@@ -397,10 +397,10 @@ Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0
 Priority: 0
 Section: utils
 Filename: pool/main/p/piwiz-freqos/piwiz-freqos_0.91_arm64.deb
-Size: 184120
-SHA256: 12927817af2c90428051c352f8be9cf7799a8de47c085f26d69766b68615931d
-SHA1: 66410a3cbc7b82d63d7737e790e17f971c8a33a5
-MD5sum: e0ccdfbc2f8a16edcbbd9f5278a89b8c
+Size: 184448
+SHA256: b115e5a9db082c3624d7623ca8d1768f3961af021970d1355e0a0e7741c0f56c
+SHA1: f7b6340878ff66393a1355cb4bc80ec22c804086
+MD5sum: ea41934ce2e0f2c76de302cd4eafe141
 Description: FreqOS first-run wizard
  Wizard which performs initial configuration of FreqOS system settings
 
