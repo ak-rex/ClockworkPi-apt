@@ -264,18 +264,18 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-uconsole-aio-board
-Version: 1.32
+Version: 1.33
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
 Depends: rtl-sdr
 Recommends: sdrpp-brown, tar1090, pygpsclient, meshtastic-mui, minicom
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.32_all.deb
-Size: 1236
-SHA256: 0d3394a617765c784f8185ae659a016945c64cd15db6fb7fe0a3c3e86277451b
-SHA1: 58b4244416eb36507718273ceb47660c0a570d51
-MD5sum: 41b029c81969aa31fb1c34546c9a494f
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.33_all.deb
+Size: 1248
+SHA256: 0bf0a447f9ea3fd327f6614ba1b443991ffbe89c83a21b1b098eddd91f9c44c2
+SHA1: 568844496c91cca326494cadca90b41700c707b7
+MD5sum: 167fe799f2d7c5b485e9820ae131ee48
 Description: hackergadgets-uconsole-aio-board
  This package helps install and configures SDR++ Brown, Meshtastic, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
