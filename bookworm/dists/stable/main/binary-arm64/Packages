@@ -374,6 +374,20 @@ Description: Meshtastic daemon for communicating with Meshtastic devices
  Meshtastic is an off-grid text communication platform that uses inexpensive
  LoRa radios.
 
+Package: openterfaceqt
+Version: 0.3.19.203
+Architecture: arm64
+Depends: libqt6core6 (>= 6.4.2), libqt6multimedia6 (>= 6.4.2), libqt6multimediawidgets6 (>= 6.4.2), libqt6serialport6 (>= 6.4.2), libqt6svg6 (>= 6.4.2)
+Maintainer: TechxArtisan <info@techxartisan.com>
+Priority: 0
+Section: utils
+Filename: pool/main/o/openterfaceqt/openterfaceqt_0.3.19.203_arm64.deb
+Size: 774772
+SHA256: ea587b698394d947de05640e31f0789998a189a5d6c62b881705510ddc9d443f
+SHA1: e8aa20ce4f6e2071cc9592024abc79e8902ecf3a
+MD5sum: 14d4c67b7c87cb74b5b7c2928ca14691
+Description: OpenterfaceQT Mini-KVM Linux Edition
+
 Package: pinctrl
 Version: 1.0
 Maintainer: pinctrl <rex@linux.com>
