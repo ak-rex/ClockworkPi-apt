@@ -382,10 +382,10 @@ Maintainer: TechxArtisan <info@techxartisan.com>
 Priority: 0
 Section: utils
 Filename: pool/main/o/openterfaceqt/openterfaceqt_0.3.25.1_arm64.deb
-Size: 721760
-SHA256: fb4863f11a101350892265df57ace2872ec3e0d813321b3e101dc8a5190d46d6
-SHA1: 452367a0ca9d29b7d84beca2d247abdf675da0cd
-MD5sum: 2fe48fe43b38675268d6e22326508cc8
+Size: 722664
+SHA256: ec4241c296234f757df18546648d12cc387d95fd04b77a37f391ed8b1b827107
+SHA1: aeef9d09dc368a8869fa23a64951b608c8f074c7
+MD5sum: dc8ab6e4886a4e483eb4ce07bb476e8b
 Description: OpenterfaceQT Mini-KVM Linux Edition
 
 Package: pinctrl
