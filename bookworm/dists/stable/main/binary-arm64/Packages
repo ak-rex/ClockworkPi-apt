@@ -375,17 +375,17 @@ Description: Meshtastic daemon for communicating with Meshtastic devices
  LoRa radios.
 
 Package: openterfaceqt
-Version: 0.3.19.203
+Version: 0.3.25.1
 Architecture: arm64
 Depends: libqt6core6 (>= 6.4.2), libqt6multimedia6 (>= 6.4.2), libqt6multimediawidgets6 (>= 6.4.2), libqt6serialport6 (>= 6.4.2), libqt6svg6 (>= 6.4.2)
 Maintainer: TechxArtisan <info@techxartisan.com>
 Priority: 0
 Section: utils
-Filename: pool/main/o/openterfaceqt/openterfaceqt_0.3.19.203_arm64.deb
-Size: 774772
-SHA256: ea587b698394d947de05640e31f0789998a189a5d6c62b881705510ddc9d443f
-SHA1: e8aa20ce4f6e2071cc9592024abc79e8902ecf3a
-MD5sum: 14d4c67b7c87cb74b5b7c2928ca14691
+Filename: pool/main/o/openterfaceqt/openterfaceqt_0.3.25.1_arm64.deb
+Size: 721804
+SHA256: 50fbb90001815090ef03a81c65ad8623c835b7958a99af4969e2ca4c737856da
+SHA1: 043d72ce5410ebb472dd77a1d85dc21b37c62efd
+MD5sum: e7c7090713380d5805d1332c2bc71e50
 Description: OpenterfaceQT Mini-KVM Linux Edition
 
 Package: pinctrl
