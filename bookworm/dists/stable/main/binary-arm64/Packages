@@ -342,17 +342,17 @@ Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
 
 Package: meshtastic-mui
-Version: 1.12
+Version: 1.13
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
 Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, meshtasticd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
 Priority: 0
 Section: utils
-Filename: pool/main/m/meshtastic-mui/meshtastic-mui_1.12_all.deb
+Filename: pool/main/m/meshtastic-mui/meshtastic-mui_1.13_all.deb
 Size: 31841892
-SHA256: 16276458d7de2fcb9462fb51fd496f8f9e20f3ae6e6f386a645be10e815c645c
-SHA1: 3a089c63185eb8c9e291fc20198b0227a6752474
-MD5sum: 07733a3791278dbd511356cd3e5c27e9
+SHA256: c8a05689cb6b33b838f45c664556e489478434d3b40fdaf80e72399b922ba1cf
+SHA1: ec0f7e90ac671321bc6a611764efd90d3ff8b10d
+MD5sum: f27c7938dec89a619d22f2a0aa46b649
 Description: meshtastic-mui
  This package installs and configures meshtasticd and meshtastic-mui for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
