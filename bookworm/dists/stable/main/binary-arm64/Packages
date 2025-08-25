@@ -377,15 +377,15 @@ Description: Meshtastic daemon for communicating with Meshtastic devices
 Package: openterfaceqt
 Version: 0.3.20.203
 Architecture: arm64
-Depends: libxcb-cursor0, libqt6core6 (>= 6.4.2), libqt6multimedia6 (>= 6.4.2), libqt6multimediawidgets6 (>= 6.4.2), libqt6serialport6 (>= 6.4.2), libqt6svg6 (>= 6.4.2)
+Depends: libxcb-cursor0
 Maintainer: TechxArtisan <info@techxartisan.com>
 Priority: 0
 Section: utils
 Filename: pool/main/o/openterfaceqt/openterfaceqt_0.3.20.203_arm64.deb
-Size: 14670120
-SHA256: 5106dc2d923d1ecc3b85f64710b6b6a5af2ca2bdecdf543c6574ef3281be4a2f
-SHA1: 2a94f22f040907ed32726da25b5aac599e0da1d6
-MD5sum: b8f6d2cd02551783d4b5d638742d5d9b
+Size: 14670068
+SHA256: 4be7a8c4b7a4d89dc0a150dffc151885eb2a995931a4931c8d955e9b44fb7473
+SHA1: 4f47cb1cae6dca9c3d41a8c9637f7aa367b2d775
+MD5sum: 62d18f4b9f833e6befa6f7689667eccf
 Description: OpenterfaceQT Mini-KVM Linux Edition
 
 Package: pinctrl
