@@ -341,6 +341,33 @@ MD5sum: 701c5552f443b5fd80744e2b729a5c59
 Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
 
+Package: libxcb-cursor0
+Source: xcb-util-cursor
+Version: 0.1.4-1
+Architecture: arm64
+Maintainer: Jakob Haufe <sur5r@debian.org>
+Installed-Size: 89
+Depends: libc6 (>= 2.17), libxcb-image0 (>= 0.2.1), libxcb-render-util0, libxcb-render0, libxcb1
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org/
+Priority: 0
+Section: utils
+Filename: pool/main/x/xcb-util-cursor/libxcb-cursor0_0.1.4-1_arm64.deb
+Size: 16568
+SHA256: e475afb7dc5927e7fee2cca245e85a77d50849ab2da85eb9da6200740f53ea09
+SHA1: 0a46003da053546b8661564caad7261116ed2f7d
+MD5sum: 78e7f970abffc6cf29aabae6279d02bc
+Description: utility libraries for X C Binding -- cursor
+ This package contains the library files needed to run software using
+ libxcb-cursor, providing port of Xlib's libXcursor functions.
+ .
+ The xcb-util module provides a number of libraries which sit on top of libxcb,
+ the core X protocol library, and some of the extension libraries. These
+ experimental libraries provide convenience functions and interfaces which make
+ the raw X protocol more usable. Some of the libraries also provide client-side
+ code which is not strictly part of the X protocol but which have traditionally
+ been provided by Xlib.
+
 Package: meshtastic-mui
 Version: 1.13
 Maintainer: ak-rex <rex@linux.com>
