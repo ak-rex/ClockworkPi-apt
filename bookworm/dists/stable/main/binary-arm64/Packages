@@ -68,10 +68,10 @@ Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz
 Priority: 0
 Section: utils
 Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.14_all.deb
-Size: 5738860
-SHA256: 94252a1f063b286ac026aeeb5054af4b9d866d83b2144b9671cadbe6a3d5d536
-SHA1: 751e4f76df7a032c83e320fc1cbdd503d0ec4e56
-MD5sum: 94e2366f9b65a2f9b001e442867d0011
+Size: 5738944
+SHA256: 595a2da4abcb7c1a596ad052eb68adea93cb55b1e42abf62404995eeb6958b66
+SHA1: 8483a240f9c676a203e5e2b454c7110bd222cbb1
+MD5sum: 6f52761fa9291594a5b3f4faa994cdbc
 Description: clockworkpi-theme
  clockworkpi-theme provides wallpapers and boot splash clcokworkpi theme
 
