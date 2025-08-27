@@ -279,6 +279,33 @@ MD5sum: bce94360fbbc7037d2ce258d028f07ed
 Description: hackergadgets-uconsole-aio-board
  This package helps install and configures SDR++ Brown, Meshtastic, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
+Package: libgpiod2
+Source: libgpiod (1.6.3-1)
+Version: 1.6.3-1+b3
+Architecture: arm64
+Maintainer: SZ Lin (林上智) <szlin@debian.org>
+Installed-Size: 228
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
+Priority: 0
+Section: utils
+Filename: pool/main/libg/libgpiod/libgpiod2_1.6.3-1+b3_arm64.deb
+Size: 37564
+SHA256: c802c9fdacbdc2c52af2f97717881f822169d18c4f91f245c0b0f2afe9164098
+SHA1: 2d501eda2bf5bf9259665447e0b1b99abaaff556
+MD5sum: 9eae89fa69d1d0cbd839ea3c54f0f295
+Description: C library for interacting with Linux GPIO device - shared libraries
+ libgpiod encapsulates the ioctl calls and data structures
+ behind a straightforward API. This new character device
+ interface guarantees all allocated resources are freed after
+ closing the device file descriptor and adds several new
+ features that are not present in the obsolete sysfs interface
+ (like event polling, setting/reading multiple values at once or
+ open-source and open-drain GPIOs).
+ .
+ This package contains the required shared libraries.
+
 Package: librtlsdr-dev
 Source: rtl-sdr
 Version: 0.7.0~rtlsdrblog1
@@ -367,6 +394,28 @@ Description: utility libraries for X C Binding -- cursor
  the raw X protocol more usable. Some of the libraries also provide client-side
  code which is not strictly part of the X protocol but which have traditionally
  been provided by Xlib.
+
+Package: libyaml-cpp0.7
+Source: yaml-cpp (0.7.0+dfsg-8)
+Version: 0.7.0+dfsg-8+b1
+Architecture: arm64
+Maintainer: Simon Quigley <tsimonq2@debian.org>
+Installed-Size: 361
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Multi-Arch: same
+Homepage: https://github.com/jbeder/yaml-cpp
+Priority: 0
+Section: utils
+Filename: pool/main/y/yaml-cpp/libyaml-cpp0.7_0.7.0+dfsg-8+b1_arm64.deb
+Size: 99816
+SHA256: 8623509d15f1e145d24ff0ce89cbfe7f931f22977898b2b25cdb30c60291bac4
+SHA1: c8313928a4a6cd5632d92ae23f0c202813154185
+MD5sum: b502e3e5d1ac8b8853cf43669aca93e9
+Description: YAML parser and emitter for C++
+ yaml-cpp is a C++ library for parsing and emitting data in YAML 1.2, a
+ human-readable data serialization format.
+ .
+ This package provides run-time library of yaml-cpp.
 
 Package: meshtastic-mui
 Version: 1.13
