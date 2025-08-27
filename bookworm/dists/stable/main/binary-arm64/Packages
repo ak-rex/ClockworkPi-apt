@@ -61,17 +61,17 @@ MD5sum: 72fbd907c27b58d0872922b8e266c781
 Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
 
 Package: clockworkpi-theme
-Version: 0.14
+Version: 0.15
 Maintainer: clockworkpi-theme <rex@linux.com>
 Architecture: all
-Replaces: piwiz, rpd-common
+Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz, rpd-common
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.14_all.deb
-Size: 5738840
-SHA256: 8109125c2cd7f0a0dda28a5a6bc6b3b63d9641b8806c406d7edc67d54fc2f788
-SHA1: ae3c4350f5da77cd00953c9fddf9de8982a83ed6
-MD5sum: c2cb517194e8ff51c974aa9b24207790
+Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.15_all.deb
+Size: 5738876
+SHA256: a3e0bf972eb3f3b900a157b5de03907af0738ab3d1ca45baeeebef9fd678942d
+SHA1: 6f6306477539ba5ed1f85e6817a82a7f6cfd3fff
+MD5sum: bf3e59938b1ba9b4f01cd828b4edb6a8
 Description: clockworkpi-theme
  clockworkpi-theme provides wallpapers and boot splash clcokworkpi theme
 

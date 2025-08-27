@@ -4,42 +4,42 @@ Hash: SHA512
 Architectures: arm64 all
 Codename: bookworm
 Components: main
-Date: Wed, 27 Aug 2025 03:24:50 +0000
+Date: Wed, 27 Aug 2025 12:35:06 +0000
 Description: ak-rex's ClockworkPi software/kernel repository
 Label: ak-rex ClockworkPi Github
 Origin: ak-rex
 Suite: stable
 MD5Sum:
- 70e1fe632ce85f6bc759108ba455669a              222 Release
- c735c6cb2330f440490510bef13ead83            34521 main/binary-arm64/Packages
- 39a53ec92477a5684ba2858f02c2c8e6            12951 main/binary-arm64/Packages.gz
+ 33b668ae10884805446ffc272e29ba12              222 Release
+ 395164731d3e7ae7d53e8a65ff7c6d09            34559 main/binary-arm64/Packages
+ 01ef64082d37d879f3dbb3d3984a7b42            12964 main/binary-arm64/Packages.gz
  5fa6dc5f549dc70ca2e339290f89a9cf              161 main/binary-arm64/Release
 SHA1:
- d04e63757d26f5c7a0a8201dfb7676d7ad3cea97              222 Release
- fe66fb57cfaa853234bb756a79ba4986d9c35b73            34521 main/binary-arm64/Packages
- fc43c8ba4c5d074a4bbc28059d52bc92e7a0a209            12951 main/binary-arm64/Packages.gz
+ 6f81220147567365e9d028bfa26de62a86a26c2a              222 Release
+ 67042c9247b8ed7b116257e5ac53a770b74cd5c2            34559 main/binary-arm64/Packages
+ cbf67c1a8521e721e25cb9c52db4606b3e9f134d            12964 main/binary-arm64/Packages.gz
  c77690aa9f37ef16f91bb6c6fd1e76119d6a46c1              161 main/binary-arm64/Release
 SHA256:
- 9f5bee215b7faf899f8a40edad407da293d3495a9cd225e5fdf2431ab0caf5a9              222 Release
- 9ebcc244090c26520128f8c0041798369035fe906217a48ed7f8c4b6c28a9d84            34521 main/binary-arm64/Packages
- 15b6b9beb17b0aec4051c3028917eb9537b84c17fb1a1d009011ae0941047ea7            12951 main/binary-arm64/Packages.gz
+ b092ed4e6bd805fcbe2a1d23d3050c42fd733fe6dbe2cd635d4e7bf54393fb3a              222 Release
+ 3740c39e71b3a913ecd61314c4186df55a4106046bbab7a73ec2f65dfd7cc944            34559 main/binary-arm64/Packages
+ 9004026ca05286a8c91df8fb1bf309664177630f5db03d6b705b653c308919b0            12964 main/binary-arm64/Packages.gz
  4ced81fa210b452d33f39c48fbf11d28d6e686af3667add0dcbd3a880f4c816b              161 main/binary-arm64/Release
 SHA512:
- 56852d17b8c78374caee2338ec04e1622aae9a70082dd944201d7cdde9923b7263722c49259d655140b29c06e3c661f4b6b1980db51660865653a1a158b2208f              222 Release
- a5fc2dd0051299337c9a4bcb905946bc8c347663f88d5e6650ac42eb3b1df9dec1c206285574538b8efd7c1ebb80f2a1365e3f3e0a88d4179b2f60d2ef8c2745            34521 main/binary-arm64/Packages
- 639c7f0b5a29d6d94300c782d0bde02b0133871182c2ba64bfced25c5fc64b4254d5e71ecac9f31a554279c690ba06421f2cb62ea0065dcc991deb365d33a97b            12951 main/binary-arm64/Packages.gz
+ 2b572101eaa79ecb2d7f3c33e8e80347d33f848dd60cd978bf2303922f0339eedb3a6be091df91530ae1fcd8d1e3b3186ac801bafc18df0824dc51b4d0fb0da1              222 Release
+ c8845ff027b24a38bb968edc329b13804a5cad3d58a412099a68970d4946e2511b6238bd3dc32deb236595c8a00239bcb9ca80447604707fc63fbecfab108c4d            34559 main/binary-arm64/Packages
+ 0a7bb604afa2ae973e67fa33c3b3d5c7f3d9917650b515e7716f0d3ca1a94751b7f6527464aaaee782e4aff67c73ba5d924c63203e39e1b3857c0730bf798e5b            12964 main/binary-arm64/Packages.gz
  2bd716cf0c3103761fbfb8864d8c9c9dc99b509337b4967d8dc39bad2db820683e040c65b14c179f5aa2cc9f8d3b6d335e72bbcda722202d120a3c4adc80dcbf              161 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEV5m9fzdtEBHFELA2tAyPVRxKuJcFAmiueocACgkQtAyPVRxK
-uJcWawwAmDmdINd//Cj/0NEe3HtVX4dQz4MtmWpsK2NFJJq6qCP3rjutZNBPWQ4M
-9uQ+6dd1xy+u5gNPvySqHEsiBaIepzna+h/PUyFKZ4ufDi7bpyl0hfvGYuwfzO34
-JdSBm7E+ML945bvVA1ta2oQbnNL8VT300DE8hwFx5M1mkSxeFATPkgY3gAPHns2g
-A22P61amO/0aKDyM+2aSEHvdEyaGXZAkLZD13fOl/Av44OpcHSwzF3rTEOz4N4mF
-P7I1J85v5N43Fc8ZP8hRd/TahAvzGOBBRVuW7Lfypmi6M/+sSumaNUV+I7y0tshl
-Ko8wuG/AqOWwb3JWHIosMfx0v0aCOdqQ2sVTaig0LhVbu28d4FVUfCLGLbemMQgn
-sPuFBanNpq2TyLMwImedA0+RHHcuY41QtxWxJib4Ja9RjIQlsJVU7Z6Zxq7X5s3F
-1OZ9pF2tjKr/8J7TAEuedVKghdrahJXBqHKoVAoXlUwzDXAShDmDpM0VucnoDpJE
-PReEwNeg
-=FmxJ
+iQGzBAEBCgAdFiEEV5m9fzdtEBHFELA2tAyPVRxKuJcFAmiu+4AACgkQtAyPVRxK
+uJdmNQv/Wb2E7yPI31kPQNrYiT1LIhWi6dc6Ds6ocma5ooBjPaf67f47hW/sLtyR
+DqXM0MKJ2hwVpmd91frlsXsjdHyGEb56VwPsfNXpgPFh3uOGWyRNnBVN3CzpWoLr
+k7AXRro36hj1lRThBDlGVky/64TS6OkeXM9QNnh5ZFwNsxBKWyu7aqF1Hu67MVNO
+HEbeyOC30jpRB2rxo4Kpwq8LNr+swsrBDIsbijfqUODEE9vbIcQJU3GgoNBxWeeB
+FZuxhfRbglKAZX+VwniPJKnFuh1XCYQ3C3VJ4/dzn0yqxuHSRJGKv514UcXY28iC
+dknDpHLnmRlbYoXZJlyNLHEpggjE9w4/zkFCXdk6R6yhzqyPQ1QOkXv9miqef0KN
+t2Hlgpon4K/A3xxSpvmX0lpsecWmgvWOITqA3jO8DW95pAn7YzvKIidmhu3qU9oy
+nx7qYQRJnE5tGAujcYd2QTJ+FEY4Mi3u6WdwrRd+OmblADcSxlhRQwaJHCRchH5u
+UfElwQRP
+=3LF3
 -----END PGP SIGNATURE-----
