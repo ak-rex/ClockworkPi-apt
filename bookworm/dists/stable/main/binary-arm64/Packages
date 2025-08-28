@@ -341,6 +341,34 @@ MD5sum: 701c5552f443b5fd80744e2b729a5c59
 Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
 
+Package: libvolk2-dev
+Source: volk
+Version: 2.5.2-3
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 1960
+Depends: libvolk2.5 (= 2.5.2-3)
+Suggests: libvolk2-doc
+Breaks: gnuradio-dev (<< 3.7.8), libvolk-dev, libvolk1-dev, libvolk1.0-dev
+Replaces: gnuradio-dev (<< 3.7.8), libvolk-dev, libvolk1-dev, libvolk1.0-dev
+Multi-Arch: same
+Homepage: https://libvolk.org
+Priority: 0
+Section: utils
+Filename: pool/main/v/volk/libvolk2-dev_2.5.2-3_arm64.deb
+Size: 141136
+SHA256: ade8e97d114ef2b396bea00193216e551b9b941267ffbeb2b1ea60a974f5a50c
+SHA1: f603b039898b8999a16dd51027d6e0f23a528609
+MD5sum: 323fa5d52a4d4be67896864bda909f64
+Description: vector optimized function headers
+ Vector-Optimized Library of Kernels is designed to help
+ applications work with the processor's SIMD instruction sets. These are
+ very powerful vector operations that can give signal processing a
+ huge boost in performance.
+ .
+ This package contains the header files.
+ For documentation, see libvolk-doc.
+
 Package: libxcb-cursor0
 Source: xcb-util-cursor
 Version: 0.1.4-1
