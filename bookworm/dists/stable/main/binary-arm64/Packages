@@ -369,6 +369,30 @@ Description: vector optimized function headers
  This package contains the header files.
  For documentation, see libvolk-doc.
 
+Package: libvolk2.5
+Source: volk
+Version: 2.5.2-3
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 824
+Depends: libc6 (>= 2.35), liborc-0.4-0 (>= 1:0.4.25)
+Recommends: libvolk2-bin
+Suggests: libvolk2-dev
+Multi-Arch: same
+Homepage: https://libvolk.org
+Priority: 0
+Section: utils
+Filename: pool/main/v/volk/libvolk2.5_2.5.2-3_arm64.deb
+Size: 113704
+SHA256: abced25af817307578dc6bdde50a689292d3ce78f9976fe8c87a2c15fab614c8
+SHA1: e3341fe14c500bd53d6afd9c73078edef598b511
+MD5sum: 7b50006a983243f7591979be4d9b5425
+Description: vector optimized functions
+ Vector-Optimized Library of Kernels is designed to help
+ applications work with the processor's SIMD instruction sets. These are
+ very powerful vector operations that can give signal processing a
+ huge boost in performance.
+
 Package: libxcb-cursor0
 Source: xcb-util-cursor
 Version: 0.1.4-1
