@@ -448,17 +448,17 @@ Description: utility libraries for X C Binding -- cursor
  been provided by Xlib.
 
 Package: meshtastic-mui
-Version: 1.15
+Version: 1.16
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
 Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, jq, libasan8, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, libjpeg-dev, zlib1g-dev, tk-dev, meshtasticd
 Priority: 0
 Section: utils
-Filename: pool/main/m/meshtastic-mui/meshtastic-mui_1.15_all.deb
+Filename: pool/main/m/meshtastic-mui/meshtastic-mui_1.16_all.deb
 Size: 31841720
-SHA256: 21cb347a23707b1e6ee94db7d967dac4f9435626ce9ad6dda427bc9e0eda62c3
-SHA1: bd985971ac032a1eb16e227862bc1955fad38bd4
-MD5sum: 79ee79661da23b6ed5d2f9b379b3993e
+SHA256: 812db46191dfcb9f9b03cd067532f0dd1a24260508a863b87c82295da5597e61
+SHA1: cde6e54ce98d94eb05b2bfdc793bcb3d31bd3775
+MD5sum: d6a4ac6122cefda082c0ed756b29a239
 Description: meshtastic-mui
  This package installs and configures meshtasticd and meshtastic-mui for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
