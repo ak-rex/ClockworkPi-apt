@@ -341,6 +341,33 @@ MD5sum: 701c5552f443b5fd80744e2b729a5c59
 Description: debug symbols for librtlsdr0
 Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
 
+Package: libvolk2-bin
+Source: volk
+Version: 2.5.2-3
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 325
+Depends: libvolk2.5 (= 2.5.2-3), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Breaks: gnuradio (<= 3.7.2.1), libvolk-bin, libvolk1-bin, libvolk1.0-bin
+Replaces: gnuradio (<= 3.7.2.1), libvolk-bin, libvolk1-bin, libvolk1.0-bin
+Homepage: https://libvolk.org
+Priority: 0
+Section: utils
+Filename: pool/main/v/volk/libvolk2-bin_2.5.2-3_arm64.deb
+Size: 73700
+SHA256: a1af536b0a4314eac0b32408a2d8e30094e171088fb671cd1d2fda9ee772f413
+SHA1: c29ee800c606da9f64585b58a8b8b94f795c5a34
+MD5sum: ff5184407cd4ed8b4c7181341b404c88
+Description: vector optimized runtime tools
+ Vector-Optimized Library of Kernels is designed to help
+ applications work with the processor's SIMD instruction sets. These are
+ very powerful vector operations that can give signal processing a
+ huge boost in performance.
+ .
+ This package includes: the volk_profile tool to customize settings for
+ the system; volk_modtool to create new optimized modules; and
+ volk-config-info to show settings.
+
 Package: libvolk2-dev
 Source: volk
 Version: 2.5.2-3
