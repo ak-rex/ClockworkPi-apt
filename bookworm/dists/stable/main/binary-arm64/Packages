@@ -677,17 +677,17 @@ Description: multipurpose relay for bidirectional data transfer
  scripts inside network connections. Socat supports sctp as of 1.7.0.
 
 Package: tar1090
-Version: 1.0
+Version: 1.11
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
-Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, rtl-sdr, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Depends: librtlsdr0, rtl-sdr, librtlsdr-dev,cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev,libiio-dev, libad9361-dev, libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, libjpeg-dev, zlib1g-dev, tk-dev
 Priority: 0
 Section: utils
-Filename: pool/main/t/tar1090/tar1090_1.0_all.deb
-Size: 9560
-SHA256: b49b4371daa00050947a0e3d33630544845360dcff43be8f6e4418dfd2b61c4f
-SHA1: 2869b9880d182d2c506b3c8dc32d6554c6e34c9e
-MD5sum: a632d0f2cf75666b5bd2a0ca981532df
+Filename: pool/main/t/tar1090/tar1090_1.11_all.deb
+Size: 9552
+SHA256: c5c7d1ea71adb994ab37d59d429e21b17bc44ec8e102a5672f2d67a1293b9395
+SHA1: 1b4a15f20696967256e9915c4483bc0fecbc77a0
+MD5sum: 7096373cf05a69190d1530508b3b3a31
 Description: tar1090
  This package installs and configures tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
