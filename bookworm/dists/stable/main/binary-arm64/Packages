@@ -15,16 +15,16 @@ Description: clockworkpi-audio
  clockworkpi-audio provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
 
 Package: clockworkpi-audio-disable
-Version: 0.1
+Version: 0.11
 Maintainer: clockworkpi-audio-disable <rex@linux.com>
 Architecture: arm64
 Priority: 0
 Section: utils
-Filename: pool/main/c/clockworkpi-audio-disable/clockworkpi-audio-disable_0.1_arm64.deb
-Size: 5768
-SHA256: b3a30050fa32de766217ea6c2b47a83bfb3ef414ce46c09c2df320f4516f1dc5
-SHA1: 6161d72ad9eb7b9e3e66cf026e67a3f1e26dac05
-MD5sum: d429dc925df9a7bfc555eec4dbe1a51c
+Filename: pool/main/c/clockworkpi-audio-disable/clockworkpi-audio-disable_0.11_arm64.deb
+Size: 5772
+SHA256: 75e2118f67bceff62b0dfdcd5850be52980aa55f9cebd8593a482623fb29fa32
+SHA1: 8f9fa10e9baf2baaddc19ad9776371d05dda6e76
+MD5sum: 5f4237c68e627a0ef42e978d9d678529
 Description: Disables audio on the uConsole/DevTerm. Use with the RPI CM5 when the battery is low and speaker static occurs.
 
 Package: clockworkpi-backlight
