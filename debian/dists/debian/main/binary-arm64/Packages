@@ -1,0 +1,857 @@
+Package: clockworkpi-audio
+Version: 1.1
+Maintainer: clockworkpi-audio <rex@linux.com>
+Architecture: all
+Depends: python3
+Replaces: clockworkpi-audio-shutdown, clockworkpi-audio-patch
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-audio/clockworkpi-audio_1.1_all.deb
+Size: 12924
+SHA256: b436de6060864baa5edb577821b1ed1f82dd2ef9e38b6eccc90ebeaeec47dd06
+SHA1: a7f95fc4745f8cf084c5adf4c031a36147066672
+MD5sum: 617cfd5b403e7d6bcffb34978fa266a9
+Description: clockworkpi-audio
+ clockworkpi-audio provides 3.5mm jack and speaker switching and stopping speaker pop on shutdown.
+
+Package: clockworkpi-audio-disable
+Version: 0.11
+Maintainer: clockworkpi-audio-disable <rex@linux.com>
+Architecture: arm64
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-audio-disable/clockworkpi-audio-disable_0.11_arm64.deb
+Size: 5772
+SHA256: 75e2118f67bceff62b0dfdcd5850be52980aa55f9cebd8593a482623fb29fa32
+SHA1: 8f9fa10e9baf2baaddc19ad9776371d05dda6e76
+MD5sum: 5f4237c68e627a0ef42e978d9d678529
+Description: Disables audio on the uConsole/DevTerm. Use with the RPI CM5 when the battery is low and speaker static occurs.
+
+Package: clockworkpi-backlight
+Version: 1.0
+Maintainer: clockworkpi-backlight <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-backlight/clockworkpi-backlight_1.0_all.deb
+Size: 964
+SHA256: 20d2202707a02fb563484df63d315cb817f11f6c738edacbbf62be2898dae504
+SHA1: 88f289f13aab03a4197c504799c7230db5cd37e1
+MD5sum: 961c9c985b27363d8641b7e4e251700f
+Description: clockworkpi-backlight
+ clockworkpi-backlight turns the panel backlight on if the driver failed to do so.
+
+Package: clockworkpi-cm-firmware
+Version: 0.21
+Maintainer: clockworkpi-cm-firmware <rex@linux.com>
+Architecture: arm64
+Provides: raspi-firmware
+Conflicts: raspi-firmware
+Replaces: raspi-firmware
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-cm-firmware/clockworkpi-cm-firmware_0.21_arm64.deb
+Size: 4556100
+SHA256: 8bfbcd11363e59d3c84a45324d288c62c02afdb7dafd2012383912c5be0746bf
+SHA1: f79f8f5fa4afcb90e84b413dcae8d7faf8dd61c7
+MD5sum: 5c257585c053aea19387be81cb396194
+Description: RaspberryPi firmware files.
+
+Package: clockworkpi-kernel
+Version: 6.12.48-v8-16k+
+Architecture: arm64
+Maintainer: clockworkpi-kernel <rex@linux.com>
+Provides: linux-image, linux-image-rpi-v8, linux-latest-modules-6.12.48+rpt-rpi-v8, linux-image-rpi-2712, linux-latest-modules-6.12.48+rpt-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel, wireguard-modules (= 1.0.0)
+Conflicts: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
+Replaces: linux-image, linux-image-rpi-v8, linux-image-rpi-2712, raspberrypi-kernel, clockworkpi-cm4-kernel
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-kernel/clockworkpi-kernel_6.12.48-v8-16k+_arm64.deb
+Size: 96233860
+SHA256: 6f1153a5c3600b80ade3159353235ae7daf85e4a816517c6bf0ff70b815b2094
+SHA1: 5a3e4b65d23991f51cae9bc6bdbdb104e0cc4508
+MD5sum: 539d05f4dc5a0e94f0b19e2b62c3c3bc
+Description:  This kernel includes the patches for ClockworkPi CM3/CM4/CM5 devices.
+
+Package: clockworkpi-theme
+Version: 0.15
+Maintainer: clockworkpi-theme <rex@linux.com>
+Architecture: all
+Replaces: rpd-plym-splash, raspberrypi-ui-mods, piwiz, rpd-common
+Priority: 0
+Section: utils
+Filename: pool/main/c/clockworkpi-theme/clockworkpi-theme_0.15_all.deb
+Size: 5738876
+SHA256: a3e0bf972eb3f3b900a157b5de03907af0738ab3d1ca45baeeebef9fd678942d
+SHA1: 6f6306477539ba5ed1f85e6817a82a7f6cfd3fff
+MD5sum: bf3e59938b1ba9b4f01cd828b4edb6a8
+Description: clockworkpi-theme
+ clockworkpi-theme provides wallpapers and boot splash clcokworkpi theme
+
+Package: devterm-cavestory-cpi
+Version: 0.1
+Installed-Size: 10876
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: libsdl2-2.0-0, libsdl2-gfx-1.0-0, libsdl2-image-2.0-0, libsdl2-mixer-2.0-0, libsdl2-net-2.0-0, libsdl2-ttf-2.0-0
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-cavestory-cpi/devterm-cavestory-cpi_0.1_arm64.deb
+Size: 1154864
+SHA256: 1393ab2aeddeabd8f10fdd7e0307ec0dac33f20123a0874e066ffe93fb28527e
+SHA1: 6d2bf3390b3f81676225776fd6ff30f522649676
+MD5sum: 892725d77cab81c55fcb4b5187d604ff
+Description: devterm-cavestory-cpi for a06 a04
+ devterm-cavestory-cpi for a06 a04
+
+Package: devterm-fan-temp-daemon-cm4
+Version: 0.22
+Maintainer: devterm-fan-temp-daemon-cm4 <rex@linux.com>
+Architecture: arm64
+Depends: python3
+Replaces: devterm-fan-temp-daemon-rpi
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-fan-temp-daemon-cm4/devterm-fan-temp-daemon-cm4_0.22_arm64.deb
+Size: 12776
+SHA256: 987086a23773c150c86b924d5b88af296999bc3525ace95754a25bb2902f1b1a
+SHA1: d5b7b44b7f349d86cdd69840e0b24f5c284a5a0c
+MD5sum: 0bca4d0bfe0bf9428a3d9e77aabbbda1
+Description: devterm fan control script for raspberry pi cm4
+
+Package: devterm-spotify-tui-cpi
+Version: 0.1
+Installed-Size: 18304
+Maintainer: cuu <gnubsd@me.com>
+Homepage: https://github.com/Rigellute/spotify-tui
+Architecture: arm64
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-spotify-tui-cpi/devterm-spotify-tui-cpi_0.1_arm64.deb
+Size: 3511844
+SHA256: 0c1b3b5eca6bb9ceb1155ae654faf181570134378535ac6a2b1956bbd69775ae
+SHA1: 3118c093320448074ac021ad032103b6e6b082d3
+MD5sum: 39971be117a251addba3651615940d0e
+Description: devterm-spotify-tui-cpi for a06 a04
+ devterm-spotify-tui-cpi for a06 a04
+ https://github.com/Rigellute/spotify-tui
+
+Package: devterm-thermal-printer-cm4
+Version: 0.21
+Maintainer: devterm-thermal-printer-cm4 <rex@linux.com>
+Architecture: arm64
+Depends: socat, fonts-noto-cjk
+Replaces: devterm-thermal-printer
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-thermal-printer-cm4/devterm-thermal-printer-cm4_0.21_arm64.deb
+Size: 29392
+SHA256: d657fe1ccb51e46a6a56c4dd858ba7cd11f1145c3edc028577f889fe789a3005
+SHA1: e53471c4e3937356b639b3f860bd9f75b33c4985
+MD5sum: 3f44388f2e22e252eb1e66df11d0d544
+Description: Thermal printer daemon for DevTerm CM4
+ Do not use it with other devterm-thermal-printer package due to the gpio of cm4 is different
+
+Package: devterm-thermal-printer-cups
+Version: 0.12.1
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: cups, cups-client
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-thermal-printer-cups/devterm-thermal-printer-cups_0.12.1_arm64.deb
+Size: 9726
+SHA256: 6de01d3173fcd8aa0118b37df21da8027e14b4b9a52ee015954b898ddffadc24
+SHA1: 332e9bb7fd1a3e322c92183c02499a51f57c5845
+MD5sum: d01a9c67523a8224b48fef546aa958ca
+Description: devterm thermal printer cups filter and config
+ devterm thermal printer cups filter
+ add a devterm_printer in CUPS
+
+Package: devterm-tic80-cpi
+Version: 0.1
+Installed-Size: 4688
+Maintainer: cuu <gnubsd@me.com>
+Architecture: arm64
+Depends: libglu1-mesa, freeglut3, libglvnd0, libasound2
+Priority: 0
+Section: utils
+Filename: pool/main/d/devterm-tic80-cpi/devterm-tic80-cpi_0.1_arm64.deb
+Size: 1186992
+SHA256: 1e599f63b6bcf86ac50bf102dc4244c072655f11d156f93e3da57c23b238ef88
+SHA1: 48578d925196ac12c1fe1a5641a067fd28e47c90
+MD5sum: 4a80b239462ce20d5f21f63202444fbf
+Description: devterm-tic80-cpi for arm64
+ devterm-tic80-cpi for arm64
+
+Package: fonts-noto-cjk
+Version: 1:20220127+repack1-1
+Architecture: all
+Maintainer: Debian Fonts Team <debian-fonts@lists.debian.org>
+Installed-Size: 91003
+Suggests: fonts-noto-cjk-extra
+Multi-Arch: foreign
+Homepage: https://github.com/googlefonts/noto-cjk
+Priority: 0
+Section: utils
+Filename: pool/main/f/fonts-noto-cjk/fonts-noto-cjk_20220127+repack1-1_all.deb
+Size: 56547048
+SHA256: 4a2515eb6db3978b897fef9709ed0d2b1f4c6c4df4d83d6c4ef65f71f1b1f502
+SHA1: ba94e26dee6ea16abffe012d4751c0b3e6c3fc22
+MD5sum: 90706c62d4714e0cb9486785531c4959
+Description: "No Tofu" font families with large Unicode coverage (CJK regular and bold)
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ This package contains Noto font families for Traditional Chinese,
+ Simplified Chinese, Japanese and Korean:
+ .
+  * Noto Sans CJK JP
+  * Noto Sans CJK KR
+  * Noto Sans CJK SC
+  * Noto Sans CJK TC
+  * Noto Sans Mono CJK JP
+  * Noto Sans Mono CJK KR
+  * Noto Sans Mono CJK SC
+  * Noto Sans Mono CJK TC
+  * Noto Serif CJK JP
+  * Noto Serif CJK KR
+  * Noto Serif CJK SC
+  * Noto Serif CJK TC
+ .
+ These fonts are derived from the font family Source Han Sans.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains regular and bold fonts.
+
+Package: freeglut3
+Source: freeglut
+Version: 2.8.1-3
+Architecture: arm64
+Maintainer: Anton Gladky <gladk@debian.org>
+Installed-Size: 332
+Depends: libc6 (>= 2.17), libgl1-mesa-glx | libgl1, libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxxf86vm1
+Multi-Arch: same
+Homepage: http://freeglut.sourceforge.net/
+Priority: 0
+Section: utils
+Filename: pool/main/f/freeglut/freeglut3_2.8.1-3_arm64.deb
+Size: 113970
+SHA256: 518f8f25ea0f968f926e384e51a3334c76285d30e03f884aa133eadf5c24e3b2
+SHA1: e40e5c063338207eeaa1ebe6807297373c6b9b14
+MD5sum: 44167606cb6696fedcb29c63ca08ad0f
+Description: OpenGL Utility Toolkit
+ GLUT is a window system independent toolkit for writing OpenGL programs,
+ implementing a simple windowing API, which makes learning about and
+ exploring OpenGL programming very easy.
+ .
+ GLUT is designed for constructing small to medium sized OpenGL programs,
+ however it is not a full-featured toolkit, so large applications requiring
+ sophisticated user interfaces are better off using native window system
+ toolkits like GTK+ or Motif.
+
+Package: freetube
+Version: 0.22.0
+License: AGPL-3.0-or-later
+Vendor: PrestonN <FreeTubeApp@protonmail.com>
+Architecture: arm64
+Maintainer: PrestonN <FreeTubeApp@protonmail.com>
+Installed-Size: 279366
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Homepage: https://github.com/FreeTubeApp/FreeTube#readme
+Priority: 0
+Section: utils
+Filename: pool/main/f/freetube/freetube_0.22.0_arm64.deb
+Size: 72542808
+SHA256: 7f266e5c0e419cac7cd36857eaaf247e7eb053bdaa0f7846bbf9d395e1e02bd9
+SHA1: 5879f6c0bf9b35580beb65ce05e7351b254eb43b
+MD5sum: e5cf3c5ce3bdbfc52db08fc073accb98
+Description: 
+  A private YouTube client
+
+Package: hackergadgets-uconsole-aio-board
+Version: 1.40
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: rtl-sdr
+Recommends: tar1090, sdrpp-brown, pygpsclient
+Priority: 0
+Section: utils
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.40_all.deb
+Size: 1508
+SHA256: 106af2a1f94ca20a498fdb86a726ea2b2b8b846e3282442ac2d98ef9a20607ba
+SHA1: bfc530344c8d9005da438e49782cb70e20543af6
+MD5sum: cd5fdbd39b8474c7b008ed786b70675a
+Description: hackergadgets-uconsole-aio-board
+ This package helps install and configures SDR++ Brown, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+
+Package: librtlsdr-dev
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 157
+Depends: librtlsdr0 (= 0.7.0~rtlsdrblog1), libusb-1.0-0-dev
+Homepage: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/librtlsdr-dev_0.7.0~rtlsdrblog1_arm64.deb
+Size: 37096
+SHA256: 754bd30986023a162d23a226fd991963d7bb0b2e256635cc1f5ee20ba612c409
+SHA1: f2ee9820ecab8af022af360ff67298b569d993ab
+MD5sum: 74dae6575e1d44b38ea12a9de47ef93d
+Description: Software defined radio receiver for Realtek RTL2832U (development)
+ rtl-sdr is a software defined radio (SDR) receiver software for certain
+ low-cost DVB-T/DAB(+) USB dongles based on the Realtek RTL2832U chip.
+ .
+ This package contains development files.
+
+Package: librtlsdr0
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 110
+Depends: libc6 (>= 2.17), libusb-1.0-0 (>= 2:1.0.21)
+Multi-Arch: same
+Homepage: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/librtlsdr0_0.7.0~rtlsdrblog1_arm64.deb
+Size: 29400
+SHA256: 2078d19dfd7162fafa25792b5841cb23e0d770b2ccb7228fb0301c68795bccfd
+SHA1: 1adc2762f0de5585c62c20210fac03fb05017a1e
+MD5sum: 817e4940040f33a834ad7b8a17d1b40d
+Description: Software defined radio receiver for Realtek RTL2832U (library)
+ rtl-sdr is a software defined radio (SDR) receiver software for certain
+ low-cost DVB-T/DAB(+) USB dongles based on the Realtek RTL2832U chip.
+ .
+ This package contains the shared library.
+
+Package: librtlsdr0-dbgsym
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 110
+Depends: librtlsdr0 (= 0.7.0~rtlsdrblog1)
+Multi-Arch: same
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/librtlsdr0-dbgsym_0.7.0~rtlsdrblog1_arm64.deb
+Size: 92028
+SHA256: ad386978ff346337e95f7ab7b5c931e952e76bca488d51f64a4bbfbb9e16ab87
+SHA1: a6243ead6899d3ad279d2a7cc97123ca459aaa42
+MD5sum: 701c5552f443b5fd80744e2b729a5c59
+Description: debug symbols for librtlsdr0
+Build-Ids: 989afe4104be2e7b2f80ee36f009b07a02532c3e
+
+Package: libvolk2-bin
+Source: volk
+Version: 2.5.2-3
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 325
+Depends: libvolk2.5 (= 2.5.2-3), python3:any, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Breaks: gnuradio (<= 3.7.2.1), libvolk-bin, libvolk1-bin, libvolk1.0-bin
+Replaces: gnuradio (<= 3.7.2.1), libvolk-bin, libvolk1-bin, libvolk1.0-bin
+Homepage: https://libvolk.org
+Priority: 0
+Section: utils
+Filename: pool/main/v/volk/libvolk2-bin_2.5.2-3_arm64.deb
+Size: 73700
+SHA256: a1af536b0a4314eac0b32408a2d8e30094e171088fb671cd1d2fda9ee772f413
+SHA1: c29ee800c606da9f64585b58a8b8b94f795c5a34
+MD5sum: ff5184407cd4ed8b4c7181341b404c88
+Description: vector optimized runtime tools
+ Vector-Optimized Library of Kernels is designed to help
+ applications work with the processor's SIMD instruction sets. These are
+ very powerful vector operations that can give signal processing a
+ huge boost in performance.
+ .
+ This package includes: the volk_profile tool to customize settings for
+ the system; volk_modtool to create new optimized modules; and
+ volk-config-info to show settings.
+
+Package: libvolk2-dev
+Source: volk
+Version: 2.5.2-3
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 1960
+Depends: libvolk2.5 (= 2.5.2-3)
+Suggests: libvolk2-doc
+Breaks: gnuradio-dev (<< 3.7.8), libvolk-dev, libvolk1-dev, libvolk1.0-dev
+Replaces: gnuradio-dev (<< 3.7.8), libvolk-dev, libvolk1-dev, libvolk1.0-dev
+Multi-Arch: same
+Homepage: https://libvolk.org
+Priority: 0
+Section: utils
+Filename: pool/main/v/volk/libvolk2-dev_2.5.2-3_arm64.deb
+Size: 141136
+SHA256: ade8e97d114ef2b396bea00193216e551b9b941267ffbeb2b1ea60a974f5a50c
+SHA1: f603b039898b8999a16dd51027d6e0f23a528609
+MD5sum: 323fa5d52a4d4be67896864bda909f64
+Description: vector optimized function headers
+ Vector-Optimized Library of Kernels is designed to help
+ applications work with the processor's SIMD instruction sets. These are
+ very powerful vector operations that can give signal processing a
+ huge boost in performance.
+ .
+ This package contains the header files.
+ For documentation, see libvolk-doc.
+
+Package: libvolk2.5
+Source: volk
+Version: 2.5.2-3
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 824
+Depends: libc6 (>= 2.35), liborc-0.4-0 (>= 1:0.4.25)
+Recommends: libvolk2-bin
+Suggests: libvolk2-dev
+Multi-Arch: same
+Homepage: https://libvolk.org
+Priority: 0
+Section: utils
+Filename: pool/main/v/volk/libvolk2.5_2.5.2-3_arm64.deb
+Size: 113704
+SHA256: abced25af817307578dc6bdde50a689292d3ce78f9976fe8c87a2c15fab614c8
+SHA1: e3341fe14c500bd53d6afd9c73078edef598b511
+MD5sum: 7b50006a983243f7591979be4d9b5425
+Description: vector optimized functions
+ Vector-Optimized Library of Kernels is designed to help
+ applications work with the processor's SIMD instruction sets. These are
+ very powerful vector operations that can give signal processing a
+ huge boost in performance.
+
+Package: libxcb-cursor0
+Source: xcb-util-cursor
+Version: 0.1.4-1
+Architecture: arm64
+Maintainer: Jakob Haufe <sur5r@debian.org>
+Installed-Size: 89
+Depends: libc6 (>= 2.17), libxcb-image0 (>= 0.2.1), libxcb-render-util0, libxcb-render0, libxcb1
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org/
+Priority: 0
+Section: utils
+Filename: pool/main/x/xcb-util-cursor/libxcb-cursor0_0.1.4-1_arm64.deb
+Size: 16568
+SHA256: e475afb7dc5927e7fee2cca245e85a77d50849ab2da85eb9da6200740f53ea09
+SHA1: 0a46003da053546b8661564caad7261116ed2f7d
+MD5sum: 78e7f970abffc6cf29aabae6279d02bc
+Description: utility libraries for X C Binding -- cursor
+ This package contains the library files needed to run software using
+ libxcb-cursor, providing port of Xlib's libXcursor functions.
+ .
+ The xcb-util module provides a number of libraries which sit on top of libxcb,
+ the core X protocol library, and some of the extension libraries. These
+ experimental libraries provide convenience functions and interfaces which make
+ the raw X protocol more usable. Some of the libraries also provide client-side
+ code which is not strictly part of the X protocol but which have traditionally
+ been provided by Xlib.
+
+Package: meshtastic-mui
+Version: 1.16
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, clockworkpi-backlight, jq, libasan8, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, libjpeg-dev, zlib1g-dev, tk-dev, meshtasticd
+Priority: 0
+Section: utils
+Filename: pool/main/m/meshtastic-mui/meshtastic-mui_1.16_all.deb
+Size: 31841720
+SHA256: 812db46191dfcb9f9b03cd067532f0dd1a24260508a863b87c82295da5597e61
+SHA1: cde6e54ce98d94eb05b2bfdc793bcb3d31bd3775
+MD5sum: d6a4ac6122cefda082c0ed756b29a239
+Description: meshtastic-mui
+ This package installs and configures meshtasticd and meshtastic-mui for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+
+Package: openterfaceqt
+Version: 0.4.0.0
+Architecture: arm64
+Depends: libxcb-cursor0, libva-dev, vainfo, va-driver-all
+Maintainer: TechxArtisan <info@techxartisan.com>
+Priority: 0
+Section: utils
+Filename: pool/main/o/openterfaceqt/openterfaceqt_0.4.0.0_arm64.deb
+Size: 38618988
+SHA256: 83d201a2b43a6006f2750ae63b833a9fa16cc7d819347111ffe76dc476468b80
+SHA1: d943c47b3a9424461b031800f8d2b07ddc816da8
+MD5sum: c02c29c57b7980f6d72e5b4c28d9a745
+Description: OpenterfaceQT Mini-KVM Linux Edition
+
+Package: pinctrl
+Version: 1.0
+Maintainer: pinctrl <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/p/pinctrl/pinctrl_1.0_all.deb
+Size: 25460
+SHA256: b043d511403cea0fb8dd66b7ace2d3f1574c4c5bd310928cbdcb9e70a72f8007
+SHA1: 5029e924e2df46b7fc775b9bace698613673f171
+MD5sum: e780186a743c7c3e1e3df72042c39ea5
+Description: pinctrl
+ The pin controller subsystem has a mechanism for enumerating groups of pins and retrieving the actual enumerated pins that are part of a certain group.
+
+Package: piwiz-freqos
+Version: 0.91
+Architecture: arm64
+Maintainer: rex <rex@linux.com>
+Installed-Size: 522
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.24), libnm0 (>= 1.15), libpackagekit-glib2-18 (>= 1.1.0), packagekit, pi-language-support, raspi-config, alsa-utils, userconf-pi
+Priority: 0
+Section: utils
+Filename: pool/main/p/piwiz-freqos/piwiz-freqos_0.91_arm64.deb
+Size: 184448
+SHA256: b115e5a9db082c3624d7623ca8d1768f3961af021970d1355e0a0e7741c0f56c
+SHA1: f7b6340878ff66393a1355cb4bc80ec22c804086
+MD5sum: ea41934ce2e0f2c76de302cd4eafe141
+Description: FreqOS first-run wizard
+ Wizard which performs initial configuration of FreqOS system settings
+
+Package: pygpsclient
+Version: 1.5
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, python3-pip, python3-tk, python3-pil, python3-pil.imagetk, libjpeg-dev, zlib1g-dev, tk-dev, python3-rasterio
+Priority: 0
+Section: utils
+Filename: pool/main/p/pygpsclient/pygpsclient_1.5_all.deb
+Size: 57952
+SHA256: 36f9f6cc8ba0d29072736d8feea0e7b6e44c0d4f707cb97d112cbe24b9abd48f
+SHA1: 7533799a2c793622ba41ffc6969cc91c86733c34
+MD5sum: 2cd2696521a525fa237c170d0eecd6bc
+Description: pygpsclient
+ This package installs and configures PYGPSClient for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+
+Package: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 574
+Depends: librtlsdr0 (= 0.7.0~rtlsdrblog1), libc6 (>= 2.34)
+Homepage: http://sdr.osmocom.org/trac/wiki/rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/rtl-sdr_0.7.0~rtlsdrblog1_arm64.deb
+Size: 55276
+SHA256: f770b62f4b2c7cdf495a9a5634ebcb09c6d5c0527ee61ddfce2c2b858c827725
+SHA1: 53c9aa4b504bd7f03e912061e456ef5d341f28c0
+MD5sum: f5916be54c1bb53f0b92d6b54d28f9a3
+Description: Software defined radio receiver for Realtek RTL2832U (tools)
+ rtl-sdr is a software defined radio (SDR) receiver software for certain
+ low-cost DVB-T/DAB(+) USB dongles based on the Realtek RTL2832U chip.
+ .
+ This package contains a set of command line utilities:
+  * rtl_adsb: a simple ADS-B decoder for RTL2832 based DVB-T receivers
+  * rtl_eeprom: an EEPROM programming tool for RTL2832 based DVB-T receivers
+  * rtl_fm: a narrow band FM demodulator for RTL2832 based DVB-T receivers
+  * rtl_sdr: an I/Q recorder for RTL2832 based DVB-T receivers
+  * rtl_tcp: an I/Q spectrum server for RTL2832 based DVB-T receivers
+  * rtl_test: a benchmark tool for RTL2832 based DVB-T receivers
+
+Package: rtl-sdr-dbgsym
+Source: rtl-sdr
+Version: 0.7.0~rtlsdrblog1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: A. Maitland Bottoms <bottoms@debian.org>
+Installed-Size: 233
+Depends: rtl-sdr (= 0.7.0~rtlsdrblog1)
+Priority: 0
+Section: utils
+Filename: pool/main/r/rtl-sdr/rtl-sdr-dbgsym_0.7.0~rtlsdrblog1_arm64.deb
+Size: 149368
+SHA256: cf73b57b91889d197d44778a2840fd07faceb52cd2afb685f2804e4a7b4711a0
+SHA1: 489657a10f193e64a6c98dc3ccf2201845c4e74f
+MD5sum: 363f28ebf44000804ed5ee81b5360b69
+Description: debug symbols for rtl-sdr
+Build-Ids: 1d86c314ef4dc99e73ef23a0624834e11e3cd8a4 3026e7724fe35e7daf3ac06ab4fef42050738b9d 5b224bec5fca9c6784ab25b4d883fa66808bcd6c 6a4051fd1b0c0369c2481f04723119179fd151e1 9155f7b082ecdf305255f377a833191de275bde9 9a0b626218ed381507cb723324cf9d608058924e b024644b77273a4cde37d567bbedbd35a9fa3d33 bf297a1f7f467855a3187d808798158ebf9fe221
+
+Package: satdump
+Architecture: arm64
+Depends: libfftw3-bin, libvolk-bin | libvolk2-bin, libpng16-16, libnng1, librtlsdr0 | librtlsdr2, libhackrf0, libairspy0, libairspyhf1, libglfw3 | libglfw3-wayland, libzstd1, libjemalloc2 | libjemalloc1, libportaudiocpp0, libhdf5-hl-100t64 | libhdf5-hl-100 | libhdf5-103 | libhdf5-100
+Priority: 0
+Section: utils
+Filename: pool/main/s/satdump/satdump_1.2.2_arm64.deb
+Size: 36084862
+SHA256: 2630490f0673c189383829e5c4c17c44e2f3c2bedb8ee8747af12586ebf6dbb9
+SHA1: 224c7fe26c3409fd210456a071e5ca011e678a98
+MD5sum: 49f85139de3850d0b90d047fa3d9928c
+Description: A satellite data processing software
+Maintainer: Aang23
+Recommends: libomp5-14, ocl-icd-libopencl1, intel-opencl-icd, mesa-opencl-icd
+Version: 1.2.2
+Installed-Size: 76840
+
+Package: sdrpp
+Source: sdrpp
+Maintainer: ak-rex <ak-rex>
+Version: 1.1.0
+Standards-Version: 1.1.0
+Architecture: arm64
+Depends: librtlsdr0, librtlsdr-dev, cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev, libairspy-dev, librtaudio-dev, libhackrf-dev, libiio-dev, libad9361-dev, libsoapysdr-dev, rtl-sdr
+Priority: 0
+Section: utils
+Filename: pool/main/s/sdrpp/sdrpp_1.1.0_arm64.deb
+Size: 1687060
+SHA256: 2e49f40cb3d6227663ce42859ed7ca6ca7fb3cebdbf1659da6142d8fba48e6d8
+SHA1: 053e213c8cccfd512bc029f77731172a6b73ea5b
+MD5sum: c882960d75205fe5dc72e0d6f0251117
+Description: short description
+	Bloat-free SDR receiver software
+
+Package: sdrpp-brown
+Source: sdrpp-brown
+Maintainer: ak-rex <ak-rex>
+Version: 1.2.1
+Standards-Version: 1.2.1
+Architecture: arm64
+Depends: librtlsdr0, librtlsdr-dev, cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev, libairspy-dev, librtaudio-dev, libhackrf-dev, libiio-dev, libad9361-dev, libsoapysdr-dev, rtl-sdr
+Conflicts: sdrpp
+Priority: 0
+Section: utils
+Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1_arm64.deb
+Size: 6041712
+SHA256: a3e1be1081eae98e87a2b23caba87924ad3ba4f574790bc587af4336bba5ec87
+SHA1: ba4aa4ac2b253f01941807f937400aa6ca4effef
+MD5sum: b5d7d827de3473f8a7e141c4a7117b15
+Description: short description
+	Bloat-free SDR receiver software
+
+Package: sdrtrunk
+Version: 0.6.1
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/s/sdrtrunk/sdrtrunk_0.6.1_all.deb
+Size: 73917652
+SHA256: 4af293e75b931d27de881d22bf7b0ca4f28b7d7f53e88d0466be8118c318ccf3
+SHA1: f6ab3f3dfbda234d36afa74aadca1b555473194d
+MD5sum: b05ca93da73c2402793442b59b4f6a05
+Description: sdrtrunk
+ A cross-platform java application for decoding, monitoring, recording and streaming trunked mobile and related radio protocols using Software Defined Radios (SDR).
+
+Package: socat
+Version: 1.7.4.4-2
+Architecture: arm64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1654
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0), libwrap0 (>= 7.6-4~)
+Homepage: http://www.dest-unreach.org/socat/
+Priority: 0
+Section: utils
+Filename: pool/main/s/socat/socat_1.7.4.4-2_arm64.deb
+Size: 365872
+SHA256: 068a29cfeefee80d5b96b13049d15f7e76e1ff86db39e55a33cbcdf7fff543b3
+SHA1: 0c068d6ca894c8b3cb05ca924787f1cb1d32a780
+MD5sum: 0748d2775242d0fa4e62c88ea1db2f41
+Description: multipurpose relay for bidirectional data transfer
+ Socat (for SOcket CAT) establishes two bidirectional byte streams
+ and transfers data between them. Data channels may be files, pipes,
+ devices (terminal or modem, etc.), or sockets (Unix, IPv4, IPv6, raw,
+ UDP, TCP, SSL). It provides forking, logging and tracing, different
+ modes for interprocess communication and many more options.
+ .
+ It can be used, for example, as a TCP relay (one-shot or daemon),
+ as an external socksifier, as a shell interface to Unix sockets,
+ as an IPv6 relay, as a netcat and rinetd replacement, to redirect
+ TCP-oriented programs to a serial line, or to establish a relatively
+ secure environment (su and chroot) for running client or server shell
+ scripts inside network connections. Socat supports sctp as of 1.7.0.
+
+Package: tar1090
+Version: 1.13
+Maintainer: ak-rex <rex@linux.com>
+Architecture: all
+Depends: librtlsdr0, rtl-sdr, librtlsdr-dev,cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev,libiio-dev, libad9361-dev, libgpiod-dev, libyaml-cpp-dev, libbluetooth-dev, libusb-1.0-0-dev, libi2c-dev, openssl, libssl-dev, libulfius-dev, liborcania-dev, lighttpd, jq, libasan8, git, gcc, make, libusb-1.0-0-dev, ncurses-bin, zlib1g-dev, zlib1g, pkg-config, libc6-dev, libncurses-dev, libncurses5-dev, libncursesw5-dev, dos2unix, libjpeg-dev, zlib1g-dev, tk-dev
+Priority: 0
+Section: utils
+Filename: pool/main/t/tar1090/tar1090_1.13_all.deb
+Size: 10044
+SHA256: 810d192134b2c8efc5b845d9eefcf79cf2f41a0fe2549b168608b487554a53a4
+SHA1: dac67a76425829b5128568025d1eac04b2356448
+MD5sum: f2c8fd389915bf1802fc960abf86c4e5
+Description: tar1090
+ This package installs and configures tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
+
+Package: uconsole-4g
+Version: 0.21
+Maintainer: uconsole-4g <rex@linux.com>
+Architecture: arm64
+Priority: 0
+Section: utils
+Filename: pool/main/u/uconsole-4g/uconsole-4g_0.21_arm64.deb
+Size: 1396
+SHA256: fd20189f98b44bd2cc2f30e6a71d35d537d67bd224b48e3ae05b6fd9145f3a39
+SHA1: 025673c4d44bfb201c3c90328954fd552aff47fa
+MD5sum: eea5b9fd6819474004f41e11aa154e68
+Description: uConsole 4G control script for raspberry pi cm4
+
+Package: usbimager
+Version: 1.0.8
+Maintainer: usbimager <rex@linux.com>
+Architecture: all
+Priority: 0
+Section: utils
+Filename: pool/main/u/usbimager/usbimager_1.0.8_all.deb
+Size: 142496
+SHA256: ba8fc34d8099d8200d44f1b3550456e9a66e4d75e87c880bae90a9c689fb9cc0
+SHA1: 8dc5767ff49451c7a9c90f3884e26a0b289f7ed8
+MD5sum: 4ef2f2aeff6cccecaa2a3451dad19ec1
+Description: usbimager
+ USBImager is a really really simple GUI application that writes compressed disk images to USB drives and creates backups.
+
+Package: wiringpi
+Version: 3.5
+Architecture: arm64
+Depends: libc6
+Maintainer: Grazer Computer Club - GC2 <wiringpi@gc2.at>
+Uploaders: Grazer Computer Club - GC2 <wiringpi@gc2.at>
+Priority: 0
+Section: utils
+Filename: pool/main/w/wiringpi/wiringpi_3.5_arm64.deb
+Size: 77580
+SHA256: 33a2f6b4b5ceff67f7c92d25d6c5d08a0d99e76c5e1d96661d23573c17e8e69a
+SHA1: 77193616eb7749f2f86f47b9021eef98fe639a70
+MD5sum: e348fea23786834f789a73b1a2d4d0d0
+Description: The wiringPi libraries, headers and gpio command
+  Libraries to allow GPIO access on a Raspberry Pi from C and C++
+  programs as well as from the command-line
+Homepage: https://github.com/WiringPi/WiringPi
+Bugs: https://github.com/WiringPi/WiringPi/issues
+
+Package: wsjtx
+Architecture: arm64
+Depends: libgfortran5 (>=8.3) | libgfortran4 (>=7.3) | libgfortran3 (>=6.3), libfftw3-single3 (>=3.3), libgomp1 (>=6), libqt5serialport5 (>=5.7), libqt5multimedia5-plugins (>=5.7), libqt5widgets5 (>=5.7), libqt5network5 (>=5.7), libqt5printsupport5 (>=5.7), libqt5sql5-sqlite (>=5.7), libusb-1.0-0 (>=1.0.21), libboost-log1.62.0 (>=1.62.0) | libboost-log1.65.1 (>=1.65.1) | libboost-log1.67.0 (>=1.67.0) | libboost-log1.71.0 (>=1.71.0) | libboost-log1.74.0 (>=1.74.0), libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-log1.74.0 (>= 1.74.0+ds1), libboost-thread1.74.0 (>= 1.74.0+ds1), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgfortran5 (>= 10), libgomp1 (>= 4.9), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.15.1), libqt5printsupport5 (>= 5.0.2), libqt5serialport5 (>= 5.6.0), libqt5sql5 (>= 5.10.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libusb-1.0-0 (>= 2:1.0.16)
+Priority: 0
+Section: utils
+Filename: pool/main/w/wsjtx/wsjtx_2.7.0_arm64.deb
+Size: 12330572
+SHA256: f2d744cdc9cecd681d7551d44cac664206bed6601c6f1ba1cfad65184353bb95
+SHA1: 6f1d59e44a71a60f5562a2567125fa9d8d3c4d1a
+MD5sum: df0b79bf6a08d64f4ec7c0a950d36a74
+Description: WSJT-X: Digital Modes for Weak Signal Communications in Amateur Radio
+ WSJT-X  is a  computer program  designed to  facilitate basic  amateur
+ radio communication using very weak signals. The first four letters in
+ the program name stand for  `(W)eak (S)ignal communication by K1(JT),`
+ while the suffix `-X` indicates that WSJT-X started as an extended and
+ experimental branch of the program WSJT.
+ .
+ WSJT-X Version  2.5 offers eleven  different protocols or  modes: FT4,
+ FT8, JT4,  JT9, JT65, Q65,  FST4, MSK144,  WSPR, FST4W, and  Echo. The
+ first seven  are designed for  making reliable QSOs  under weak-signal
+ conditions.  They use  nearly identical  message structure  and source
+ encoding. JT65 and  Q65 were designed for EME  (“moonbounce”), but not
+ limited to just  that propagation path, on the VHF/UHF  bands and JT65
+ has also proven very effective  for worldwide QRP communication on the
+ HF bands. Q65  has a number of advantages over  JT65, including better
+ performance on  the very weakest  signals and variants  with different
+ T/R period lengths. We imagine that  over time it may replace JT65 for
+ EME use,  it has  also proved  to be  very effective  for iono-scatter
+ paths on 6m. JT9 was originally designed  for the LF, MF, and lower HF
+ bands. Its submode  JT9A is 2 dB more sensitive  than JT65 while using
+ less than  10% of  the bandwidth.  JT4 offers a  wide variety  of tone
+ spacings and has proven highly effective for EME on microwave bands up
+ to 24 GHz.  These four “slow” modes use one-minute  timed sequences of
+ alternating transmission and reception, so a minimal QSO takes four to
+ six minutes — two or three  transmissions by each station, one sending
+ in odd  UTC minutes and the  other even. FT8 is  operationally similar
+ but four times faster (15-second  T/R sequences) and less sensitive by
+ a few  dB. FT4 is  faster still (7.5  s T/R sequences)  and especially
+ well suited for radio contesting. On the HF bands, world-wide QSOs are
+ possible with any of these modes using power levels of a few watts (or
+ even milliwatts) and compromise antennas.  QSOs are possible at signal
+ levels 10 to 15 dB below  those required for CW. FST4 has similarities
+ in  use to  JT9 but  offers more  flexibility as  it offers  different
+ period lengths allowing  QSO completion time to be  traded off against
+ sensitivity. In  its base form  of FST4-60A it has  better sensitivity
+ than JT9A  and should be considered  as an upgrade where  JT9 has been
+ the preferred slow QSO mode.
+ .
+ Note that even  though their T/R sequences are short,  FT4 and FT8 are
+ classified as  slow modes because  their message frames are  sent only
+ once per  transmission. All  fast modes in  WSJT-X send  their message
+ frames repeatedly,  as many  times as  will fit  into the  Tx sequence
+ length.
+ .
+ MSK144, and  optionally submodes JT9E-H are  `fast` protocols designed
+ to take  advantage of  brief signal  enhancements from  ionized meteor
+ trails,    aircraft   scatter,    and   other    types   of    scatter
+ propagation. These  modes use timed  sequences of 5,  10, 15, or  30 s
+ duration.  User messages  are transmitted repeatedly at  high rate (up
+ to 250  characters per  second, for  MSK144) to make  good use  of the
+ shortest  meteor-trail reflections  or `pings`.  MSK144 uses  the same
+ structured messages  as the slow  modes and optionally  an abbreviated
+ format with hashed callsigns.
+ .
+ WSPR (pronounced  `whisper`) stands for (W)eak  (S)ignal (P)ropagation
+ (R)eporter.   The WSPR  protocol  was designed  for probing  potential
+ propagation  paths  using   low-power  transmissions.   WSPR  messages
+ normally carry the transmitting  station’s callsign, grid locator, and
+ transmitter power in  dBm, and they can be  decoded at signal-to-noise
+ ratios as  low as  -28 dB  in a  2500 Hz  bandwidth.  WSPR  users with
+ internet  access  can  automatically  upload reception  reports  to  a
+ central  database called  wsprnet  that provides  a mapping  facility,
+ archival storage,  and many other  features. WSPR has a  new companion
+ FST4W which has  a similar message content but offers  up to 30 minute
+ transmission periods for greater sensitivity on LF and MF.
+ .
+ FST4W, like WSPR,  is a quasi-beacon mode, it targets  LF and MF bands
+ and offers a number of T/R periods form 2 minutes up to 30 minutes for
+ the most  challenging weak signal  paths. Similarly to  WSPR reception
+ reports can be automatically uploaded to the WSPRnet.org web service.
+ .
+ Echo mode allows  you to detect and measure your  own station&apos;s echoes
+ from the moon, even if they are far below the audible threshold.
+ .
+ WSJT-X provides spectral displays for  receiver passbands as wide as 5
+ kHz,  flexible  rig control  for  nearly  all  modern radios  used  by
+ amateurs, and a wide variety of special aids such as automatic Doppler
+ tracking for EME QSOs and Echo testing.  The program runs equally well
+ on Windows,  Macintosh, and  Linux systems, and  installation packages
+ are available for all three platforms.
+ .
+ Be sure to read the online WSJT-X User&apos;s Guide.
+Homepage: https://wsjt.sourceforge.io/wsjtx.html
+Maintainer: Joe Taylor <k1jt@arrl.net>
+Version: 2.7.0
+Installed-Size: 57927
+
+Package: yuki-iptv
+Version: 0.0.12
+Architecture: all
+Maintainer: Liya Astrova <liyaastrova@proton.me>
+Installed-Size: 1619
+Depends: ffmpeg (>= 4.2.7), libmpv2 | libmpv1 (>= 0.32.0-1), python3 (>= 3.8.0-1), python3-requests, python3-chardet, python3-setproctitle, python3-pyqt6 (>= 6.2.2) | python3-pyqt5 (>= 5.14.1), python3-wand, python3-gi, python3-unidecode, yt-dlp | youtube-dl
+Recommends: libmagickcore-6.q16-6-extra, qt6-translations-l10n
+Priority: 0
+Section: utils
+Filename: pool/main/y/yuki-iptv/yuki-iptv_0.0.12_all.deb
+Size: 591624
+SHA256: aebe8c3e77febaa7da9a229de06146146e0862360cd0d8953b8c3928b7b78898
+SHA1: fb8208fdf1de6ba2c2df079bcb5bc5bbccc88a3f
+MD5sum: e9eb834ecd312d52f47587b3c17fd76b
+Description: IPTV player with EPG support
+ yuki-iptv is an IPTV player with many features, such as:
+  * M3u / M3u8 / XSPF playlists support
+  * XTream API support
+  * TV program (EPG) support in XMLTV and JTV formats
+  * Save channels as favorites
+  * Stream recording
+  * Channel groups
+  * Playlist editor
+  * TV archive / catchup
+  * ...
+
