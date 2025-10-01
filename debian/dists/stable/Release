@@ -1,28 +1,28 @@
 Architectures: arm64 all
 Codename: debian
 Components: main
-Date: Wed, 01 Oct 2025 03:06:52 +0000
+Date: Wed, 01 Oct 2025 03:12:08 +0000
 Description: ak-rex's ClockworkPi software/kernel repository
 Label: ak-rex ClockworkPi Github
 Origin: ak-rex
 Suite: stable
 MD5Sum:
- 0f6027854ac0382bd5003d2bed096181              220 Release
+ be4e00605caeceb1e09abfded7b8b062              220 Release
  90dd0eeddf46d755916d82a5e98109f9            37084 main/binary-arm64/Packages
  50563307d7dcff849c1abd26eea14104            13622 main/binary-arm64/Packages.gz
  e255a36f3c7348f06fb8e508e2336c2b              187 main/binary-arm64/Release
 SHA1:
- 753d3ebe56ccb292196a3a69bed227c521b4b0c6              220 Release
+ 13939524b624ac66a21fe830b17c0698854d2d85              220 Release
  0e783b009acc9ba42d42a2e82b6776486e95d6e6            37084 main/binary-arm64/Packages
  55d833862f921cc77b43afc13eb03a8d1356da39            13622 main/binary-arm64/Packages.gz
  d64656216bb9394f18e5a6c5b8262cf0902bf673              187 main/binary-arm64/Release
 SHA256:
- ad9168e4690475ef1c4172373c568c8e1cdc149cf7101ffdf2295afa0ed69619              220 Release
+ e82e126d50d96956ffb0fdeed269b4b3541e93cf9808807cf3bc0058063f7121              220 Release
  5b6ac340405ba8f977552da870dcf8cee90420da703f7a2c2b9c9f9dad9b6c5c            37084 main/binary-arm64/Packages
  0a6597ff4c94219aa1031562c84cf56d2060f9e81269c331f950705fa8fee68d            13622 main/binary-arm64/Packages.gz
  5737b1f44f29cb10158b7b337c09e39d93d13092cb01e841474363f110c0d522              187 main/binary-arm64/Release
 SHA512:
- 62661ced5ec75dfe980827459865185bfcc5f7066b92f6f9cfe6d8781038a1fdc5203314f87662c8bf9037b7c4f1899763bdf149a4e7c892d215bd8b4664166d              220 Release
+ 01f3c19149534cda35e99c42cb09332c086f56efe355988147bc1559062cc6c5c6d31ca39899d165398605e3062a55d3b6a7dbf391679a0047ca55a402215a1d              220 Release
  a2ae1aa3c0ecfedfebedf799479f9dd2fa2a00f4fc62d6a38295c9afe50403d1de72b282b1cd1468b877fe2e70fc572c1ec0ad4b5ad315d9caf8b74894b389da            37084 main/binary-arm64/Packages
  79c0dd6b599c6359c9b2190a9b1319fb33c246e6b2ce8bda0f0cd087d1518d75b84809d0ede40e022bd844632005d4c89362e619ce9b5ad52572f243bb33368a            13622 main/binary-arm64/Packages.gz
  886a17d8a242c83b1d8618da455edd00536bc976fa46d61ee98ad2c14f6a9b3ec23ca9460d1c47ca9ffa9f236002dd6daed36001173567282dbdc7a3d151855e              187 main/binary-arm64/Release
