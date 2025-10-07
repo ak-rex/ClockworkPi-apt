@@ -277,18 +277,18 @@ Description:
   A private YouTube client
 
 Package: hackergadgets-uconsole-aio-board
-Version: 1.40
+Version: 1.41
 Maintainer: ak-rex <rex@linux.com>
 Architecture: all
 Depends: rtl-sdr
 Recommends: tar1090, sdrpp-brown, pygpsclient
 Priority: 0
 Section: utils
-Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.40_all.deb
-Size: 1508
-SHA256: 106af2a1f94ca20a498fdb86a726ea2b2b8b846e3282442ac2d98ef9a20607ba
-SHA1: bfc530344c8d9005da438e49782cb70e20543af6
-MD5sum: cd5fdbd39b8474c7b008ed786b70675a
+Filename: pool/main/h/hackergadgets-uconsole-aio-board/hackergadgets-uconsole-aio-board_1.41_all.deb
+Size: 1512
+SHA256: 000a8bcc71833f946c74c12967d4788ea906868ef7cb6ab02ce6ba8117b831db
+SHA1: a4256652d06c4f83864ed34ffc7478e1526c1a29
+MD5sum: e0abcd2ecfa333c7ca4ef236e1038c08
 Description: hackergadgets-uconsole-aio-board
  This package helps install and configures SDR++ Brown, PYGPSClient and tar1090 for the uConsole with HackerGadgets RTL-SDR/LoRa/GPS/RTC/USBHUB All-In-One Extension Board.
 
@@ -614,18 +614,19 @@ Description: short description
 Package: sdrpp-brown
 Source: sdrpp-brown
 Maintainer: ak-rex <ak-rex>
-Version: 1.2.1
-Standards-Version: 1.2.1
+Version: 1.2.1.1
+Standards-Version: 1.2.1.1
 Architecture: arm64
 Depends: librtlsdr0, librtlsdr-dev, cl-fftw3, libglfw3, libvolk2-dev, libzstd-dev, libairspy-dev, librtaudio-dev, libhackrf-dev, libiio-dev, libad9361-dev, libsoapysdr-dev, rtl-sdr
 Conflicts: sdrpp
+Replaces: libitpp-dev
 Priority: 0
 Section: utils
-Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1_arm64.deb
-Size: 6041712
-SHA256: a3e1be1081eae98e87a2b23caba87924ad3ba4f574790bc587af4336bba5ec87
-SHA1: ba4aa4ac2b253f01941807f937400aa6ca4effef
-MD5sum: b5d7d827de3473f8a7e141c4a7117b15
+Filename: pool/main/s/sdrpp-brown/sdrpp-brown_1.2.1.1_arm64.deb
+Size: 6032480
+SHA256: 1ad4cb586af24287d77731820796b8a3b1717be39a79a66836304fb2af17fde9
+SHA1: 23821be8bd4fd6b766dd5cd645b4737c5bb319a5
+MD5sum: 0807e5d59f598d58f490e02310983a1c
 Description: short description
 	Bloat-free SDR receiver software
 
