@@ -460,6 +460,25 @@ Description: utility libraries for X C Binding -- cursor
  code which is not strictly part of the X protocol but which have traditionally
  been provided by Xlib.
 
+Package: lightdm-kde-greeter
+Version: 6.1.5-1
+Architecture: arm64
+Maintainer: rex <rex@clockworkpi>
+Installed-Size: 1674
+Priority: 0
+Section: utils
+Filename: pool/main/l/lightdm-kde-greeter/lightdm-kde-greeter_6.1.5-1_arm64.deb
+Size: 436400
+SHA256: 0460fc8dae91083b824121eda8a18fad31f7c8d0b41d50e1f247f36577b123f5
+SHA1: 0d10eacc3bd1181b5a69c8a23a9aec265153b362
+MD5sum: 47ef2fb4b881d87118ea977bcf9bee62
+Description: LightDM KDE6 Greeter
+ This package provides a KDE-based LightDM greeter engine.
+ .
+ This is a fork of KDE4-based LightDM greeter engine for KDE6.
+ .
+ (Converted from a rpm package by alien version 8.95.6.)
+
 Package: meshtastic-mui
 Version: 1.16
 Maintainer: ak-rex <rex@linux.com>
